@@ -1,0 +1,3751 @@
+{
+    "translation": {
+        "admin": {
+            "admin": "管理",
+            "enotfound": "DNS错误",
+            "filter": "筛选，按照",
+            "invitationPending": "邀请待处理",
+            "invitationsAcceptedCount": "已接受的邀请数量",
+            "invitationsSentCount": "已发送的邀请数量",
+            "lastStatus": "最新状态",
+            "locationsCount": "N处位置",
+            "urlParsingError": "URL解析错误",
+            "usersCount": "用户数量",
+            "verifyLinks": "验证链接"
+        },
+        "annualReforestation": {
+            "annualReforestation": "年度造林",
+            "areaUnitLabel": "面积(1000 公顷/年)",
+            "categoryHeader": "FRA类别",
+            "reforestation": "造林"
+        },
+        "area": {
+            "ABW": {
+                "listName": "阿鲁巴岛"
+            },
+            "AF": {
+                "listName": "非洲"
+            },
+            "AFG": {
+                "listName": "阿富汗"
+            },
+            "AGO": {
+                "listName": "安哥拉"
+            },
+            "AIA": {
+                "listName": "安圭拉"
+            },
+            "ALB": {
+                "listName": "阿尔巴尼亚"
+            },
+            "AN": {
+                "listName": "南极洲"
+            },
+            "AND": {
+                "listName": "安道尔"
+            },
+            "ARE": {
+                "listName": "阿拉伯联合酋长国"
+            },
+            "ARG": {
+                "listName": "阿根廷"
+            },
+            "ARM": {
+                "listName": "亚美尼亚"
+            },
+            "AS": {
+                "listName": "亚洲"
+            },
+            "ASEAN": {
+                "listName": "ASEAN"
+            },
+            "ASM": {
+                "listName": "美属萨摩亚"
+            },
+            "AT": {
+                "listName": "亚特兰蒂斯"
+            },
+            "ATG": {
+                "listName": "安提瓜和巴布达"
+            },
+            "AUS": {
+                "listName": "澳大利亚"
+            },
+            "AUT": {
+                "listName": "奥地利"
+            },
+            "AZE": {
+                "listName": "阿塞拜疆"
+            },
+            "BDI": {
+                "listName": "布隆迪"
+            },
+            "BEL": {
+                "listName": "比利时"
+            },
+            "BEN": {
+                "listName": "贝宁"
+            },
+            "BES": {
+                "listName": "博纳尔、圣俄斯塔休斯和萨巴"
+            },
+            "BFA": {
+                "listName": "布基纳法索"
+            },
+            "BGD": {
+                "listName": "孟加拉国"
+            },
+            "BGR": {
+                "listName": "保加利亚"
+            },
+            "BHR": {
+                "listName": "巴林"
+            },
+            "BHS": {
+                "listName": "巴哈马"
+            },
+            "BIH": {
+                "listName": "波斯尼亚和黑塞哥维那"
+            },
+            "BLM": {
+                "listName": "圣巴泰勒米"
+            },
+            "BLR": {
+                "listName": "白俄罗斯"
+            },
+            "BLZ": {
+                "listName": "伯利兹"
+            },
+            "BMU": {
+                "listName": "百慕大"
+            },
+            "BOL": {
+                "listName": "玻利维亚"
+            },
+            "BRA": {
+                "listName": "巴西"
+            },
+            "BRB": {
+                "listName": "巴巴多斯"
+            },
+            "BRN": {
+                "listName": "文莱达鲁萨兰国"
+            },
+            "BTN": {
+                "listName": "不丹"
+            },
+            "BWA": {
+                "listName": "博茨瓦纳"
+            },
+            "CAF": {
+                "listName": "中非共和国"
+            },
+            "CAN": {
+                "listName": "加拿大"
+            },
+            "CHE": {
+                "listName": "瑞士"
+            },
+            "CHL": {
+                "listName": "智利"
+            },
+            "CHN": {
+                "listName": "中国"
+            },
+            "CIV": {
+                "listName": "科特迪瓦"
+            },
+            "CMR": {
+                "listName": "喀麦隆"
+            },
+            "COD": {
+                "listName": "刚果民主共和国"
+            },
+            "COG": {
+                "listName": "刚果"
+            },
+            "COK": {
+                "listName": "库克群岛"
+            },
+            "COL": {
+                "listName": "哥伦比亚"
+            },
+            "COM": {
+                "listName": "科摩罗"
+            },
+            "CPV": {
+                "listName": "佛得角"
+            },
+            "CRI": {
+                "listName": "哥斯达黎加"
+            },
+            "CUB": {
+                "listName": "古巴"
+            },
+            "CUW": {
+                "listName": "库拉索"
+            },
+            "CYM": {
+                "listName": "开曼群岛"
+            },
+            "CYP": {
+                "listName": "塞浦路斯"
+            },
+            "CZE": {
+                "listName": "捷克"
+            },
+            "DEU": {
+                "listName": "德国"
+            },
+            "DJI": {
+                "listName": "吉布提"
+            },
+            "DMA": {
+                "listName": "多米尼克"
+            },
+            "DNK": {
+                "listName": "丹麦"
+            },
+            "DOM": {
+                "listName": "多米尼加共和国"
+            },
+            "DZA": {
+                "listName": "阿尔及利亚"
+            },
+            "ECOMIFAC": {
+                "listName": "中部非洲森林委员会地区"
+            },
+            "ECU": {
+                "listName": "厄瓜多尔"
+            },
+            "EGY": {
+                "listName": "埃及"
+            },
+            "ERI": {
+                "listName": "厄立特里亚"
+            },
+            "ESH": {
+                "listName": "西撒哈拉"
+            },
+            "ESP": {
+                "listName": "西班牙"
+            },
+            "EST": {
+                "listName": "爱沙尼亚"
+            },
+            "ETH": {
+                "listName": "埃塞俄比亚"
+            },
+            "EU": {
+                "listName": "欧洲"
+            },
+            "EU27": {
+                "listName": "欧盟27国"
+            },
+            "FE": {
+                "listName": "欧洲森林保护部长级会议"
+            },
+            "FIN": {
+                "listName": "芬兰"
+            },
+            "FJI": {
+                "listName": "斐济"
+            },
+            "FLK": {
+                "listName": "福克兰群岛（马尔维纳斯）"
+            },
+            "FRA": {
+                "listName": "法国"
+            },
+            "FRO": {
+                "listName": "法罗群岛"
+            },
+            "FSM": {
+                "listName": "密克罗尼西亚"
+            },
+            "GAB": {
+                "listName": "加蓬"
+            },
+            "GBR": {
+                "listName": "大不列颠及北爱尔兰联合王国"
+            },
+            "GEO": {
+                "listName": "格鲁吉亚"
+            },
+            "GGY": {
+                "listName": "根西"
+            },
+            "GHA": {
+                "listName": "加纳"
+            },
+            "GIB": {
+                "listName": "直布罗陀"
+            },
+            "GIN": {
+                "listName": "几内亚"
+            },
+            "GLP": {
+                "listName": "瓜德罗普"
+            },
+            "GMB": {
+                "listName": "冈比亚"
+            },
+            "GNB": {
+                "listName": "几内亚比绍"
+            },
+            "GNQ": {
+                "listName": "赤道几内亚"
+            },
+            "GRC": {
+                "listName": "希腊"
+            },
+            "GRD": {
+                "listName": "格林纳达"
+            },
+            "GRL": {
+                "listName": "格陵兰"
+            },
+            "GTM": {
+                "listName": "危地马拉"
+            },
+            "GUF": {
+                "listName": "法属圭亚那"
+            },
+            "GUM": {
+                "listName": "关岛"
+            },
+            "GUY": {
+                "listName": "圭亚那"
+            },
+            "HND": {
+                "listName": "洪都拉斯"
+            },
+            "HRV": {
+                "listName": "克罗地亚"
+            },
+            "HTI": {
+                "listName": "海地"
+            },
+            "HUN": {
+                "listName": "匈牙利"
+            },
+            "IDN": {
+                "listName": "印度尼西亚"
+            },
+            "IMN": {
+                "listName": "马恩岛"
+            },
+            "IND": {
+                "listName": "印度"
+            },
+            "IRL": {
+                "listName": "爱尔兰"
+            },
+            "IRN": {
+                "listName": "伊朗"
+            },
+            "IRQ": {
+                "listName": "伊拉克"
+            },
+            "ISL": {
+                "listName": "冰岛"
+            },
+            "ISR": {
+                "listName": "以色列"
+            },
+            "ITA": {
+                "listName": "意大利"
+            },
+            "ITTO": {
+                "listName": "国际热带木材组织"
+            },
+            "JAM": {
+                "listName": "牙买加"
+            },
+            "JEY": {
+                "listName": "泽西"
+            },
+            "JOR": {
+                "listName": "约旦"
+            },
+            "JPN": {
+                "listName": "日本"
+            },
+            "KAZ": {
+                "listName": "哈萨克斯坦"
+            },
+            "KEN": {
+                "listName": "肯尼亚"
+            },
+            "KGZ": {
+                "listName": "吉尔吉斯斯坦"
+            },
+            "KHM": {
+                "listName": "柬埔寨"
+            },
+            "KIR": {
+                "listName": "基里巴斯"
+            },
+            "KNA": {
+                "listName": "圣基茨和尼维斯"
+            },
+            "KOR": {
+                "listName": "大韩民国"
+            },
+            "KWT": {
+                "listName": "科威特"
+            },
+            "LAO": {
+                "listName": "老挝人民民主共和国"
+            },
+            "LBN": {
+                "listName": "黎巴嫩"
+            },
+            "LBR": {
+                "listName": "利比里亚"
+            },
+            "LBY": {
+                "listName": "利比亚"
+            },
+            "LCA": {
+                "listName": "圣卢西亚"
+            },
+            "LIE": {
+                "listName": "列支敦士登"
+            },
+            "LKA": {
+                "listName": "斯里兰卡"
+            },
+            "LSO": {
+                "listName": "莱索托"
+            },
+            "LTU": {
+                "listName": "立陶宛"
+            },
+            "LUX": {
+                "listName": "卢森堡"
+            },
+            "LVA": {
+                "listName": "拉脱维亚"
+            },
+            "MAF": {
+                "listName": "圣马丁（法属部分）"
+            },
+            "MAR": {
+                "listName": "摩洛哥"
+            },
+            "MCO": {
+                "listName": "摩纳哥"
+            },
+            "MDA": {
+                "listName": "摩尔多瓦共和国"
+            },
+            "MDG": {
+                "listName": "马达加斯加"
+            },
+            "MDV": {
+                "listName": "马尔代夫"
+            },
+            "MEX": {
+                "listName": "墨西哥"
+            },
+            "MHL": {
+                "listName": "马绍尔群岛"
+            },
+            "MKD": {
+                "listName": "北马其顿"
+            },
+            "MLI": {
+                "listName": "马里"
+            },
+            "MLT": {
+                "listName": "马耳他"
+            },
+            "MMR": {
+                "listName": "缅甸"
+            },
+            "MNE": {
+                "listName": "黑山"
+            },
+            "MNG": {
+                "listName": "蒙古"
+            },
+            "MNP": {
+                "listName": "北马里亚纳群岛"
+            },
+            "MOZ": {
+                "listName": "莫桑比克"
+            },
+            "MP": {
+                "listName": "蒙特利尔进程"
+            },
+            "MRT": {
+                "listName": "毛里塔尼亚"
+            },
+            "MSR": {
+                "listName": "蒙特塞拉特"
+            },
+            "MTQ": {
+                "listName": "马提尼克"
+            },
+            "MUS": {
+                "listName": "毛里求斯"
+            },
+            "MWI": {
+                "listName": "马拉维"
+            },
+            "MYS": {
+                "listName": "马来西亚"
+            },
+            "MYT": {
+                "listName": "马约特"
+            },
+            "NA": {
+                "listName": "中北美洲"
+            },
+            "NAM": {
+                "listName": "纳米比亚"
+            },
+            "NCL": {
+                "listName": "新喀里多尼亚"
+            },
+            "NER": {
+                "listName": "尼日尔"
+            },
+            "NFK": {
+                "listName": "诺福克岛"
+            },
+            "NGA": {
+                "listName": "尼日利亚"
+            },
+            "NIC": {
+                "listName": "尼加拉瓜"
+            },
+            "NIU": {
+                "listName": "纽埃"
+            },
+            "NLD": {
+                "listName": "荷兰王国"
+            },
+            "NOR": {
+                "listName": "挪威"
+            },
+            "NPL": {
+                "listName": "尼泊尔"
+            },
+            "NRU": {
+                "listName": "瑙鲁"
+            },
+            "NZL": {
+                "listName": "新西兰"
+            },
+            "OC": {
+                "listName": "大洋洲"
+            },
+            "OMN": {
+                "listName": "阿曼"
+            },
+            "PAK": {
+                "listName": "巴基斯坦"
+            },
+            "PAN": {
+                "listName": "巴拿马"
+            },
+            "PCN": {
+                "listName": "皮特克恩"
+            },
+            "PER": {
+                "listName": "秘鲁"
+            },
+            "PHL": {
+                "listName": "菲律宾"
+            },
+            "PLW": {
+                "listName": "帕劳"
+            },
+            "PNG": {
+                "listName": "巴布亚新几内亚"
+            },
+            "POL": {
+                "listName": "波兰"
+            },
+            "PRI": {
+                "listName": "波多黎各"
+            },
+            "PRK": {
+                "listName": "朝鲜民主主义人民共和国"
+            },
+            "PRT": {
+                "listName": "葡萄牙"
+            },
+            "PRY": {
+                "listName": "巴拉圭"
+            },
+            "PSE": {
+                "listName": "巴勒斯坦"
+            },
+            "PYF": {
+                "listName": "法属波利尼西亚"
+            },
+            "QAT": {
+                "listName": "卡塔尔"
+            },
+            "REU": {
+                "listName": "留尼汪"
+            },
+            "ROU": {
+                "listName": "罗马尼亚"
+            },
+            "RUS": {
+                "listName": "俄罗斯联邦"
+            },
+            "RWA": {
+                "listName": "卢旺达"
+            },
+            "SA": {
+                "listName": "南美洲"
+            },
+            "SAU": {
+                "listName": "沙特阿拉伯"
+            },
+            "SDN": {
+                "listName": "苏丹"
+            },
+            "SEN": {
+                "listName": "塞内加尔"
+            },
+            "SGP": {
+                "listName": "新加坡"
+            },
+            "SHN": {
+                "listName": "圣赫勒拿"
+            },
+            "SJM": {
+                "listName": "斯瓦尔巴和扬马延群岛"
+            },
+            "SLB": {
+                "listName": "所罗门群岛"
+            },
+            "SLE": {
+                "listName": "塞拉利昂"
+            },
+            "SLV": {
+                "listName": "萨尔瓦多"
+            },
+            "SMR": {
+                "listName": "圣马力诺"
+            },
+            "SOM": {
+                "listName": "索马里"
+            },
+            "SPM": {
+                "listName": "圣皮埃尔和密克隆"
+            },
+            "SRB": {
+                "listName": "塞尔维亚"
+            },
+            "SSD": {
+                "listName": "南苏丹"
+            },
+            "STP": {
+                "listName": "圣多美和普林西比"
+            },
+            "SUR": {
+                "listName": "苏里南"
+            },
+            "SVK": {
+                "listName": "斯洛伐克"
+            },
+            "SVN": {
+                "listName": "斯洛文尼亚"
+            },
+            "SWE": {
+                "listName": "瑞典"
+            },
+            "SWZ": {
+                "listName": "斯威士兰"
+            },
+            "SXM": {
+                "listName": "圣马丁（荷属部分）"
+            },
+            "SYC": {
+                "listName": "塞舌尔"
+            },
+            "SYR": {
+                "listName": "阿拉伯叙利亚共和国"
+            },
+            "TCA": {
+                "listName": "特克斯和凯科斯群岛"
+            },
+            "TCD": {
+                "listName": "乍得"
+            },
+            "TGO": {
+                "listName": "多哥"
+            },
+            "THA": {
+                "listName": "泰国"
+            },
+            "TJK": {
+                "listName": "塔吉克斯坦"
+            },
+            "TKL": {
+                "listName": "托克劳"
+            },
+            "TKM": {
+                "listName": "土库曼斯坦"
+            },
+            "TLS": {
+                "listName": "东帝汶"
+            },
+            "TON": {
+                "listName": "汤加"
+            },
+            "TTO": {
+                "listName": "特立尼达和多巴哥"
+            },
+            "TUN": {
+                "listName": "突尼斯"
+            },
+            "TUR": {
+                "listName": "土耳其"
+            },
+            "TUV": {
+                "listName": "图瓦卢"
+            },
+            "TZA": {
+                "listName": "坦桑尼亚联合共和国"
+            },
+            "UGA": {
+                "listName": "乌干达"
+            },
+            "UKR": {
+                "listName": "乌克兰"
+            },
+            "UNECE": {
+                "listName": "联合国欧洲经济委员会"
+            },
+            "URY": {
+                "listName": "乌拉圭"
+            },
+            "USA": {
+                "listName": "美利坚合众国"
+            },
+            "UZB": {
+                "listName": "乌兹别克斯坦"
+            },
+            "VAT": {
+                "listName": "教廷"
+            },
+            "VCT": {
+                "listName": "圣文森特和格林纳丁斯"
+            },
+            "VEN": {
+                "listName": "委内瑞拉"
+            },
+            "VGB": {
+                "listName": "英属维尔京群岛"
+            },
+            "VIR": {
+                "listName": "美属维尔京群岛"
+            },
+            "VNM": {
+                "listName": "越南"
+            },
+            "VUT": {
+                "listName": "瓦努阿图"
+            },
+            "WLF": {
+                "listName": "瓦利斯和富图纳群岛"
+            },
+            "WO": {
+                "listName": "全球"
+            },
+            "WSM": {
+                "listName": "萨摩亚"
+            },
+            "X01": {
+                "listName": "亚特兰蒂斯 01"
+            },
+            "X02": {
+                "listName": "亚特兰蒂斯 02"
+            },
+            "X03": {
+                "listName": "亚特兰蒂斯 03"
+            },
+            "X04": {
+                "listName": "亚特兰蒂斯 04"
+            },
+            "X05": {
+                "listName": "亚特兰蒂斯 05"
+            },
+            "X06": {
+                "listName": "亚特兰蒂斯 06"
+            },
+            "X07": {
+                "listName": "亚特兰蒂斯 07"
+            },
+            "X08": {
+                "listName": "亚特兰蒂斯 08"
+            },
+            "X09": {
+                "listName": "亚特兰蒂斯 09"
+            },
+            "X10": {
+                "listName": "亚特兰蒂斯 10"
+            },
+            "X11": {
+                "listName": "亚特兰蒂斯 11"
+            },
+            "X12": {
+                "listName": "亚特兰蒂斯 12"
+            },
+            "X13": {
+                "listName": "亚特兰蒂斯 13"
+            },
+            "X14": {
+                "listName": "亚特兰蒂斯 14"
+            },
+            "X15": {
+                "listName": "亚特兰蒂斯 15"
+            },
+            "X16": {
+                "listName": "亚特兰蒂斯 16"
+            },
+            "X17": {
+                "listName": "亚特兰蒂斯 17"
+            },
+            "X18": {
+                "listName": "亚特兰蒂斯 18"
+            },
+            "X19": {
+                "listName": "亚特兰蒂斯 19"
+            },
+            "X20": {
+                "listName": "亚特兰蒂斯 20"
+            },
+            "YEM": {
+                "listName": "也门"
+            },
+            "ZAF": {
+                "listName": "南非"
+            },
+            "ZMB": {
+                "listName": "赞比亚"
+            },
+            "ZWE": {
+                "listName": "津巴布韦"
+            }
+        },
+        "areaAffectedByFire": {
+            "areaAffectedByFire": "受火灾影响的区域",
+            "areaUnitLabel": "面积(1000公顷)",
+            "categoryHeader": "FRA类别",
+            "ofWhichForest": "受影响的森林面积为",
+            "totalLandAreaAffectedByFire": "受火灾影响的土地总面积"
+        },
+        "areaOfPermanentForestEstate": {
+            "applicable": "适用与否?",
+            "areaOfPermanentForestEstate": "永久性森林资产面积",
+            "areaUnitLabel": "森林面积(1000公顷)",
+            "categoryHeader": "FRA 2020中的类别"
+        },
+        "assessment": {
+            "deskStudy": "书面审查",
+            "fra": "FRA",
+            "panEuropean": "泛欧洲",
+            "status": {
+                "accepted": {
+                    "label": "已接受",
+                    "next": "接受",
+                    "previous": ""
+                },
+                "approval": {
+                    "label": "等待批准",
+                    "next": "提交批准",
+                    "previous": "返回批准"
+                },
+                "changing": {
+                    "label": "正在变更…"
+                },
+                "editing": {
+                    "label": "正在编辑",
+                    "previous": "返回编辑"
+                },
+                "notStarted": {
+                    "label": "未开始"
+                },
+                "review": {
+                    "label": "正在审核",
+                    "next": "提交审核",
+                    "previous": "返回审核"
+                }
+            },
+            "statusChangeNotification": {
+                "htmlMessage": "尊敬的{{recipientName}},\n<br/><br/>\n{{changer}}在FRA平台上将{{country}}{{assessment}}的状态变更为 \"{{status}}\" 。\n<br/><br/>\n{{message}}\n<br/><br/>\n<a href=\"{{- serverUrl}}\"><b>平台访问地址</b></a>\n<br/><br/>\nFRA工作组\n<br/>\n{{- serverUrl}}",
+                "subject": "FRA平台上，{{country}}的状态变更为{{status}} ",
+                "textMessage": "尊敬的{{recipientName}},\n\n{{changer}} 在FRA平台上将{{country}}{{assessment}}的状态变更为 \"{{status}}\" 。\n\n{{message}}\n\n平台访问地址: {{- serverUrl}}\n\nFRA工作组\n{{- serverUrl}}"
+            }
+        },
+        "audit": {
+            "edited": "已编辑",
+            "notStarted": "未开始"
+        },
+        "biomassStock": {
+            "aboveGround": "地上生物量",
+            "belowGround": "地下生物量",
+            "biomassStock": "生物量",
+            "categoryHeader": "FRA类别",
+            "deadWood": "枯死木",
+            "downloadExcel": "下载excel计算器",
+            "tableHeader": "森林生物量(吨/公顷)"
+        },
+        "bulkDownload": {
+            "NDPYear": {
+                "earliestYear": "Earliest NDP year",
+                "latestYear": "Latest NDP year"
+            },
+            "dateOfExport": "Date of export"
+        },
+        "carbonStock": {
+            "carbonAboveGroundBiomass": "地上生物质碳储量",
+            "carbonBelowGroundBiomass": "地下生物质碳储量",
+            "carbonDeadwood": "枯死木碳储量",
+            "carbonLitter": "林分枯落物碳储量",
+            "carbonSoil": "土壤碳储量",
+            "carbonStock": "碳储量",
+            "categoryHeader": "FRA类别",
+            "soilDepthHeading": "用于土壤碳储量估算的土壤深度（厘米）",
+            "tableHeader": "森林碳储量(吨/公顷)"
+        },
+        "climaticDomain": {
+            "boreal": "寒带",
+            "climaticDomain": "气候区",
+            "percentOfForestArea2015": "占2015年森林面积的百分比",
+            "percentOfForestArea2015Override": "覆盖数值",
+            "selectDefault": "默认",
+            "sub_tropical": "$t(climaticDomain.subtropical)",
+            "subtropical": "亚热带",
+            "temperate": "温带",
+            "tropical": "热带"
+        },
+        "common": {
+            "accepted": "已接受",
+            "add": "添加",
+            "all": "所有",
+            "apply": "应用",
+            "approve": "批准",
+            "approved": "已批准",
+            "areYouSureYouWantToDelete": "你确定要删除这个项目吗？ 此操作无法撤销。",
+            "areYouSureYouWantToDeleteAllTableData": "Are you sure you want to delete all data from the table?",
+            "calculate": "计算",
+            "cancel": "取消",
+            "clearTable": "清除表格",
+            "column": "栏目",
+            "continue": "继续",
+            "copyToClipboard": "复制到剪贴板",
+            "countries": "国家",
+            "country": "国家",
+            "custom": "自定义",
+            "dashboard": "主界面",
+            "dataExport": "数据输出",
+            "delete": "删除",
+            "disapprove": "不批准",
+            "done": "完成",
+            "email": "电子邮箱",
+            "empty": "空的",
+            "expired": "Expired",
+            "file": "文件",
+            "filterCountries": "筛选国家",
+            "fraPlatform": "FRA平台",
+            "globalFRA": "全球森林资源评估",
+            "hide": "隐藏",
+            "invitations": "Invitations",
+            "invited": "Invited",
+            "issues": "问题",
+            "label": "标签",
+            "language": "语言",
+            "lastEdit": "最后编辑",
+            "latest": "最新",
+            "link": "链接",
+            "load": "加载",
+            "loading": "加载中...",
+            "login": "保留区",
+            "name": "姓名",
+            "noItemsFound": "No items found",
+            "or": "或",
+            "other": "其他",
+            "otherSpecifyInComments": "其他(在评论中阐述)",
+            "private": "私有",
+            "public": "公共",
+            "regions": "区域",
+            "resetAll": "重置所有",
+            "role": "身份",
+            "select": "选择",
+            "selectAll": "选择所有",
+            "selectArea": "选择地理区域",
+            "selectFiles": "选择文件",
+            "show": "展示",
+            "showLess": "显示更少",
+            "showMore": "显示更多",
+            "source": "来源",
+            "sources": "来源",
+            "statisticalFactsheets": "统计资料表",
+            "status": "状况",
+            "submit": "提交",
+            "submittedForApproval": "提交以供审批",
+            "submittedToReview": "提交以供审核",
+            "success": "成功",
+            "tier": "等级",
+            "tiers": {
+                "high": "高",
+                "low": "低",
+                "medium": "中",
+                "notSelected": ""
+            },
+            "total": "Total",
+            "totalPercentage": "总百分比",
+            "trend": "趋势",
+            "unknown": "无/未知",
+            "unselectAll": "取消所有选项",
+            "updated": "更新后",
+            "userGuide": "使用指南",
+            "variable": "FRA变量",
+            "view": "查看",
+            "year": "年份",
+            "yes": "Yes"
+        },
+        "contactPersons": {
+            "all": "$t(common.all)",
+            "contactPersons": "简介",
+            "contactPersonsSupport": "本报告由下述人员编写：",
+            "email": "电子邮箱",
+            "firstName": "名",
+            "institution": "机构/地址",
+            "introductoryText": "介绍性文字",
+            "introductoryTextSupport": "简述本报告的内容",
+            "lastName": "姓",
+            "none": "无",
+            "reportPreparationAndContactPersons": "报告编写者和联系方式",
+            "tables": "表格"
+        },
+        "contentCheck": {
+            "//": "Keys are in same format as the database fields",
+            "disturbances": {
+                "diseases": "$t(disturbances.diseases)",
+                "insects": "$t(disturbances.insects)",
+                "other": "$t(disturbances.other)",
+                "severe_weather_events": "$t(disturbances.severeWeatherEvents)",
+                "title": "干扰"
+            },
+            "extent": {
+                "bamboo": "$t(specificForestCategories.bamboo)",
+                "certified_area": "经认证的森林面积(1000公顷)",
+                "forest_area": "森林(1000公顷)",
+                "management_plan_percent": "有管理计划的森林面积(占森林的百分比)",
+                "mangroves": "$t(specificForestCategories.mangroves)",
+                "other_wooded_land": "其它林地(1000公顷)",
+                "primary_forest_percent": "原生林(占森林的百分比)",
+                "protected_forest_percent": "保护区内的森林(占森林的百分比)",
+                "title": "范围"
+            },
+            "forestGrowingStockBiomassCarbon": {
+                "above_ground_biomass_growing_stock_ratio": "比率（地上生物量）/ 立木蓄积量 (t/m3)",
+                "carbon_biomass_above_ground_ratio": "地上生物量比率（碳/生物量）",
+                "carbon_biomass_below_ground_ratio": "地下生物量比率（碳/生物量）",
+                "carbon_biomass_deadwood_ratio": "比率（枯死木/活体生物量）",
+                "carbon_forest_above_ground": "地上生物量碳(t/ha)",
+                "carbon_forest_below_ground": "地下生物量碳(t/ha)",
+                "carbon_forest_deadwood": "枯死木碳(t/ha)",
+                "carbon_forest_litter": "枯枝落叶碳(t/ha)",
+                "carbon_forest_soil": "土壤碳(t/ha)",
+                "dead_living_mass_ratio": "枯死木比率（碳/生物量）",
+                "forest": "立木蓄积量(m3/ha)",
+                "forest_above_ground": "地上生物量(t/ha)",
+                "forest_below_ground": "地下生物量(t/ha)",
+                "forest_deadwood": "枯死木(t/ha)",
+                "root_shoot_ratio": "根-芽比率",
+                "title": "森林立木蓄积、生物量和碳储量"
+            },
+            "forestOwnership": {
+                "other_or_unknown": "$t(forestOwnership.otherOrUnknown)",
+                "private_ownership": "$t(forestOwnership.privateOwnership)",
+                "public_ownership": "$t(forestOwnership.publicOwnership)",
+                "title": "所有权"
+            },
+            "holderOfManagementRights": {
+                "communities": "$t(holderOfManagementRights.communities)",
+                "individuals": "$t(holderOfManagementRights.individuals)",
+                "other": "$t(holderOfManagementRights.other)",
+                "private_businesses": "$t(holderOfManagementRights.privateBusinesses)",
+                "public_administration": "$t(holderOfManagementRights.publicAdministration)",
+                "title": "公有森林的管理权"
+            },
+            "periodicChangeRate": {
+                "forest_area_annual_net_change": "森林面积年净变化(1000公顷)",
+                "forest_area_annual_net_change_rate": "森林面积年净变化率(百分比)",
+                "natural_forest_area_annual_net_change": "自然再生林年度净变化",
+                "natural_forest_area_annual_net_change_rate": "自然再生林变化率(百分比)",
+                "other_wooded_land_annual_net_change": "其它林地面积年净变化(1000公顷)",
+                "other_wooded_land_annual_net_change_rate": "其它林地面积年净变化率(百分比)",
+                "planted_forest_annual_net_change": "人工林年净变化",
+                "planted_forest_annual_net_change_rate": "人工林变化率(百分比)",
+                "primary_forest_annual_net_change": "原生林面积年净变化（1000公顷）",
+                "primary_forest_annual_net_change_rate": "原生林面积变化率(百分比)",
+                "title": "周期性变化率(年率)"
+            },
+            "primaryDesignatedManagementObjective": {
+                "conservation_of_biodiversity": "$t(designatedManagementObjective.biodiversityConservation)",
+                "multiple_use": "$t(designatedManagementObjective.multipleUse)",
+                "no_unknown": "$t(designatedManagementObjective.unknown)",
+                "other": "$t(designatedManagementObjective.other)",
+                "production": "$t(designatedManagementObjective.production)",
+                "protection_of_soil_and_water": "$t(designatedManagementObjective.soilWaterProtection)",
+                "social_services": "$t(designatedManagementObjective.socialServices)",
+                "title": "首要指定管理目标"
+            },
+            "totalAreaDesignatedManagementObjective": "指定管理目标的总面积"
+        },
+        "country": {
+            "region": {
+                "africa": "非洲",
+                "asia": "亚洲",
+                "atlantis": "亚特兰蒂斯",
+                "europe": "欧洲",
+                "forest_europe": "欧洲森林保护部长级会议",
+                "north_and_central_america": "中北美洲",
+                "oceania": "大洋洲",
+                "south_america": "南美洲"
+            }
+        },
+        "countryListing": {
+            "annuallyUpdated": "每年更新",
+            "fra2020": "2020年森林资源评估（FRA 2020）"
+        },
+        "countryMessageBoard": {
+            "messageBoard": "留言板",
+            "messageBoardDesc": "此处发布的消息对所有本国家/地区的成员可见",
+            "oneToOneMessages": "一对一消息"
+        },
+        "countrySelection": {
+            "selectCountry": "选择国家"
+        },
+        "dataDownload": {
+            "bulkDownload": "批量下载",
+            "dataDownload": "数据下载"
+        },
+        "dataSource": {
+            "comments": "评论",
+            "fraVariable": "FRA变量",
+            "nationalForestInventory": "国家森林资源调查(NFI)",
+            "other": "$t(common.otherSpecifyInComments)",
+            "referenceToTataSource": "数据源参考文献",
+            "registersAndStatistics": "登记册和统计资料",
+            "remoteSensingBasedAssessmentWithGroundTruthing": "基于遥感的评估，并辅以地面实况调查",
+            "remoteSensingBasedAssessmentWithoutGroundTruthing": "基于遥感的评估，没有辅以地面实况调查",
+            "statisticalRemoteSensingSurveyWithAccuracyAssessment": "带有精度评估的统计遥感调查",
+            "typeOfDataSource": "数据源的类型",
+            "typeOfDataSourceText": "$t(dataSource.typeOfDataSource)",
+            "variable": "变量",
+            "vegetationMapping": "植被测绘",
+            "yearForDataSource": "数据源的年份"
+        },
+        "definition": {
+            "definitionLabel": "术语和定义",
+            "faqLabel": "常见问题",
+            "seeReportingNotes": "See Reporting Notes"
+        },
+        "degradedForest": {
+            "degradedForest": "退化的森林"
+        },
+        "description": {
+            "analysisAndProcessing": "国家数据分析和处理",
+            "dataSources": "数据来源",
+            "dataSourcesPlus": "数据来源 + 数据来源类型，如国家森林资源清查（NFI）, 等等",
+            "dataSourcesTitle": "数据来源、原始数据和国家分类与定义",
+            "description": "描述",
+            "done": "已完成",
+            "edit": "编辑",
+            "estimationAndForecasting": "估算和预测",
+            "generalCommentsTitle": "评论",
+            "loading": "正在加载内容…",
+            "nationalClassificationAndDefinitions": "国家分类和定义",
+            "nationalData": "国家数据",
+            "originalData": "原始数据",
+            "reclassification": "按照FRA {{cycleName}} 类别进行重新分类"
+        },
+        "designatedManagementObjective": {
+            "areaUnitLabel": "森林面积(1000公顷)",
+            "biodiversityConservation": "生物多样性养护",
+            "categoryHeader": "FRA 2020类别",
+            "designatedManagementObjective": "指定管理目标",
+            "multipleUse": "多重用途",
+            "other": "其他 (请在评论中注明)",
+            "primaryDesignatedManagementObjective": "主要指定管理目标",
+            "primaryDesignatedManagementObjectiveSupport": "主要指定管理目标比其他管理目标重要得多。各项主要指定管理目标之间具有“排他性”，在一个主要指定管理目标下报告的面积不应再报告给任何其他的主要指定管理目标。不同管理目标下所报告面积的总和应等于森林面积。",
+            "production": "生产",
+            "socialServices": "社会服务",
+            "soilWaterProtection": "水土保持",
+            "total": "总和",
+            "totalAreaWithDesignatedManagementObjective": "指定管理目标所涉面积总和",
+            "totalAreaWithDesignatedManagementObjectiveSupport": "指定管理目标，包括主要和非主要目标。不同的指定类别之间“无排他性”，因此，面积数据可在多个目标下重复报告，例如，作为主要管理目标“多用途”报告的森林面积应在每个管理目标下报告。因此，不同管理目标下报告的面积总和可以大于森林总面积。",
+            "totalForestArea": "森林总面积",
+            "unknown": "无/未知"
+        },
+        "disclaimer": {
+            "europeanUnion": "欧洲联盟",
+            "gef": "全球环境基金",
+            "govFinland": "芬兰政府",
+            "govNorway": "挪威政府",
+            "part1": "本网站的制作得到了下述各方的协助：",
+            "part2": "、",
+            "part3": "、",
+            "part4": "和",
+            "part5": "。 网站内容由粮农组织全权负责，不代表欧洲联盟、芬兰政府、挪威政府和全球环境基金的观点。",
+            "statisticalFactsheets": "声明：可能包含粮农组织估计数值，可能有缺失的数值",
+            "termsOfUse": "统计数据库使用条款"
+        },
+        "disturbances": {
+            "areaUnitLabel": "面积(1000公顷)",
+            "categoryHeader": "FRA类别",
+            "diseases": "病害",
+            "disturbances": "森林干扰因素",
+            "insects": "虫害",
+            "other": "其他(在评论中注明)",
+            "severeWeatherEvents": "极端天气事件",
+            "total": "总计",
+            "totalForestArea": "森林总面积"
+        },
+        "editUser": {
+            "activate": "激活",
+            "activated": "已激活",
+            "chooseProfilePicture": "选择图片",
+            "city": "城市",
+            "contactPreference": "首选的联系方式",
+            "contactPreferenceMethod": "联系方式",
+            "contributions": "贡献",
+            "countryIso": "国家",
+            "deactivate": "取消激活",
+            "demoteToUser": "你确定要删除管理员权限吗？",
+            "disabled": "Disabled",
+            "done": "保存",
+            "email": "电子邮箱",
+            "institution": "机构",
+            "loginEmail": "登陆",
+            "mandatoryFields": "*为必填项",
+            "mr": "先生",
+            "mrs": "夫人",
+            "ms": "女士",
+            "name": "姓名",
+            "organization": "组织机构",
+            "organizationalUnit": "组织单位",
+            "other": "其他",
+            "picture1MbMax": "个人简介中的图片不得超过1MB",
+            "platformChat": "PlatformChat",
+            "poBox": "邮政信箱",
+            "position": "职位",
+            "primaryEmail": "主要电子邮件地址",
+            "primaryPhoneNumber": "主要的联系电话",
+            "professionalTitle": "专业职称",
+            "promoteToAdmin": "您确定要授予管理员权限吗？",
+            "role": "身份",
+            "secondaryEmail": "次要电子邮件地址",
+            "secondaryPhoneNumber": "次要的联系电话",
+            "signal": "Signal",
+            "skype": "Skype名称",
+            "status": "状态",
+            "street": "街道地址",
+            "surname": "姓氏",
+            "title": "称呼",
+            "whatsapp": "Whatsapp",
+            "zipCode": "邮编"
+        },
+        "email": {
+            "invitationAccepted": {
+                "htmlMessage": "尊敬的 {{recipientName}} {{recipientSurname}},\n<br/><br/>\n用户 {{invitedUserName}} {{invitedUserSurname}} 已接受您的邀请，加入{{assessmentName}} {{cycleName}} <b><a href=\"{{- manageCollaboratorsUrl}}\">{{country}}</a></b>，并担任 {{role}}。\n<br/><br/>\n全球森林资源评估报告小组",
+                "subject": "用户 {{invitedUserName}} {{invitedUserSurname}} 已经接受您的邀请",
+                "textMessage": "尊敬的 {{recipientName}} {{recipientSurname}},\n\n用户 {{invitedUserName}} {{invitedUserSurname}} 已接受您的邀请，加入{{assessmentName}} {{cycleName}} {{country}}，并担任 {{role}}。\n{{- manageCollaboratorsUrl}}\n\n全球森林资源评估报告小组"
+            },
+            "remindReviewer": {
+                "messageBodyHTML": "\n    <br/>\n    The {{assessmentName}} {{cycleName}} country reports for<br />\n    {{- countryLinks}}<br />\n    have been “In review” more than a week.<br/>\n    ",
+                "messageBodyText": "\n    The {{assessmentName}} {{cycleName}} country report for countries: {{- countries}} have been “In review” over a week.\n   \n\n{{- countryUrls}}\n\n    ",
+                "messageFooter": "\n    Please provide your comments and send the report back to “Editing”, or proceed with approval if there are no further issues.\n    <br />\n    Thank you.",
+                "messageHeader": "Dear {{recipientName}},",
+                "subject": "Reminder: One or more countries are pending review"
+            }
+        },
+        "emoji": {
+            "picker": {
+                "categories": {
+                    "activity": "活动",
+                    "flags": "标记",
+                    "foods": "食物&饮料",
+                    "nature": "动物&自然",
+                    "objects": "对象",
+                    "people": "笑脸符&人",
+                    "places": "出行&地点",
+                    "recent": "经常使用",
+                    "search": "搜索结果",
+                    "symbols": "符号"
+                },
+                "search": "搜索"
+            }
+        },
+        "employment": {
+            "average": "平均3年",
+            "categoryHeader": "FRA 2020中的类别",
+            "employment": "林业和伐木业的就业",
+            "female": "女性",
+            "inForestry": "林业和伐木业的就业",
+            "male": "男性",
+            "ofWhichGathering": "从事收集非木质林产品活动",
+            "ofWhichLogging": "从事伐木",
+            "ofWhichSilviculture": "从事造林及其他森林活动",
+            "ofWhichSupport": "从事林业支持性服务",
+            "total": "总计",
+            "unitHeader": "全职人力工时 (1000全职人力工时)"
+        },
+        "error": {
+            "access": {
+                "assessmentCommentingNotAllowed": "错误: 用户{{user}}为 {{role}}身份，不得评论状态为{{assessmentStatus}}的国家{{countryIso}}评估报告",
+                "assessmentEditingNotAllowed": "错误: 用户{{user}}为 {{role}}身份，不得编辑状态为{{assessmentStatus}}的国家{{countryIso}}评估报告",
+                "countryDoesNotMatch": "错误: 国家 {{countyryIso}} 不匹配",
+                "countryRoleNotSpecified": "错误: 用户 {{user}} 试图登陆 {{countryIso}} ，但未明确身份",
+                "countryUserNotReviewer": "错误: 用户 {{user}} 试图登陆 {{countryIso}} ，但其并非审核人",
+                "invitationAlreadyUsed": "错误: 邀请函 {{invitationUuid}}已被使用，不得通过{{loginEmail}}加以劫持!",
+                "roleChangeNotAllowed": "错误: 用户 {{user}} 试图将另一名用户的身份设置为 {{role}}，但该用户没有这一操作权限",
+                "userAlreadyAddedToCountry": "错误: 用户 {{user}} 已被添加至国家 {{countryIso}}",
+                "userNotAdministrator": "错误: 用户 {{user}} 试图登陆仅向管理员开放的资源"
+            },
+            "assessment": {
+                "deskStudyNotAllowed": "错误: 仅管理员有权限变更书面审查状态",
+                "transitionNotAllowed": "错误: 身份为{{role}}的用户，不得将{{currentStatus}}变更为{{status}}"
+            },
+            "ndp": {
+                "previousNdpNotFound": "无法找到{{year}}前的任何国家数据点"
+            },
+            "review": {
+                "commentDeleteNotOwner": "错误: 用户{{user}}试图删除他人评论",
+                "commentEnterResolvedIssue": "错误: 用户{{user}}试图对已解决的问题发表评论"
+            }
+        },
+        "extentOfForest": {
+            "categoryHeader": "FRA类别",
+            "chart": {
+                "placeholderLine1": "请先添加新的国家数据点，然后使用",
+                "placeholderLine2": "其自动生成FRA数值。"
+            },
+            "dontUseOriginalDataPoints": "不使用国家数据点",
+            "estimationAndForecasting": "估算和预测",
+            "extentOfForest": "森林及其他林地的面积",
+            "fedAreasExceedTotalLandArea": "森林和其他林地面积超过土地面积总和",
+            "forestArea": "森林",
+            "forestAreaDoesNotMatchPreviouslyReported": "森林面积与FRA {{year}}中报告的面积不匹配: {{previous}}",
+            "forestAreaNetChangeDoesNotMatch": "森林面积净变化与预期值不符：{{value}}",
+            "hideNDPs": "隐藏国家数据点",
+            "ndpMissingValues": "国家数据点存在缺失值",
+            "ofWhichAgroforestry": "农林间作…",
+            "ofWhichPalms": "棕榈类 (油棕、椰树、枣椰等)…",
+            "ofWhichTreeOrchards": "果树类(包括水果、坚果、橄榄等)…",
+            "ofWhichTreesUrbanSettings": "城市树木…",
+            "otherLandCategories": "其他土地类别",
+            "showNDPs": "显示国家数据点",
+            "tableNoticeMessage": "所有参考年份均使用FAOSTAT中的2015年土地面积数据",
+            "totalLandArea": "土地面积总和",
+            "useOriginalDataPoints": "使用国家数据点",
+            "whatIsThis": "这是什么？"
+        },
+        "fileDrop": {
+            "dragAndDropOrClick": "在此处拖放文件，或点击选择文件",
+            "dropFilesHere": "将文件放在此处"
+        },
+        "footer": {
+            "contactUs": "联系我们",
+            "licenses": "许可",
+            "platformVersion": "平台版本",
+            "reportMisconduct": "报告不当行为",
+            "scamAlert": "防欺诈警告",
+            "sendFeedback": "发送反馈",
+            "termsAndConditions": "条款和条件",
+            "tutorials": "视频"
+        },
+        "forestAreaChange": {
+            "areaUnitLabel": "面积(1000公顷/年)",
+            "categoryHeader": "FRA类别",
+            "deforestation": "砍伐",
+            "forestAreaChange": "年度森林扩张、砍伐和净变化",
+            "forestAreaNetChange": "森林面积净变化",
+            "forestAreaNetChangeFrom1a": "从表1a计算得出的森林面积净变化",
+            "forestExpansion": "森林扩张",
+            "netChangeDoesNotMatch": "与森林面积净变化不匹配",
+            "ofWhichAfforestation": "造林",
+            "ofWhichNaturalExpansion": "自然扩张"
+        },
+        "forestAreaWithinProtectedAreas": {
+            "areaUnitLabel": "面积(1000公顷)",
+            "categoryHeader": "FRA类别",
+            "forestAreaWithLongTermManagementPlan": "纳入长期森林管理计划的森林面积",
+            "forestAreaWithinProtectedAreas": "保护区内森林面积和纳入长期管理计划的森林面积",
+            "header": "保护区内森林面积",
+            "ofWhichInProtectedAreas": "保护区内纳入长期森林管理计划的森林面积"
+        },
+        "forestCharacteristics": {
+            "categoryHeader": "FRA类别",
+            "dontUseOriginalDataPoints": "不使用国家数据点",
+            "estimationAndForecasting": "估算和预测",
+            "forestCharacteristics": "森林特征",
+            "naturalForestArea": "天然再生林",
+            "otherPlantedForestArea": "其他人工林",
+            "plantationForestArea": "种植林",
+            "plantationForestIntroducedArea": "引入外来树种的种植林",
+            "plantedForest": "人工林",
+            "total": "总计",
+            "totalForestArea": "森林总面积",
+            "useOriginalDataPoints": "使用国家数据点"
+        },
+        "forestOwnership": {
+            "areaUnitLabel": "森林面积(1000公顷)",
+            "categoryHeader": "FRA类别",
+            "forestOwnership": "森林所有权",
+            "ofWhichCommunities": "本地、部落和土著社区拥有",
+            "ofWhichIndividuals": "个人拥有",
+            "ofWhichPrivateBusinesses": "私营实体和机构拥有",
+            "otherOrUnknown": "未知/其他 (在评论中注明)",
+            "privateOwnership": "私有",
+            "publicOwnership": "公有",
+            "total": "总和",
+            "totalForestArea": "森林总面积"
+        },
+        "forestPolicy": {
+            "areaUnitLabel": "布尔值 (是/否)",
+            "categoryHeader": "是否存在",
+            "existenceOfTraceabilitySystem": "木材产品追溯系统",
+            "forestPolicy": "政策、法律和鼓励利益相关者参与森林政策制定的国家平台",
+            "legislationsSFM": "支持可持续森林管理的法律法规",
+            "national": "国家",
+            "policiesSFM": "支持可持续森林管理的政策",
+            "stakeholderParticipation": "鼓励或允许利益相关者参与森林政策制定的平台",
+            "subnational": "地方"
+        },
+        "fra": {
+            "2020": {},
+            "2025": {
+                "description": {
+                    "dataSource": {
+                        "comments": "$t(dataSource.comments)",
+                        "referenceToTataSource": "$t(dataSource.referenceToTataSource)",
+                        "typeOfDataSource": "$t(dataSource.typeOfDataSource)",
+                        "variable": "$t(dataSource.fraVariable)",
+                        "yearForDataSource": "$t(dataSource.yearForDataSource)"
+                    }
+                }
+            },
+            "area100Ha": "面积(1000公顷)",
+            "area100HaYear": "面积 (1000 公顷)",
+            "areaAffectedByFire": {
+                "areaAffected": "受影响的面积(1000公顷)",
+                "areaAffectedByFire2025": "$t(areaAffectedByFire.areaAffectedByFire)",
+                "totalLandAreaAffectedByFire2025": "$t(areaAffectedByFire.totalLandAreaAffectedByFire)"
+            },
+            "areaOfPermanentForestEstate": {
+                "areaOfPermanentForestEstate2025": "$t(areaOfPermanentForestEstate.areaOfPermanentForestEstate)"
+            },
+            "biomassStock": {
+                "aboveGround2025": "地上生物量",
+                "belowGround2025": "地下生物量",
+                "biomassStock2025": "生物量",
+                "deadWood2025": "枯死木"
+            },
+            "biomassStockAvg": {
+                "forestBiomass": "森林生物量(t/ha)"
+            },
+            "biomassStockTotal": {
+                "totalForestBiomass": "森林生物量总量(百万吨)"
+            },
+            "biomassStock_biomassStockStatus_Description": {
+                "header_0": "生物量估算方法等级标准",
+                "status": {
+                    "high": "应用国家特定的生物量转换和扩展系数或异速生长方程",
+                    "low": "应用IPCC默认的生物量转换和扩展系数（如使用 \"生物量计算器\"），或基于遥感生物量地图的估计。",
+                    "medium": "应用通用或生物群落水平的异速生长方程 ，或结合国家/生物群落的特定转换系数和IPCC默认生物量扩展系数。"
+                }
+            },
+            "carbonStock": {
+                "carbonAboveGroundBiomass2025": "地上生物量碳",
+                "carbonBelowGroundBiomass2025": "地下生物量碳",
+                "carbonStock2025": "碳储量"
+            },
+            "carbonStockTotal": {
+                "totalForestCarbon": "森林碳总量(百万吨)"
+            },
+            "categoryHeader2020": "FRA 2020类别",
+            "categoryHeader2025": "FRA 2025类别",
+            "climaticDomain": {
+                "percentOfForestArea": "占森林面积的百分比"
+            },
+            "contactPersons": {
+                "expectedYearForNextCountryReportUpdate": "下次更新国家报告的预期年份"
+            },
+            "degradedForest": {
+                "biome": "生物群落级",
+                "changeInForestStructureDecreaseInForestCanopy": "森林结构的变化/森林冠层的减少",
+                "criteriaOfDegradedForest": "定义“退化的森林”时采用的标准",
+                "criteriaOfDegradedForest2025": "$t(fra.degradedForest.criteriaOfDegradedForest)",
+                "degradedAreaForThatYear": "当年的退化森林面积（单位：1 000公顷）",
+                "degradedForest": "退化的森林",
+                "degradedForestDefinition": "退化的森林定义",
+                "doesYourCountryMonitor": "贵国是否监测退化森林的面积？",
+                "expertOpinion": "专家意见",
+                "fieldInventoryAndObservations": "实地调查和观测",
+                "forestDegradationMonitoringAndAssessment": "森林退化监测和评估",
+                "forestDisturbances": "森林受到干扰",
+                "forestManagementPlanReport": "森林经营计划报告",
+                "hasNationalDefinitionOfDegradedForest": "贵国是否有 \"退化的森林 \"的国家定义？",
+                "hasNationalLevelData": "如果有国家一级的数据",
+                "howMonitored": "描述监测过程和结果",
+                "ifYes": "如果 \"是\"",
+                "lossOfBiologicalDiversity": "生物多样性的丧失",
+                "lossOfCarbonBiomassAndGrowingStock": "立木蓄积、生物量和碳储量的损失",
+                "lossOfForestServices": "森林服务的丧失",
+                "lossOfProductivityAndForestGoods": "森林生产力和林产品的损失",
+                "mainMethods": "用于监测退化森林面积的主要方法",
+                "monitoringScale": "监测规模",
+                "national": "国家级",
+                "notSelected": "",
+                "other": "其他(在评论中阐述)",
+                "productionHarvestData": "生产/采伐数据",
+                "remoteSensingSurvey": "遥感调查",
+                "soilDamageErosion": "土壤破坏/侵蚀",
+                "standLocal": "林分/地方",
+                "subnational": "次国家级",
+                "underDevelopment": "开发中",
+                "wallToWallRemoteSensingMapping": "连续的遥感测绘",
+                "whatIsDefinition": "国家对 \"退化的森林 \"的定义是什么？",
+                "yearOfLatestAssessment": "最近一次评估的年份"
+            },
+            "designatedManagementObjective": {
+                "designatedManagementObjective2025": "$t(designatedManagementObjective.designatedManagementObjective)",
+                "noDesignation": "无指定",
+                "unknown2025": "不明"
+            },
+            "disturbances": {
+                "forestAreaAffected": "受影响的森林面积（1000公顷）",
+                "forestDamage": "森林灾害",
+                "predominantCause": "主要原因",
+                "severeWeatherEvents2025": "极端天气事件"
+            },
+            "extentOfForest": {
+                "extentOfForest2025": "$t(extentOfForest.extentOfForest)",
+                "otherWoodedLand": "$t(fraClass.otherWoodedLand)",
+                "remainingLandArea": "其他土地",
+                "totalLandArea2025": "土地面积总和"
+            },
+            "extentOfForest_forestAreaStatusAndTrend_Description": {
+                "footer1": "¹ 从提交报告的年份起不超过5年的数据（对于2025年全球森林资源评估国家报告，年份应在2018年或之后）",
+                "footer2": "² 从提交报告的年份起超过5年的数据（对于2025年全球森林资源评估国家报告，年份应早于2018年）",
+                "footer3": "³ 在使用的方法、分类和定义方面兼容",
+                "header_0": "森林面积等级标准",
+                "status": {
+                    "high": "数据来源：近期¹国家森林资源调查或遥感（基于样地调查或连续测绘），并进行精度评估/实地数据校准。",
+                    "low": "数据来源：其他，如登记册、专家估计或未经精度评估/实地数据校准的遥感。",
+                    "medium": "数据来源：旧的²国家森林资源调查或遥感（基于样地的调查或连续测绘），并进行精度评估/实地数据校准。"
+                },
+                "trend": {
+                    "high": "基于重复兼容³国家森林资源调查的估算，其中最近的调查不超过5年；和/或通过多时空分析的遥感变化评估，其完成时间不超过5年(如REDD+森林参考[排放]水平)。",
+                    "low": "其他数据来源，如专家估计，或基于非兼容评估的估计。",
+                    "medium": "基于重复兼容³国家森林资源调查的估算，其中最近的调查超过5年；和/或通过多时空分析的遥感变化评估，其完成时间超过5年；或对比没有多时空分析的兼容地图。"
+                }
+            },
+            "forestArea100HaYear": "森林面积(1000公顷)",
+            "forestAreaChange": {
+                "forestAreaChange2025": "年度森林扩张、砍伐和净变化",
+                "forestAreaNetChange2025": "$t(forestAreaChange.forestAreaNetChange)",
+                "forestExpansion2025": "森林扩张"
+            },
+            "forestAreaWithinProtectedAreas": {
+                "forestAreaWithLongTermManagementPlan2025": "有长期管理计划的森林面积",
+                "forestAreaWithinProtectedAreas2025": "$t(forestAreaWithinProtectedAreas.forestAreaWithinProtectedAreas)"
+            },
+            "forestCharacteristics": {
+                "naturalForestArea2025": "自然再生林",
+                "ofWhichOtherPlantedForest": "$t(growingStock.otherPlantedForest)",
+                "ofWhichPlantationForest": "$t(growingStock.plantationForest)",
+                "plantationForestIntroducedArea2025": "...其中引进树种",
+                "primaryForest": "...其中原生林"
+            },
+            "forestOwnership": {
+                "forestOwnership2025": "森林所有权",
+                "ofWhichCommunities2025": "...其中土著居民和当地社区拥有的部分",
+                "ofWhichPrivateBusinesses2025": "$t(forestOwnership.ofWhichPrivateBusinesses)",
+                "other2025": "其他(在评论中阐述)",
+                "total2025": "共计",
+                "unknown2025": "不明"
+            },
+            "forestPolicy": {
+                "existenceOfTraceabilitySystem2025": "$t(forestPolicy.existenceOfTraceabilitySystem)",
+                "forestPolicy2025": "$t(forestPolicy.forestPolicy)",
+                "legislationsSFM2025": "$t(forestPolicy.legislationsSFM)",
+                "policiesSFM2025": "$t(forestPolicy.policiesSFM)",
+                "stakeholderParticipation2025": "$t(forestPolicy.stakeholderParticipation)"
+            },
+            "forestRestoration": {
+                "forestRestoration": "森林恢复",
+                "hasYourCountryForestRestorationCommitments": "贵国是否有森林恢复的承诺？",
+                "howManyHectaresOfForestHaveBeenRestoredToDate": "到目前为止，有多少公顷的森林得到了恢复？",
+                "ifYes": "如果 \"是\"",
+                "isThereALawOrOtherGovernmentMandateInSupportOfRestoration": "是否有支持森林恢复的法律或其他政府授权？",
+                "isThereANationalDefinitionOfRestoration": "是否有 \"森林恢复 \"的国家定义，如果有，请提供该定义、监测过程和结果。",
+                "whatAreTheTargetsSetForTheRestoration": "为恢复工作设定的目标是什么？例如：xxxx公顷，到yyyy年。",
+                "whatAreasInNeedOfRestorationHaveBeenIdentified": "已确定哪些地区需要森林恢复，是如何确定的？"
+            },
+            "growingStock": {
+                "naturallyRegeneratingForest2025": "自然再生林",
+                "otherPlantedForest2025": "$t(growingStock.otherPlantedForest)",
+                "plantationForest2025": "$t(growingStock.plantationForest)",
+                "plantedForest2025": "$t(growingStock.plantedForest)",
+                "totalForest": "森林总量"
+            },
+            "growingStockComposition": {
+                "introducedTreeSpecies2025": "引进树种",
+                "millionCubicMeter": "百万立方米",
+                "mostRecentYear": "最近的一年：",
+                "nativeTreeSpecies2025": "乡土树种",
+                "percentOfTotal": "占总数的百分比",
+                "ranked": "#{{idx}} 排名",
+                "remainingIntroduced2025": "$t(growingStockComposition.remainingIntroduced)",
+                "remainingNative2025": "$t(growingStockComposition.remainingNative)",
+                "totalGrowingStock": "总立木蓄积",
+                "totalIntroducedTreeSpecies": "引进树种总数",
+                "totalNativeTreeSpecies": "乡土树种总数",
+                "updatedGrowingStockComposition": "$t(growingStockComposition.growingStockComposition)"
+            },
+            "growingStock_growingStockStatus_Description": {
+                "footer1": "¹ 从提交报告的年份起不超过10年的数据（对于2025年全球森林资源评估国家报告，年份应在2013年或之后）",
+                "footer2": "² 从提交报告的年份起超过10年的数据（对于2025年全球森林资源评估国家报告，年份应早于2013年）",
+                "header_0": "立木蓄积等级标准",
+                "status": {
+                    "high": "数据来源：近期¹国家森林资源清查或机载激光扫描（ALS）辅以概率实地抽样",
+                    "low": "数据来源：其他数据来源，如卫星数据、登记册、问卷调查或专家评估。",
+                    "medium": "数据来源：旧的²国家森林资源清查，部分实地抽样，或者没有辅以概率地面抽样的机载激光扫描（ALS）"
+                },
+                "status2025": {
+                    "high": "$t(fra.growingStock_growingStockStatus_Description.status.high)",
+                    "low": "$t(fra.growingStock_growingStockStatus_Description.status.low)",
+                    "medium": "$t(fra.growingStock_growingStockStatus_Description.status.medium)"
+                }
+            },
+            "holderOfManagementRights": {
+                "communities2025": "土著居民和当地社区",
+                "holderOfManagementRights2025": "$t(holderOfManagementRights.holderOfManagementRights)",
+                "other2025": "其他(在评论中阐述)",
+                "privateBusinesses2025": "$t(holderOfManagementRights.privateBusinesses)",
+                "unknown2025": "不明"
+            },
+            "labels": {
+                "short": "FRA"
+            },
+            "navigation": {
+                "sectionHeaders": {
+                    "employmentEducationAndNwfp2025": "非木材林产品采集和价值 2020",
+                    "forestDesignationAndManagement2025": "森林的指定用途和管理",
+                    "forestDisturbances2025": "森林干扰",
+                    "forestExtentCharacteristicsAndChanges2025": "$t(navigation.sectionHeaders.forestExtentCharacteristicsAndChanges)",
+                    "forestGrowingStockBiomassAndCarbon2025": "森林立木蓄积量、生物量和碳储量",
+                    "forestOwnershipAndManagementRights2025": "森林所有权和管理权",
+                    "forestPolicyAndLegislation2025": "$t(navigation.sectionHeaders.forestPolicyAndLegislation)"
+                }
+            },
+            "nonWoodForestProductsRemovals": {
+                "allOtherAnimalProducts2025": "$t(nonWoodForestProductsRemovals.allOtherAnimalProducts)",
+                "allOtherPlantProducts2025": "$t(nonWoodForestProductsRemovals.allOtherPlantProducts)",
+                "currency2025": "$t(nonWoodForestProductsRemovals.currency)",
+                "nameOfProduct2025": "$t(nonWoodForestProductsRemovals.nameOfProduct)",
+                "nonWoodForestProductsRemovals2025": "非木材林产品采集和价值 2020"
+            },
+            "otherLandWithTreeCover": {
+                "agroforestry2025": "$t(otherLandWithTreeCover.agroforestry)",
+                "other2025": "$t(otherLandWithTreeCover.other)",
+                "otherLandWithTreeCover2025": "有树木覆盖的其他土地"
+            },
+            "otherWoodedLand": {
+                "otherWoodedLand2025": "$t(growingStock.otherWoodedLand)"
+            },
+            "primaryForestByClimaticDomain": {
+                "primaryForestArea100Ha": "Primary forest area ($t(unit.haThousand))",
+                "primaryForestBoreal": "......其中北方原生林",
+                "primaryForestByClimaticDomain": "按气候区划划分的原生林",
+                "primaryForestSubTropical": "...其中亚热带原生林",
+                "primaryForestTemperate": "...其中温带原生林",
+                "primaryForestTropical": "...其中热带原生林",
+                "totalPrimaryForest": "共计"
+            },
+            "print": {
+                "disclaimer": "自1946年以来，粮农组织每隔5至10年对世界森林进行一次评估。全球森林资源评估（FRA）报告现在每五年编制一次，目的是提供一种连贯一致的方法来描述世界森林及其变化情况。FRA是一项国家驱动的进程，评估基于官方指定的国家通讯员编写的报告。 如果没有报告，则由FRA秘书处根据以往报告、现有信息和/或基于遥感的分析进行案头分析。",
+                "disclaimerGenerated": "本文件是根据粮农组织收到的、被用于撰写{{cycleName}}年全球森林资源评估报告的正式官方文件自动生成的。该官方文件中的内容和观点由文件提交单位负责。粮农组织不对本文件所载信息的任何使用负责。",
+                "disclaimerGeneratedDeskStudy": "本文件是根据一项案头研究自动生成的。粮农组织不对本文件所载信息的任何使用负责。",
+                "tableOfContent": "目录",
+                "title": "FRA {{cycleName}}报告",
+                "titleTables": "FRA {{cycleName}}报告表"
+            },
+            "specificForestCategories": {
+                "mangroves2025": "红树林¹",
+                "mangrovesDisclaimer": "¹包括森林和其它林地",
+                "rubberWood2025": "$t(specificForestCategories.rubberWood)",
+                "specificForestCategories2025": "具体的森林类别"
+            },
+            "sustainableDevelopment": {
+                "Metadata-15-01-01": "可持续发展目标指标15.1.1元数据",
+                "Metadata-15-02-01": "可持续发展目标指标15.2.1元数据",
+                "aboveGroundBiomassStockForests2025": "$t(sustainableDevelopment.aboveGroundBiomassStockForests)",
+                "annualForestAreaChangeRate": "年森林面积变化率",
+                "dataProvidedBy": "该可持续发展目标次级指标的数据由FSC和PEFC（森林认证机构）提供。",
+                "forestAreaProportionLandArea": "森林面积占土地总面积的比例",
+                "forestAreaVerifiedForestManagement2025": "$t(sustainableDevelopment.forestAreaVerifiedForestManagement)",
+                "proportionForestAreaLegallyEstablishedProtectedAreas2025": "$t(sustainableDevelopment.proportionForestAreaLegallyEstablishedProtectedAreas)",
+                "proportionForestAreaLongTermForestManagement2025": "$t(sustainableDevelopment.proportionForestAreaLongTermForestManagement)",
+                "sdgIndicator1_2025": "可持续发展目标指标 15.1.1 森林面积占土地总面积的比例"
+            }
+        },
+        "fraClass": {
+            "forest": "森林",
+            "otherLand": "其他土地",
+            "otherWoodedLand": "其他林地"
+        },
+        "fraForestCharacteristicsClass": {
+            "naturallyRegeneratingForest": "天然再生林",
+            "ofWhichIntroduced": "引入外来树种的种植林",
+            "ofWhichPrimaryForest": "$t(fra.forestCharacteristics.primaryForest)",
+            "otherPlantedForest": "其他人工林",
+            "plantationForest": "种植林",
+            "totalForest": "森林总面积"
+        },
+        "fraOtherLandClass": {
+            "agroforestry": "农林间作…",
+            "palms": "棕榈类 (油棕、椰树、枣椰等)…",
+            "treeOrchards": "果树 (包括水果、坚果、橄榄等)",
+            "treesUrbanSettings": "城市树木…"
+        },
+        "generalValidation": {
+            "classValueNotGreaterThan": "{{name}} 不应大于 {{value}}",
+            "classValuesMustBeEqualTo": "{{name}} 的总和必须等于 {{value}}",
+            "columnEmpty": "列 '$t({{columName}})' 必须有一个值",
+            "countryReportYearGreaterThanCurrentYear": "数值应大于或等于{{minValue}}",
+            "emptyField": "该字段为空",
+            "forestAreaDoesNotMatchExtentOfForest": "与森林面积（1a）不匹配",
+            "forestAreaExceedsExtentOfForest": "超过森林面积(1a)",
+            "forestAreaReportedIsDifferentFromPreviousCycle": "报告的面积 ({{forestArea2025}}) 与先前报告的面积 ({{forestArea2020}}) 不同。请提供评论，解释为什么不同。",
+            "forestSumAreaExceedsExtentOfForest": "报告的FRA类别总和超过了表格1a中报告的森林面积",
+            "invalidLink": "无效链接",
+            "landAreaExceedsTotalLandArea": "土地面积超过总土地面积 (1a) ({{value}})",
+            "mustBeEqualToForestArea": "自然再生林和人工林的总和与总森林面积不相等",
+            "mustBeEqualToForestExpansion": "子类别的总和应该等于森林扩张",
+            "mustBeEqualToPlantedForest": "子类别的总和应该等于人工林",
+            "mustBeEqualToPrimaryForest": "子类别的总和应该等于原生林",
+            "mustBeEqualToPrivateOwnership": "子类别的总和应该等于私有所有权",
+            "mustBeEqualToTotalGrowingStock": "总和应该等于总森林面积",
+            "mustBeLessThanPrivateOwnership": "子类别的总和应小于私有所有权",
+            "notEmpty": "值不能为空",
+            "otherLandExceedsExtentOfForest": "超过其他土地面积(1a)",
+            "remainingLandExceedsExtentOfForest": "超过其他土地（1a）",
+            "shouldContainAtLeastOneCharacter": "值应至少包含一个字符",
+            "subCategoryExceedsParent": "子类别超出母类别",
+            "sumEqualTo": "{{categoryLabels}}（{{categoriesSum}}）之和必须等于{{maxValue}}",
+            "sumNotGreaterThan": "总和不应超过 {{maxValue}}",
+            "sumSubCategoriesExceedParent": "{{categoryLabels}}的总和超过{{parentLabel}} ({{parentValue}})",
+            "sumSubCategoriesNotEqualToParent": "{{categoryLabels}} ({{categoriesSum}})的和不等于{{parentLabel}} ({{parentValue}})",
+            "valueCannotExceedMaximumValueReportedForForestArea": "值不能超过报告的森林面积 (1a) 的最大值 ({{maxForestArea}})",
+            "valueCannotExceedMaximumValueReportedForForestAreaYear": "年份 {{year}} 的总和不能超过报告的森林面积 (1a) 的最大值 ({{maxForestArea}})",
+            "valueCannotExceedMaximumValueReportedForLandArea": "值不能超过报告的土地面积 (1a) 的最大值 ({{maxLandArea}})",
+            "valueEqualToSum": "总值应等于子类别的总和",
+            "valueEqualToSumParent": "子类别 {{subcategories}} 的总和与 {{parentVariable}} {{parentCol}} {{parentTable}} <{{valueRounded}}> 不相等",
+            "valueMustBePositive": "数值应大于零",
+            "valueMustBeYear": "数值应为有效年份",
+            "valueNotGreaterThan": "值不应大于 {{maxValue}}",
+            "valuesAreInconsistent1aOr1b": "数值与表格1a或1b中报告的面积不一致",
+            "valuesAreInconsistentWithNetChange": "数值与森林面积净变化不一致"
+        },
+        "geo": {
+            "agreementLevelExplanation": "同意程度 N 意味着至少 N 个选定的数据源需要达成一致，认定某个像素为树木覆盖区域。",
+            "burnedArea": "烧毁区域",
+            "burnedAreaWithUnit": "$t(geo.burnedArea) ({{unit}})",
+            "chooseAgreementLevel": "选择所选图层间的最小同意程度。",
+            "customAgreementArea": "自定义同意区域",
+            "error": {
+                "extraEstimation": {
+                    "failedToRetrieve": "检索估算时出现问题。",
+                    "unexpectedDuringProcessing": "处理过程中出现意外错误。"
+                },
+                "map": {
+                    "failedToLoad": "加载地图时出现问题。"
+                },
+                "mosaic": {
+                    "noMosaicAvailableForConfiguration": "错误：所选配置没有可用的镶嵌。"
+                },
+                "statistics": {
+                    "dataUnavailable": "数据不可用。",
+                    "failedToFetch": "获取统计信息时发生错误：{{error}}",
+                    "foundNoData": "未找到数据。"
+                }
+            },
+            "estimateCustomAgreementArea": "估算自定义同意区域",
+            "forestArea": "树木覆盖区域 ({{unit}})",
+            "geeAssetId": "GEE 属性 ID",
+            "globalOpacity": "全球不透明度",
+            "landsat": "Landsat",
+            "map": "地图",
+            "maxCloudCoverage": "最大云覆盖率",
+            "metersReducerScale": "{{meters}} 米 缩减比例",
+            "recipes": {
+                "forest": {
+                    "allGfc10": "全部 (GFC Hansen >=10%)",
+                    "allGfc20": "全部 (GFC Hansen >=20%)",
+                    "allGfc30": "全部 (GFC Hansen >=30%)",
+                    "esriEsa": "ESRI & ESA",
+                    "esriEsaGlobland2020Gfc10": "ESRI、ESA、Globland 2020 & GFC Hansen >=10%"
+                },
+                "recipes": "配方"
+            },
+            "reportedToFra2020": "汇报给2020年全球森林资源评估",
+            "satellite": "卫星",
+            "satelliteMosaic": "卫星镶嵌",
+            "sections": {
+                "burnedArea": {
+                    "layerTitles": {
+                        "modis": "MODIS"
+                    },
+                    "title": "烧毁区域"
+                },
+                "forest": {
+                    "layerTitles": {
+                        "agreement": "同意层",
+                        "copernicus2019": "Copernicus (2019)",
+                        "customFnf": "自定义 森林/非森林",
+                        "esa2020": "ESA (2020)",
+                        "esaGlobCover2009": "ESA GlobCover (2009)",
+                        "esri2020": "ESRI (2020)",
+                        "globeLand2020": "GlobeLand (2020)",
+                        "hansenGfc2020": "Hansen GFC (2020)",
+                        "hansenGfc2020WithPercent": "$t(geo.sections.forest.layerTitles.hansenGfc2020) {{hansenPercent}} %",
+                        "jaxa2017": "JAXA (2017)",
+                        "modis": "MODIS",
+                        "tanDemX2019": "TanDEM-X (2019)"
+                    },
+                    "title": "树木覆盖"
+                },
+                "protectedArea": {
+                    "layerTitles": {
+                        "customProtectedArea": "自定义受保护区域",
+                        "filteredWdpa": "筛选后的世界保护区数据库",
+                        "wdpa": "世界保护区数据库(WDPA)"
+                    },
+                    "title": "受保护区域"
+                }
+            },
+            "selectMinTreeCoverPercent": "选择最小树木覆盖百分比：",
+            "sentinel": "哨兵卫星(Sentinel)",
+            "showSatelliteMosaic": "显示卫星镶嵌",
+            "snowMasking": "Snow masking",
+            "statistics": {
+                "burnedArea": {
+                    "burnedAreaByYear": "烧毁区域（按年）"
+                },
+                "forestArea": {
+                    "extentOfForestPerSource": "根据资料来源及向 FRA 报告的树木覆盖范围 {{year}}",
+                    "extentOfForestTreeCover": "树木覆盖范围（按来源）",
+                    "forestAreaHa": "树木覆盖面积，公顷",
+                    "forestAreaPercentOfLandArea": "树木覆盖面积占土地面积的百分比",
+                    "landArea": "土地面积"
+                },
+                "graphs": "统计图表",
+                "protectedArea": {
+                    "allGfc10": "全部 (GFC Hansen >=10%)",
+                    "allGfc20": "全部 (GFC Hansen >=20%)",
+                    "allGfc30": "全部 (GFC Hansen >=30%)"
+                },
+                "title": "统计信息"
+            },
+            "treeCoverAgreementSelected": "选定的同意树木覆盖区域",
+            "treeCoverProtectedAreas": "受保护区域内的树木覆盖",
+            "treeCoverProtectedAreasWithUnit": "$t(geo.treeCoverProtectedAreas) ({{unit}})"
+        },
+        "graduationOfStudents": {
+            "average": "平均3年",
+            "bachelorsDegree": "本科学位",
+            "doctoralDegree": "博士学位",
+            "female": "女性",
+            "fra2020Categories": "FRA 2020中的类别",
+            "graduationOfStudents": "森林相关专业毕业生",
+            "male": "男性",
+            "mastersDegree": "硕士学位",
+            "numberOfStudents": "毕业生人数",
+            "technicianCertificate": "技术证书/文凭",
+            "total": "总计"
+        },
+        "growingStock": {
+            "avgTableHeader": "立木蓄积量[立方米/公顷(带皮)]",
+            "categoryHeader": "FRA类别",
+            "copyToClipboard": "复制数值",
+            "forest": "森林",
+            "growingStock": "立木蓄积量",
+            "naturallyRegeneratingForest": "天然再生林",
+            "otherPlantedForest": "其他人工林",
+            "otherWoodedLand": "其他林地",
+            "plantationForest": "种植林",
+            "plantedForest": "人工林",
+            "supportText": "在编辑本表格前，请先在表1a和表1b中输入数据",
+            "totalTableHeader": "立木总蓄积量[百万立方米（带皮）]"
+        },
+        "growingStockComposition": {
+            "areaUnitLabel": "森林立木蓄积量[百万立方米（带皮）]",
+            "categoryHeader": "FRA类别",
+            "commonName": "通用名",
+            "forestGrowingStockComposition": "森林立木蓄积量组成",
+            "growingStockComposition": "立木蓄积量组成",
+            "growingStockPercent": "$t(unit.growingStockPercent)",
+            "introduced": "引进",
+            "introducedTreeSpecies": "引进树种",
+            "millionCubicMeter": "$t(fra.growingStockComposition.millionCubicMeter)",
+            "mostRecentYear": "$t(fra.growingStockComposition.mostRecentYear)",
+            "native": "本地",
+            "nativeTreeSpecies": "本地树种",
+            "rank": "#{{idx}} 按数量排名",
+            "rankingYear": "2015年排名",
+            "remainingIntroduced": "其余的引入树种",
+            "remainingNative": "其余的本地树种",
+            "scientificName": "学名",
+            "totalGrowingStock": "立木蓄积总量",
+            "totalIntroduced": "引进树种总量",
+            "totalNative": "本地树种总量"
+        },
+        "header": {
+            "autoSave": {
+                "complete": "所有变更已保存",
+                "lastSaveTimestampReceived": "最后编辑",
+                "saving": "正在保存…"
+            },
+            "editProfile": "编辑简介",
+            "hideSidebar": "隐藏边栏",
+            "logout": "退出",
+            "showSidebar": "显示边栏"
+        },
+        "history": {
+            "change_one": "{{count}} 改变",
+            "change_other": "{{count}} 改变",
+            "history": "历史记录"
+        },
+        "holderOfManagementRights": {
+            "areaUnitLabel": "森林面积(1000公顷)",
+            "categoryHeader": "FRA类别",
+            "communities": "本地、部落和土著社区",
+            "holderOfManagementRights": "公有森林管理权",
+            "individuals": "个人",
+            "other": "未知/其他(在评论中注明)",
+            "privateBusinesses": "私营企业实体和机构",
+            "publicAdministration": "公共管理",
+            "publicOwnershipDoesNotMatch": "与公有合计数不匹配",
+            "total": "总计",
+            "totalPublicOwnership": "公有合计"
+        },
+        "home": {
+            "keyFindings": "全球森林面积共计40.6亿公顷，占陆地总面积的31%。根据这一森林总面积计算得出的人均森林面积为0.52公顷。\n\t森林在各民族或地理区域间分布并不均匀，热带地区拥有的森林面积最大，占比45%，其次是寒带、温带和亚热带。"
+        },
+        "landing": {
+            "about": {
+                "contact": "联系人",
+                "email": "电子邮箱",
+                "faoForestryDepartment": "粮农组织林业部",
+                "fraProcess": "自1946年以来，粮农组织每隔5至10年对世界森林进行一次评估。全球森林资源评估（FRA）报告现在每五年编制一次，目的是提供一种连贯一致的方法来描述世界森林及其变化情况。该评估基于两个主要数据来源：国家通讯员编写的国家报告，以及粮农组织与国家联络点和区域伙伴一起进行的遥感监测。自1948年发表第一份评估报告以来，FRA报告的范围经常发生变化。这些评估构成了全球森林资源利益方面的一段有趣历史，不仅具备实质性的内容，而且涵盖的范围不断变化。",
+                "linkFraProcess": "了解FRA进程的更多信息",
+                "or": "或",
+                "selectArea": "选择下述某一领域，获取FRA数据",
+                "seniorForestryOfficer": "高级林业官员"
+            },
+            "dataExport": {
+                "downloadData": "下载数据"
+            },
+            "home": "主页",
+            "links": {
+                "confirmDelete": "删除 {{file}}? 此操作无法撤销。",
+                "fileDeleted": "文件成功删除",
+                "fileOperationFailed": "该操作无法进行，因为此文件已被用于:\n{{sectionNames}}",
+                "fileUploaded": "文件成功上传",
+                "links": "链接",
+                "repository": "资源库",
+                "uploadFile": "上传文件"
+            },
+            "milestones": {
+                "date1": "3月",
+                "date2": "4–9月",
+                "date3": "10月",
+                "date4": "1–2月",
+                "date5": "3月",
+                "date6": "7月",
+                "date7": "3-12月",
+                "date8": "8月",
+                "milestone1": "国家通讯员全球会议",
+                "milestone2": "区域和分区域研讨会",
+                "milestone3": "提交国家报告截止日期",
+                "milestone4": "审核国家报告最终稿",
+                "milestone5": "FRA 2020初步发现",
+                "milestone6": "FRA 2020主报告",
+                "milestone7": "数据分析和报告起草",
+                "milestone8": "启动分析和宣传平台",
+                "milestones": "里程碑"
+            },
+            "overview": {
+                "loadingMap": "加载网站地图…",
+                "withFinancialSupportOf": "赞助方为 "
+            },
+            "recentActivity": {
+                "actions": {
+                    "acceptInvitation": "以 {{role}}加入",
+                    "addInvitation": "邀请 {{user}} 成为 {{role}}",
+                    "addUser": "已添加 {{user}} 为 {{role}}",
+                    "added": "已添加",
+                    "addedFile": "已添加 {{file}}",
+                    "commented": "已评论",
+                    "deleted": "已删除",
+                    "deletedFile": "已删除 {{file}}",
+                    "edited": "已编辑",
+                    "removeInvitation": "删除有关请 {{user}} 成为 {{role}}的邀请",
+                    "removeUser": "已移除 {{user}}",
+                    "resolved": "已解决的问题为",
+                    "status": "更改状态为",
+                    "updateAssessmentStatus": "将{{assessment}} 的状态变更为 {{status}}",
+                    "updateInvitation": "更新关于请{{user}} 成为{{role}}的邀请",
+                    "updateUser": "已编辑 {{user}}"
+                },
+                "fraProcess": "自1946年以来，粮农组织每隔5至10年对世界森林进行一次监测。全球森林资源评估（FRA）报告现在每五年编制一次，目的是提供一种连贯一致的方法来描述世界森林及其变化情况。该评估基于两个主要数据来源：国家通讯员编写的国家报告，以及粮农组织与国家联络点和区域伙伴一起进行的遥感监测。自1948年发表第一份评估报告以来，FRA报告的范围经常发生变化。这些评估构成了全球森林资源利益方面的一段有趣历史，不仅具备实质性的内容，而且涵盖的范围不断变化。",
+                "getStarted": "开始",
+                "linkFraProcess": "了解有关FRA进程的更多信息",
+                "noRecentActivityBody": "平台上所做的更改将在此处显示，以便您快速了解您离开时所发生的事情。",
+                "noRecentActivityTitle": "似乎没有近期活动"
+            },
+            "sections": {
+                "about": "关于FRA",
+                "contentCheck": "内容/检查",
+                "externalData": "外部数据",
+                "messageBoard": "留言板",
+                "overview": "概览",
+                "recentActivity": "近期活动",
+                "repository": "Links & Repository",
+                "userManagement": "合作管理",
+                "versioning": "版本更新"
+            },
+            "users": {
+                "message": "留言",
+                "users": "联系方式"
+            },
+            "versioning": {
+                "form": {
+                    "cancel": "取消",
+                    "date": "日期",
+                    "error": "表格内有错误。请修改后再次提交。",
+                    "newVersion": "新版本",
+                    "versionNumber": "版本"
+                },
+                "status": {
+                    "completed": "已完成",
+                    "failed": "失败",
+                    "pending": "等待中",
+                    "running": "正在运行"
+                },
+                "table": {
+                    "createdBy": "创建人为",
+                    "databaseVersions": "数据库版本",
+                    "delete": "删除",
+                    "noVersions": "尚无版本",
+                    "publishedAt": "预定时间",
+                    "scheduledAt": "预定于",
+                    "status": "状态",
+                    "versionNumber": "版本编号"
+                }
+            }
+        },
+        "language": {
+            "ar": "العربية",
+            "en": "English",
+            "es": "Español",
+            "fr": "Français",
+            "ru": "Русский",
+            "zh": "中文"
+        },
+        "login": {
+            "acceptInvitation": "接受邀请",
+            "acceptInvitationWithFra": "接受邀请(FRA账号登录)",
+            "acceptInvitationWithGoogle": "接受邀请(谷歌账号登录)",
+            "accessLimited": "保留区域的访问权仅限于参与 FRA 报告过程的专家.",
+            "alreadyAcceptedInvitation": "该邀请已经被接受",
+            "alreadyLinked": "所选的谷歌账户已链接到另一个用户",
+            "cancel": "取消",
+            "changePassword": "修改密码",
+            "email": "邮箱",
+            "emptyEmail": "邮箱不能留空",
+            "errorOccurred": "发生错误",
+            "expired": "糟糕……您点击的链接似乎已过期或为无效链接",
+            "forgotPassword": "忘记密码？",
+            "forgotPasswordTitle": "请输入邮箱并提交表单，我们将通过电子邮件发送相关说明",
+            "googleOnlyAccount": "该账户使用谷歌认证",
+            "invalidEmail": "邮箱无效",
+            "invitationExpired": "该邀请已过期",
+            "invitationMessage": "您作为{{country}}的{{role}}已被邀请参加{{assessment}}{{cycle}}",
+            "invitationProvidersRegistered": "您已经有一个{{authProviderNames}}注册账户",
+            "login": "登陆",
+            "logoutSuccessful": "您已成功注销",
+            "missingCredentials": "用户名或密码缺失",
+            "noActiveAccount": "该账户未被激活。请确保你已经接受了任何待定的邀请",
+            "noEmptyPassword": "密码不能留空",
+            "noInvitation": "未找到邀请信息",
+            "noLongerValid": "糟糕……你的请求似乎已经失效。",
+            "noMatchPasswords": "密码不匹配",
+            "noMatchingEmail": "我们找不到任何匹配这一邮箱的用户。\n请确保使用有效的FRA账户。",
+            "noMatchingLocalUser": "我们找不到符合这些条件的用户",
+            "noMatchingProvider": "我们找不到符合这些条件的用户",
+            "noShortPassword": "密码太短",
+            "notAuthorized": "用户没有权限",
+            "password": "密码",
+            "passwordChanged": "密码修改成功",
+            "passwordError": "密码须至少包含6个字符，其中至少有1个小写字母、1个大写字母和1个数字",
+            "passwordResetSent": "重置密码的请求已成功提交。\n您很快将收到一封关于密码重置的电子邮件",
+            "repeatPassword": "重复密码",
+            "resetPassword": "重置密码",
+            "returnHome": "要返回主页，请单击",
+            "returnHomeClick": "此处.",
+            "signInFRA": "通过FRA登陆",
+            "signInGoogle": "通过谷歌登陆"
+        },
+        "messageBoard": {
+            "messageBoard": "$t(landing.sections.messageBoard)"
+        },
+        "multiSelect": {
+            "placeholder": "选择…"
+        },
+        "nationalDataPoint": {
+            "addNationalDataPoint": "添加国家数据点",
+            "additionalComments": "额外评论",
+            "appliesToVariablesOptions": {
+                "forest": "森林",
+                "otherLand": "其他土地",
+                "otherWoodedLand": "其他林地"
+            },
+            "area": "面积(1000公顷)",
+            "categories": "类别",
+            "class": "类别",
+            "clickOnNDP": "点击年份获取原始数据",
+            "confirmCopyPreviousValues": "Do you want to override previous values? This operation cannot be undone.",
+            "confirmDelete": "确定删除这一数据点吗？此操作不可撤销。",
+            "copyPreviousValues": "复制先前的参考文献",
+            "dataSource": "数据来源",
+            "dataSource2025ExplanatoryText": "The data sources listed were reported in FRA 2020. Please copy and paste relevant data sources in table above.",
+            "dataSourceMethodsOptions": {
+                "fullCoverMaps": "全幅森林/植被图",
+                "nationalForestInventory": "国家森林资源清查",
+                "other": "其他 (在评论中注明)",
+                "registersQuestionnaires": "登记/调查表",
+                "sampleBasedRemoteSensingAssessment": "基于采样的遥感评估"
+            },
+            "dataSources": "数据来源",
+            "definition": "定义",
+            "disabled": "第1b项的禁用、启用",
+            "discardChanges": "放弃修改",
+            "doneEditing": "编辑完成",
+            "edit": "编辑",
+            "enterOrCopyPasteNationalClasses": "输入或复制与粘贴国家界定的类别",
+            "fileAddedWillBecomePublic": "添加的参考文件将可公开访问",
+            "forestCategoriesLabel": "森林、其他林地和其他土地",
+            "forestCategoriesLabel2025": "森林、其他林地和其它土地",
+            "forestCharacteristics": "森林特征",
+            "fraClasses": "FRA界定的类别",
+            "methods": "方法",
+            "methodsUsed": "已使用的方法",
+            "modifiedExplanation": "修正后的国家数据点",
+            "nationalClass": "国家界定的类别",
+            "nationalClasses": "分类和定义",
+            "nationalClassifications": "国家级分类",
+            "nationalData": "国家数据",
+            "nationalDataPoint": "国家数据点",
+            "noNationalDataAdded": "未添加国家数据",
+            "otherLandCharacteristics": "有树木覆盖的其他土地",
+            "plantationForest": "种植林",
+            "prefill": "Prefill",
+            "prefillWith": "Prefill with",
+            "reclassificationLabel": "原始数据和重新分类",
+            "referenceYear": "参考年份",
+            "referenceYearData": "数据参考年份",
+            "references": "参考",
+            "remindDirtyOdp": "国家数据点已经更新，请记得重新生成数值",
+            "selectYear": "选择…",
+            "total": "总计"
+        },
+        "navigation": {
+            "cancel": "取消",
+            "changeStatusTextPlaceholder": "添加可选消息",
+            "doNotNotifyUsers": "不通知用户",
+            "hideAll": "隐藏所有",
+            "notifySelf": "将副本发送给自己",
+            "sectionHeaders": {
+                "employmentEducationAndNwfp": "就业、教育和非木质林产品",
+                "forestDesignationAndManagement": "森林的指定用途和管理",
+                "forestDisturbances": "森林遭到的干扰",
+                "forestExtentCharacteristicsAndChanges": "森林面积、特征和变化",
+                "forestGrowingStockBiomassAndCarbon": "森林立木蓄积量、生物量和碳储量",
+                "forestOwnershipAndManagementRights": "森林所有权和管理权",
+                "forestPolicyAndLegislation": "森林政策和法律",
+                "introduction": "引言",
+                "panEuropeanIndicators": "泛欧洲指标",
+                "sustainableDevelopment": "可持续发展目标15"
+            },
+            "showAll": "显示所有",
+            "support": {
+                "dontDelete": "系统信息，请勿移除",
+                "feedbackEmailSubject": "FRA平台反馈",
+                "manageCollaborators": "管理合作者",
+                "platformVersion": "平台版本",
+                "user": "用户",
+                "userAgent": "用户代理"
+            }
+        },
+        "nonWoodForestProductsRemovals": {
+            "allOtherAnimalProducts": "所有其他动物产品",
+            "allOtherPlantProducts": "所有其他植物产品",
+            "animalProductsSelectHeading": "动物产品/原料",
+            "animalRawMaterialForColorants": "14 着色剂原料",
+            "animalRawMaterialForMedicine": "13 医药原料",
+            "category": "非木材林产品类别",
+            "currency": "货币名称",
+            "exudates": "7 渗出物",
+            "fodder": "2 饲料",
+            "food": "1 食物",
+            "hidesSkins": "10 兽皮和猎获物",
+            "keySpecies": "关键种类",
+            "livingAnimals": "9 活体动物",
+            "nameOfProduct": "非木材林产品名称",
+            "nonWoodForestProductsRemovals": "非木材林产品采集和价值",
+            "notSelected": "",
+            "ornamentalPlants": "6 观赏植物",
+            "otherEdibleAnimalProducts": "15 其他可食用动物产品",
+            "otherNonEdibleAnimalProducts": "16 其他非可食用动物产品",
+            "otherPlantProducts": "8 其他植物产品",
+            "plantProductsSelectHeading": "植物产品/原料",
+            "quantity": "数量",
+            "rawMaterialForColorants": "4 着色剂和染料的原料",
+            "rawMaterialForMedicine": "3 医药和芳香产品的原料",
+            "rawMaterialForUtensils": "5 器皿、手工艺品和建筑的原材料",
+            "total": "总计",
+            "unit": "单位",
+            "value": "价值 (1000当地货币)",
+            "wildHoney": "11 野生蜂蜜和蜂蜡",
+            "wildMeat": "12 野生肉类"
+        },
+        "otherLandWithTreeCover": {
+            "agroforestry": "农林间作",
+            "areaUnitLabel": "面积(1000公顷)",
+            "categoryHeader": "FRA类别",
+            "other": "其他 (在评论中注明)",
+            "otherLandArea": "其他土地面积",
+            "otherLandWithTreeCover": "有树木覆盖的其他土地",
+            "palms": "棕榈类",
+            "total": "总计",
+            "treeorchards": "果树类",
+            "treesinurbansettings": "城市树木"
+        },
+        "page": {
+            "assessmentSection": {
+                "dataTableHasErrors": "表格数据包含错误,",
+                "hoverCellToSeeDetails": "将鼠标悬停在红色单元格上以查看详细信息。",
+                "odpUpdatedAfterEstimatingThisCell": "在估计此单元格后，一个原始数据点已更新。"
+            }
+        },
+        "panEuropean": {
+            "2020": {
+                "description": {
+                    "dataSource": {
+                        "comments": "$t(dataSource.comments)",
+                        "referenceToTataSource": "Name and Reference to data source",
+                        "typeOfDataSource": "$t(dataSource.typeOfDataSource)",
+                        "variable": "$t(dataSource.variable)",
+                        "yearForDataSource": "$t(dataSource.yearForDataSource)"
+                    }
+                }
+            },
+            "2025": {
+                "description": {
+                    "dataSource": {
+                        "comments": "$t(dataSource.comments)",
+                        "referenceToTataSource": "Name and Reference to data source",
+                        "typeOfDataSource": "$t(dataSource.typeOfDataSource)",
+                        "variable": "$t(dataSource.variable)",
+                        "yearForDataSource": "$t(dataSource.yearForDataSource)"
+                    }
+                },
+                "meta": {
+                    "select": {
+                        "facilityCategory": {
+                            "accommodationFacilities": "1 Accommodation facilities (mountain hotels, cottages, apartments)",
+                            "birdAndWildlifeWatchingLocalities": "7 Bird and wildlife watching localities",
+                            "cablewaysAndLifts": "8 Cableways and lifts",
+                            "campingSites": "2 Camping sites",
+                            "natureSchools": "5 Nature schools",
+                            "notSelected": "",
+                            "otherFacilities": "10 Other facilities",
+                            "overnightShelters": "3 Overnight shelters",
+                            "parkingLots": "9 Parking lots",
+                            "picnicSites": "4 Picnic sites",
+                            "sitesForNatureStudying": "6 Sites for nature studying (educational walkways, nature exhibitions, protected sites, geological localities, sites of cultural heritage, famous trees …)"
+                        },
+                        "forestServiceCategory": {
+                            "_placeholder": "",
+                            "amenityServices": "4 Amenity services",
+                            "biodiversityProtection": "2.1 Biodiversity protection",
+                            "biosphericServices": "2 Biospheric services",
+                            "climateRegulation": "2.2 Climate regulation",
+                            "culturalServices": "4.2 Cultural services",
+                            "ecologicalServices": "1 Ecological services",
+                            "healthProtection": "1.3 Health protection",
+                            "historicalServices": "4.3 Historical services",
+                            "infrastructureProtection": "1.4 Infrastructure protection",
+                            "notSelected": "",
+                            "otherServices": "5 Other services",
+                            "recreation": "3.2 Recreation",
+                            "socialServices": "3 Social services",
+                            "soilProtection": "1.2 Soil protection",
+                            "spiritualServices": "4.1 Spiritual services",
+                            "sportActivities": "3.3 Sport activities",
+                            "tourism": "3.1 Tourism",
+                            "waterProtection": "1.1 Water protection"
+                        }
+                    }
+                }
+            },
+            "accessibilityForRecreation": {
+                "_oftotal": "占总数百分比",
+                "accessibilityForRecreation": "用于休闲",
+                "accessibilityForRecreationNumber": "I. Accessibility for recreation",
+                "areaAvailableForPublicRecreation": "可供公众休闲的面积",
+                "areaPrimarilyDesignatedOrManagedForPublicRecreation": "主要指定用于公共休闲区域的面积或主要按公共休闲区域加以管理的面积",
+                "area_available_for_public_recreation_percent": "可供公众休闲的面积: 占总数百分比",
+                "area_available_for_public_recreation_total": "可供公众休闲的面积: 总和 (1000公顷)",
+                "area_designated_or_managed_for_public_recreation_percent": "主要指定用于公共休闲区域的面积或主要按公共休闲区域加以管理的面积: 占总数百分比",
+                "area_designated_or_managed_for_public_recreation_total": "主要指定用于公共休闲区域的面积或主要按公共休闲区域加以管理的面积: 总和(1000公顷)",
+                "categoryYear": "类别-年份",
+                "intensityOfUseNumber": "II. Intensity of use",
+                "otherRecreationFacilitiesNumber": "IV. Other recreation facilities - pilot reporting (2020)",
+                "recreationFacilitiesNumber": "III. Recreation facilities",
+                "total1000Ha": "总和(1000公顷)",
+                "total_forest_and_other_wooded_land": "森林及其他林地总和 - {{year}}"
+            },
+            "ageClassDistributionAreaOfEvenAgedStands": {
+                "_1000Ha": "1000公顷",
+                "ageClassDistributionAreaOfEvenAgedStands": "龄级分布 (同龄林面积)",
+                "ageClassDistributionAreaOfEvenAgedStandsNumber": "I. Age class distribution (area of even-aged stands)",
+                "ageClassDistributionNumber": "II. Age class distribution (volume of even-aged stands) in forest available for wood supply",
+                "available_for_wood_supply": "Available for wood supply",
+                "available_for_wood_supply_of_which": "可用于木材供应, 其中: - {{year}}",
+                "categoryYear": "类别-年份",
+                "developmentPhases": "生长阶段",
+                "forest": "Forest",
+                "forest_available_even_aged": "Forest available for wood supply (even-aged stands)",
+                "forest_even_aged": "Forest (even-aged stands)",
+                "forest_even_aged_stands_of_which": "森林(同龄林), 其中: - {{year}}",
+                "forest_uneven_aged": "Forest (uneven-aged stands)",
+                "intermediate_phase": "中间阶段",
+                "mature_phase": "成熟阶段",
+                "mixed": "Mixed forest",
+                "mixed_forest": "针阔混交林 - {{year}}",
+                "predominantly_broadleaved_FAWS": "Predominantly broadleaved FAWS",
+                "predominantly_broadleaved_forest": "主要为阔叶林 - {{year}}",
+                "predominantly_coniferous_FAWS": "Predominantly coniferous FAWS",
+                "predominantly_coniferous_forest": "主要为针叶林 - {{year}}",
+                "regeneration_phase": "再生阶段",
+                "total_area": "总面积",
+                "unspecified": "未指明"
+            },
+            "ageClassDistributionVolumeOfEvenAgedStandsInForestAvailableForWoodSupply": {
+                "_1000M3": "1000立方米",
+                "ageClassDistributionVolumeOfEvenAgedStandsInForestAvailableForWoodSupply": "木材林龄级分布 (同龄林储量) ",
+                "categoryYear": "类别-年份",
+                "developmentPhases": "生长阶段",
+                "forest_available_for_wood_supply_even_aged_stands_of_which": "木材林 (同龄林), 其中: - {{year}}",
+                "intermediate_phase": "中间阶段",
+                "mature_phase": "成熟阶段",
+                "mixed_forest": "针阔混交林 - {{year}}",
+                "predominantly_broadleaved_forest": "主要为阔叶林 - {{year}}",
+                "predominantly_coniferous_forest": "主要为针叶林 - {{year}}",
+                "regeneration_phase": "再生阶段",
+                "total_volume": "总量",
+                "unspecified": "未指明"
+            },
+            "annualForestExpansionAndRegeneration": {
+                "afforestation": "扩张: 造林",
+                "afforestationExpansion": "造林",
+                "annualForestExpansionAndRegeneration": "年度森林扩张和再生",
+                "annualForestExpansionAndRegeneration1000ha": "年度森林扩张和再生(1000公顷)",
+                "categoryYear": "类别-年份",
+                "coppice": "再生: 矮林",
+                "coppiceRegeneration": "矮林",
+                "expansionOfForestArea": "森林扩张面积",
+                "forest": "森林 - {{year}}",
+                "naturalExpansion": "自然扩张",
+                "naturalRegeneration": "自然再生",
+                "natural_expansion": "扩张: 自然扩张",
+                "natural_regeneration": "再生: 自然扩张",
+                "plantingAndSeeding": "种植和播种",
+                "planting_and_seeding": "再生：种植和播种",
+                "regenerationOfForestArea": "森林再生面积"
+            },
+            "areaWithForestLandDegradation": {
+                "agentFive": "",
+                "agentFour": "",
+                "agentName": "",
+                "agentOne": "",
+                "agentThree": "",
+                "agentTwo": "",
+                "airPollution": "空气污染",
+                "air_pollution": "空气污染",
+                "areaPrimarilyDegradedBy": "退化面积（按导致退化的主要因素）",
+                "areaWithForestLandDegradation": "退化森林的面积",
+                "categoryYear": "类别-年份",
+                "desertification": "荒漠化",
+                "forest": "森林- {{year}}",
+                "formerDegradedLandRestored": "得到恢复的退化森林",
+                "former_degraded_land_restored": "得到恢复的退化森林",
+                "grazing": "放牧",
+                "nA": "",
+                "other1": "其他1",
+                "other2": "其他2",
+                "other3": "其他3",
+                "otherNames": "导致森林退化的其他主要因素",
+                "other_1": "其他1",
+                "other_2": "其他2",
+                "other_3": "其他3",
+                "other_wooded_land": "其他林地 - {{year}}",
+                "repeatedFires": "反复的火灾",
+                "repeated_fires": "反复的火灾",
+                "thousandHa": "1000公顷",
+                "totalAreaOfDegradedLand": "退化土地的总面积",
+                "totalAreaOfDegradedLand2025": "Total degraded forest area (1 000 ha)",
+                "total_area_of_degraded_land": "退化土地总面积",
+                "total_forest_and_other_wooded_land": "森林和其他林地总和- {{year}}",
+                "unknownMixedDegradation": "Unknown / Mixed degradation",
+                "unknownMixedDegradation2025": "Unknown agent / Mixed degradation (specify in comments)",
+                "writeName": "Write Agent Name..."
+            },
+            "carbonStock": {
+                "aboveGround": "地上",
+                "above_ground": "地上活体生物质中的碳储量",
+                "belowGround": "地下",
+                "below_ground": "地下活体生物质中的碳储量",
+                "carbonInAboveGroundAndBelowGroundLivingBiomass": "地上和地下活体生物质中的碳储量",
+                "carbonInDeadwoodAndLitter": "枯死木和林分枯落物中的碳储量",
+                "carbonMillionMetricTonnes": "Forest Carbon (million metric tonnes)",
+                "carbonStock": "碳储量",
+                "carbonStockInHarvestedWoodProductsHWPNumber": "II. Carbon stock in harvested wood products (HWP)",
+                "carbonStockNumber": "I. Carbon stock",
+                "categoryYear": "类别-年份",
+                "deadwood": "枯死木中的碳储量",
+                "deadwoodCarbon": "枯死木",
+                "forest": "森林 - {{year}}",
+                "litter": "林分枯落物中的碳储量",
+                "litterCarbon": "林分枯落物",
+                "millionMetricTonnes": "百万公吨",
+                "other_wooded_land": "其他林地-{{year}}",
+                "soil_carbon": "土壤中的碳储量",
+                "total_forest_and_other_wooded_land": "森林及其他林地总和-{{year}}"
+            },
+            "carbonStockInHarvestedWoodProductsHWP": {
+                "carbonStockInHarvestedWoodProductsHWP": "已收获木材产品中的碳储量",
+                "categoryYear": "类别-年份",
+                "harvested_wood_products": "已收获木材产品-{{year}}",
+                "totalCarbonStockInHWPMillionMetricTonnes": "已收获木材产品中的总碳储量（百万公吨）",
+                "total_carbon_stock_in_hwp": "已收获木材产品中的总碳储量"
+            },
+            "countryComments": {
+                "AreaDominatedByIntroducedTreeSpecies": "Area dominated by introduced tree species",
+                "BarkConversionFactorFromOverBarkToUnderBark": "Bark conversion factor from \"over bark\" to \"under bark\"",
+                "EmploymentByEducationAndJobCharacteristics": "Employment by education and job characteristics",
+                "EvenAgedStands": "Even-aged stands",
+                "ForEachClassPleaseProvideAnExplanationHowDidYouDesignateThoseAreasEGLegalBasedDesignationManagementPlansOtherDesignationTypesEGSurveySlopeGradientEtHowDidYouClassifiedNatura2000AreasInYourReporting": "For each class, please provide an explanation how did you designate those areas (e.g. legal based designation, management plans, other designation types, e.g. survey, slope gradient, etc.) and how did you classified Natura 2000 areas in your reporting",
+                "OfWhichNotAvailableForWoodSupply": "Of which not available for wood supply",
+                "PleaseSpecifyRelevantThresholds": "Please specify relevant thresholds",
+                "afforestationAndRegenerationByPlantingAndOrSeeding": "Afforestation and regeneration by planting and/or seeding",
+                "ageClassDistribution": "Age class distribution (volume of even-aged stands) in forest available for wood supply",
+                "agroForestrySilvoPastoralAreasEGForRearingIberianBlackPig": "Agro-forestry/silvo-pastoral areas (e.g. for rearing Iberian black pig)",
+                "allOtherAnimalProducts": "All other animal products",
+                "allOtherPlantProducts": "All other plant products",
+                "alpineShrublandEGPinusMugo": "Alpine shrubland (e.g. Pinus mugo)",
+                "annualForestExpansionAndRegeneration": "Annual forest expansion and regeneration",
+                "anyCommentsOnOccupationalDiseases": "Any comments on occupational diseases",
+                "approachApplieToReportingOnIntroducedInvasiveSpecies": "Approach applied to reporting on introduced/invasive species",
+                "approachApplieToReportingOnRemovals": "Approach applied to reporting on removals",
+                "approachAppliedToReportingOnDeadwood": "Approach applied to reporting on deadwood",
+                "approachAppliedToReportingOnThreatenedForestSpecies": "Approach applied to reporting on threatened forest species",
+                "approachToCalculateOrEstimateWoodDirectlyFromForestsAndOutsideForestsMarketedAndSelfConsumption": "Approach to calculate or estimate wood directly from forests and outside forests marketed and self-consumption",
+                "approachToDelimniateBetweenCategories": "Approach to delimitate between categories",
+                "approachToDelineationBetweenEvenAgedAndUnevenAgedStands": "Approach to delineation between even-aged and uneven-aged stands",
+                "approachToDetermineDiameterStructure": "Approach to determine diameter structure",
+                "approachToDetermineFellings": "Approach to determine fellings",
+                "approachToReportOnTreeSpeciesComposition": "Approach to report on tree species composition",
+                "approachToReportingOnAccessibilityForRecreation": "Approach to reporting on accessibility for recreation",
+                "approachToReportingOnDeadwood": "Approach to reporting on deadwood",
+                "approachToReportingOnEnergyFromWood": "Approach to reporting on energy from wood",
+                "approachToReportingOnGrowingStock": "Approach to reporting on growing stock",
+                "approachToReportingOnTheCategoriesOfTheTable11A": "Approach to reporting on the categories of the Table 1.1a",
+                "approachUsedToDetermineMarketed": "Approach used to determine marketed",
+                "approachUsedToDetermineMarketedWood": "Approach used to determine marketed wood",
+                "approachUsedToDetermineValue": "Approach used to determine value",
+                "approachUsedToDetermineValueOfWood": "Approach used to determine value of wood",
+                "areDamageInProtectedForestsIncludedInTheReportedFigures": "Are damage in protected forests included in the reported figures?",
+                "areaAndNumberOfHoldingsInPrivateOwnership": "Area and number of holdings in private ownership",
+                "areaAndNumberOfHoldingsInPublicOwnership": "Area and number of holdings in public ownership",
+                "areaDominatedByInvasiveTreeSpecies": "Area dominated by invasive tree species",
+                "areaEstimate": "Area estimate (1000 ha)",
+                "areaOfForestsAvailableForPublicRecreation": "Area of forests available for public recreation",
+                "areaOfForestsPrimarilyDesignatedOrManagedForPublicRecreation": "Area of forests primarily designated or managed for public recreation",
+                "areaWithNumberOfTreeSpeciesOccurringOnForest": "Area with number of tree species occurring on forest",
+                "areaWithNumberOfTreeSpeciesOccurringOnForestAndOwl": "Area with number of tree species occurring on forest and owl",
+                "areaWithNumberOfTreeSpeciesOccurringOnOwl": "Area with number of tree species occurring on owl",
+                "assessmentBasedOnEvidence": "Assessment based on evidence (e.g. forecast, outlooks, national afforestation programmes, forest policy targets)",
+                "biomassCarbonConversionFactorUsed": "Biomass/carbon conversion factor used",
+                "carbonStockInAboveGroundLivingBiomass": "Carbon stock in above-ground living biomass",
+                "carbonStockInBelowGroundLivingBiomass": "Carbon stock in below ground living biomass",
+                "carbonStockInDeadwood": "Carbon stock in deadwood",
+                "carbonStockInHarvestedWoodProductsHWP": "Carbon stock in harvested wood products (HWP)",
+                "carbonStockInLitter": "Carbon stock in litter",
+                "carbonStockInSoil": "Carbon stock in soil",
+                "category": "Category",
+                "christmasTreePlantationsOnAgriculturalLand": "Christmas tree plantations on agricultural land",
+                "christmasTreePlantationsOnForestLand": "Christmas tree plantations on forest land",
+                "comments": "Comments",
+                "commentsOnEmploymentWhichIsNotCoveredByTheSourcesUsed": "Comments on employment which is not covered by the sources used",
+                "commentsOnTren": "Comments on trend(s)",
+                "commentsOnTrend": "Comments on trend(s)",
+                "commentsOnTrendS": "Comments on trend(s)",
+                "commentsOnTrends": "Comments on trends",
+                "commentsRelateToDataDefinitions": "Comments related to data, definitions, etc.",
+                "commentsRelatedToDataDefinitions": "Comments related to data, definitions, etc.",
+                "commentsRelatedToDataDefinitionsConversionFactorsUsed": "Comments related to data, definitions, conversion factors used",
+                "commentsToInterpretationOfDevelopmentPhases": "Comments to interpretation of development phases",
+                "commentsToInterpretationOfDevelopmentPhasesForGrowingStock": "Comments to interpretation of development phases for growing stock",
+                "conversionFactorsUsedToConvertToEnergyFromEnergyUnits": "Conversion factors used to convert to energy from energy units",
+                "coppice": "Coppice",
+                "countryComments": "Country Comments",
+                "countryComments10Th": "Country comments (10th part)",
+                "countryComments1StPart": "Country comments (1st part)",
+                "countryComments2NdPart": "Country comments (2nd part)",
+                "countryComments3Rd": "Country comments (3rd part)",
+                "countryComments4Th": "Country comments (4th part)",
+                "countryComments5Th": "Country comments (5th part)",
+                "countryComments6Th": "Country comments (6th part)",
+                "countryComments7Th": "Country comments (7th part)",
+                "countryComments8Th": "Country comments (8th part)",
+                "countryComments9Th": "Country comments (9th part)",
+                "criteriaAppliedToReportingDamage": "Criteria applied to reporting damage",
+                "criteriaOrThresholdsUsedToClassifySpeciesAsInvasive": "Criteria or thresholds used to classify species as invasive",
+                "criteriaOrThresholdsUsedToDelimitSemiNaturalFromPlantations": "Criteria or thresholds used to delimit seminatural from plantations",
+                "criteriaOrThresholdsUsedToDelimitUndisturbedByManFromSemiNatural": "Criteria or theresholds used to delimit undisturbed by man from seminatural",
+                "criteriaUsedToDeterminePrimaryTypeOfDegradation": "Criteria used to determine primary type of degradation",
+                "criteriaUsedToDetermineWhichAgentsWerePrimarilyDamaging": "Criteria used to determine which agents were primarily damaging",
+                "criteriaUsedToIncludeAreasInForestsAvailableToThePublicRecreation": "Criteria used to include areas in forests available to the public recreation",
+                "criteriaUsedToIncludeAreasInPrimarilyDesignatedOrManagedForPublicRecreation": "Criteria used to include areas in primarily designated or managed for public recreation",
+                "damagePrimarilyHumanInducedForestOperations": "Damage primarily human induced forest operations",
+                "describeHowYouDetermineDiameterStructure": "Describe how you determine diameter structure",
+                "describeMethodUsedToDetermineFellings": "Describe method used to determine fellings",
+                "diameterDistributionForUnevenAgedForests": "Diameter distribution for uneven-aged forests",
+                "diameterDistributionForUnevenAgedForestsAvailableForWoodSupply": "Diameter distribution for uneven-aged forests available for wood supply",
+                "doesYourCountryHaveANationalMethodology": "Does your country have a national methodology for land degradation assessment?",
+                "doesYourCountryHaveANationalMethodologyForLandDegradationAssessment": "Does your country have a national methodology for land degradation assessment?",
+                "economicRestrictions": "Economic restrictions",
+                "eighth": "8th",
+                "endangeredBirds": "Endangered birds",
+                "endangeredCryptogamsAndFungi": "Endangered cryptogams and fungi",
+                "endangeredInvertebrates": "Endangered invertebrates",
+                "endangeredMammals": "Endangered mammals",
+                "endangeredOtherVertebrates": "Endangered other vertebrates",
+                "endangeredTrees": "Endangered trees",
+                "endangeredVascularPlants": "Endangered vascular plants",
+                "environmentalRestrictions": "Environmental restrictions",
+                "extrapolation": "Extrapolation",
+                "factorIncome": "Factor income",
+                "fatalAccidents": "Fatal accidents",
+                "fellingsOfNaturalLosses": "Fellings of natural losses",
+                "fifth": "5th",
+                "first": "1st",
+                "fixedCapitalConsumptionInEquipmentAndBuildings": "Fixed capital consumption in equipment and buildings",
+                "fixedCapitalConsumptionInPlantingOfTreesToProvideRegularIncome": "Fixed capital consumption in planting of trees to provide regular income",
+                "forEachClassPleaseProvideAnExplanationIfAndHowYouClassifiedNatura2000AreasInYourReporting": "For each class, please provide an explanation if and how you classified Natura 2000 areas in your reporting",
+                "forest": "Forest",
+                "forestArea": "Forest area",
+                "forestAreaByForestType": "Forest area by forest type",
+                "forestEvenAgedStands": "Forest: Even-aged stands",
+                "forestTypes": "Forest types",
+                "forestry": "Forestry",
+                "forestsDesignatedToProtectAestheticHistoricalCulturalOrSpiritualValues": "Forests designated to protect aesthetic, historical, cultural or spiritual values",
+                "forestsExcludedFromHarvestingByOwnerSDecision": "Forests excluded from harvesting by owner’s decision",
+                "forestsManagedForRecreationalPurposes": "Forests managed for recreational purposes",
+                "forestsOfVeryLowProductivityEconomicRevenueOfHarvesting": "Forests of very low productivity (economic revenue of harvesting)",
+                "forestsPhysicallyNotAccessibleIncludingSlopeAndSoilCondition": "Forests physically not accessible (including slope and soil condition)",
+                "formerDegradedLandRestoredByAfforestationReforestation": "Former degraded land restored by afforestation/reforestation",
+                "fourth": "4th",
+                "fowlMcpfeClass11": "Fowl: MCPFE class 1.1",
+                "fowlMcpfeClass12": "Fowl: MCPFE class 1.2",
+                "fowlMcpfeClass13": "Fowl: MCPFE class 1.3",
+                "fowlMcpfeClass2": "Fowl: MCPFE class 2",
+                "fowlPlantations": "Fowl: plantations",
+                "fowlSemiNatural": "Fowl: semi-natural",
+                "fowlUndisturbedByMan": "Fowl: undisturbed by man",
+                "general": "General",
+                "generalComments": "General comments",
+                "grossAnnualIncrement": "Gross annual increment",
+                "grossFixedCapitalFormationInEquipmentAndBuildings": "Gross fixed capital formation in equipment and buildings",
+                "grossFixedCapitalFormationInPlantingOfTreesToProvideRegularIncome": "Gross fixed capital formation in planting of trees to provide regular income",
+                "groundLivingBiomass": "Ground living biomass",
+                "growingStock": "Growing stock",
+                "growingStockByForestType": "Growing stock by forest type",
+                "growingStockComposition": "Growing stock composition",
+                "growingStockOnForestArea": "Growing stock on forest area",
+                "growingStockOnFowls": "Growing stock on FOWLS",
+                "growingStockOnOwl": "Growing stock on OWL",
+                "howDidYouGenerateValues": "How did you generate values for 2025",
+                "howDidYouGenerateValuesFor2025": "How did you generate values for 2025",
+                "howDidYouInterpretedAndDefineNationally": "How did you interpreted and define nationally",
+                "howIdYouDistinguishBetweenEvenAgedAndUnevenAgedStands": "How did you distinguish between even-aged and uneven-aged stands?",
+                "humanInducedDamagesReportedUnderOther": "Human induced damages reported under other",
+                "ifApplicableBarkConversionFactorFromOverBarkToUnderBark": "If applicable, bark conversion factor from over bark to under bark",
+                "ifNotPleaseSpecifyRelevantThresholds": "If not, please specify relevant thresholds",
+                "ifYesDescribeMonitoringProcessAndResults": "If yes, describe the monitoring process and results",
+                "ifYesWhatIsTheNationalDefinition": "If yes, what is the national definition of \"Degraded forest\"?",
+                "inYourCountryAreDegradedNonForestAreasReCategorisedToForestLandWithTheAimToReforestThem": "In your country are degraded non-forest areas re-categorised to forest land with the aim to reforest them?",
+                "inYourCountryAreRecentlyDegradedForestAreasLegallyConsideredAsNonForestLand": "In your country are recently degraded forest areas legally considered as non-forest land?",
+                "industrialRoundwoodRemovalsValue": "Industrial roundwood removals value",
+                "industrialRoundwoodRemovalsVolume": "Industrial roundwood removals volume",
+                "infrastructureAndManagedNaturalResources": "Infrastructure and managed natural resources",
+                "intensityOfUse": "Intensity of use",
+                "intermediatePhase": "Intermediate phase",
+                "introducedTreeSpecies": "Introduced tree species",
+                "invasiveTreeSpecies": "Invasive tree species",
+                "isVolumeAboveGroundOrAboveStump": "Is volume above ground or above stump?",
+                "lyingDeadwoo": "Lying deadwood",
+                "manufactureOfPaperAndPaperProducts": "Manufacture of paper and paper products",
+                "manufactureOfWoodAndArticlesInWood": "Manufacture of wood and of articles in wood",
+                "manufactureOfWoodAndOfProductsOfWood": "Manufacture of wood and of products of wood",
+                "maturePhase": "Mature phase",
+                "militaryForests": "Military forests",
+                "minimumBranchDiameterUsed": "Minimum branch diameter used",
+                "minimumDiameter": "Minimum diameter",
+                "minimumDiameterOfLyingDeadwoodReported": "Minimum diameter of lying deadwood reported",
+                "minimumDiameterOfStandingDeadwoodReported": "Minimum diameter of standing deadwood reported",
+                "minimumHeightOfStandingDeadwoodReported": "Minimum height of standing deadwood reported",
+                "minimumLengthOfLyingDeadwoodReported": "Minimum length of lying deadwood reported",
+                "minimumSizeOfDamagedFowlReported": "Minimum size of damaged fowl reported",
+                "minimumSizeOfDegradedForestReportedHa": "Minimum size of degraded forest reported (ha)",
+                "minimumSizeOfForestHoldingReportedHa": "Minimum size of forest holding reported (ha)",
+                "minimumSizeOfTreesToBeIncluded": "Minimum size of trees to be included",
+                "minimumTopDiameterUsed": "Minimum top diameter used",
+                "naturalExpansionAndRegeneration": "Natural expansion and regeneration",
+                "naturalExpansionOfForestArea": "Natural expansion of forest area",
+                "naturalLosses": "Natural losses",
+                "naturalnessBySubclass": "Naturalness by subclass",
+                "netAnnualIncrement": "Net annual increment",
+                "netOperatingSurplus": "Net operating surplus",
+                "ninth": "9th",
+                "nonFatalAccidents": "Non-fatal accidents",
+                "nonWoodyInvasiveSpecies": "Non-woody invasive species",
+                "ofWhichAvailableForWoodSupply": "... of which available for wood supply",
+                "oliveGrovesAndFruitTreeOrchards": "Olive groves and fruit tree orchards",
+                "other": "Other",
+                "otherCriteriaAndMinimumThresholdsUsedToDetermineAreaAsDamaged": "Other criteria and minimum thresholds used to determine area as damaged",
+                "otherCriteriaAndMinimumThresholdsUsedToDetermineForestAsDegraded": "Other criteria and minimum thresholds used to determine forest as \"degraded\"",
+                "otherFixedCapitalConsumption": "Other fixed capital consumption",
+                "otherGrossFixedCapitalFormation": "Other gross fixed capital formation",
+                "otherLandWithTreeCover": "Other land with tree cover",
+                "otherPleaseSpecify": "Other (please specify)",
+                "otherRecreationFacilities": "Other recreation facilities - pilot reporting (2020)",
+                "otherShrublandEGMaquisGarrigueMatorral": "Other shrubland (e.g. maquis, garrigue, matorral)",
+                "otherWoodedLand": "Other wooded land",
+                "owlArea": "OWL area",
+                "plantationsOfNutProducingTreesOrShrubsEGSweetChestnutsAlmondsWalnutsHazelnuts": "Plantations of nut-producing trees or shrubs (e.g. sweet chestnuts, almonds, walnuts, hazelnuts)",
+                "pleaseDescribeHowSpeciesWereClassifiedAsForestSpeciesInReportingFromYourCountry": "Please describe how species were classified as forest species in reporting from your country",
+                "pleaseIndicateIfReportedValuesAreAccordingToTheRecommendedMinimumSizes": "Please indicate if reported values are according to the recommended minimum sizes",
+                "pleaseSpecifyWhichMainTaxaInTheTableAndReportingNotesAreNotAssessedInYourCountry": "Please specify which main taxa in the table and reporting notes are not assessed in your country",
+                "poplarPlantationsOnAgriculturalLand": "Poplar plantations on agricultural land",
+                "poplarPlantationsOnForestLand": "Poplar plantations on forest land",
+                "primarilyDamagedByAbioticAgents": "Primarily damaged by abiotic agents",
+                "primarilyDamagedByFire": "Primarily damaged by fire",
+                "primarilyDamagedByInsectsAndDisease": "Primarily damaged by insects and disease",
+                "primarilyDamagedByWildlifeAndGrazing": "Primarily damaged by wildlife and grazing",
+                "primarilyDegradedBy": "Primarily degraded by",
+                "primarilyDegradedByAirPollution": "Primarily degraded by air pollution",
+                "primarilyDegradedByDesertification": "Primarily degraded by desertification",
+                "primarilyDegradedByGrazing": "Primarily degraded by grazing",
+                "primarilyDegradedByRepeatedFires": "Primarily degraded by repeated fires",
+                "product": "Product",
+                "productiveForestsDesignatedToProtectKeyHabitatsSpeciesOrOtherNaturalValues": "Productive forests designated to protect key habitats/species or other natural values",
+                "protectedForests": "Protected forests",
+                "protectiveForestsSoilWaterAndOtherEcosystemFunctionsInfrastructureAndManagedNaturalResources": "Protective forests (soil, water and other ecosystem functions, infrastructure and managed natural resources)",
+                "recreationFacilities": "Recreation facilities",
+                "referenceAreaForAssessmentSizeOfSamplePlotAverageStand": "Reference area for assessment (size of sample plot, average stand)",
+                "referenceAreaForTheAssessment": "Reference area for the assessment",
+                "referenceAreaIfDifferentFromTotalFowlEGOwnershipClassOr1000Ha": "Reference area (if different from total fowl, e.g. ownership class or 1000 ha)",
+                "referencePeriodUsedToClassifyAsIntroducedYearsSinceIntroductionYears": "Reference period used to classify as introduced (years since introduction, years since first detection)",
+                "regenerationOfForestArean": "Regeneration of forest area",
+                "regenerationPhase": "Regeneration phase",
+                "scopeOfEmploymentReportedIfNotFromLfs": "Scope of employment reported (if not from LFS)",
+                "second": "2nd",
+                "seventh": "7th",
+                "shortDescriptionOfTheRecordingAssessmentSystemForTheFatalAndNonFatalOccupationalAccidentsInForestry": "Short description of the recording/assessment system for the fatal and non-fatal occupational accidents in forestry",
+                "shortRotationCoppicesOnAgriculturalLand": "Short rotation coppices on agricultural land",
+                "shortRotationCoppicesOnForestLand": "Short rotation coppices on forest land",
+                "shortRotationForestry": "Short rotation forestry",
+                "sixth": "6th",
+                "socialRestrictions": "Social restrictions",
+                "soilWaterAndOtherForestEcosystemFunctions": "Soil, water and other forest ecosystem functions",
+                "standingDeadwood": "Standing deadwood",
+                "tenth": "10th",
+                "theRecentAvailableYear": "The year of recent available data",
+                "theYearAndDataReported": "The year and data reported for 2025",
+                "theYearAndDataReportedFor2025": "The year and data reported for 2025",
+                "third": "3rd",
+                "thresholdForReportingNonFatalAccidentsDaysOfAbsence": "Threshold for reporting non-fatal accidents (days of absence)",
+                "totalAreaOfDegradedLand": "Total area of degraded land",
+                "totalAreaOfForestByExpansionRegenerationType": "Total area of forest by expansion/regeneration type",
+                "totalAreaOfUnevenAgedForest": "Total area of uneven-aged forest",
+                "totalAreaWithDamage": "Total area with damage",
+                "totalCapitalTransfers": "Total capital transfers",
+                "totalFellings": "Total fellings",
+                "totalFixedCapitalConsumption": "Total fixed capital consumption",
+                "totalFixedCapitalFormationInForestsAndForestry": "Total fixed capital formation in forests and forestry",
+                "totalFixedCapitalTransfersInForestsAndForestry": "Total fixed capital transfers in forests and forestry",
+                "totalGrossFixedCapitalFormation": "Total gross fixed capital formation",
+                "totalVolumeOfUnevenAgedForests": "Total volume of uneven-aged forests",
+                "treesInUrbanSettings": "Trees in urban settings",
+                "unspecified": "Unspecified",
+                "unspecifiedMixedDamage": "Unspecified mixed damage",
+                "valuesAccordingFaoDefinitionGrowingStock": "Please indicate if reported values are according to the FAO definition of growing stock",
+                "woodfuelRemovalsValue": "Woodfuel removals value",
+                "woodfuelRemovalsVolume": "Woodfuel removals volume"
+            },
+            "deadwood": {
+                "broadleaved": "阔叶林 - {{year}}",
+                "categoryYear": "类别-年份",
+                "coniferous": "针叶林 - {{year}}",
+                "deadwood": "枯死木",
+                "forest": "森林 - {{year}}",
+                "lying": "躺木",
+                "other_wooded_land": "其他林地 - {{year}}",
+                "standing": "立木",
+                "total": "总和",
+                "total_forest_and_other_wooded_land": "森林及其他林地总和- {{year}}",
+                "volumeOfDeadwoodInFOWLBySpeciesGroups": "森林及其他林地中枯死木体积（按物种群）",
+                "volumeOfDeadwoodM3Ha": "枯死木体积 (立方米/公顷)"
+            },
+            "diameterDistributionAndTotalAreaUnevenAgedStands": {
+                "_21_40_cm": "21-40 厘米 [1000立方米（带皮）]",
+                "_41_60_cm": "41-60 厘米 [1000立方米（带皮）]",
+                "_of_which_forest_available_for_wood_supply": "其中...: 可用于木材供应 - {{year}}",
+                "area": "面积(1000公顷)",
+                "categoryYear": "类别-年份",
+                "diameterDistributionAndTotalAreaUnevenAgedStands": "胸径分布和总面积(异龄林)",
+                "forest": "Forest",
+                "forest_uneven_aged_stands": "森林-异龄林 - {{year}}",
+                "greater_60_cm": ">60 厘米 [1000立方米（带皮）]",
+                "less_or_equal_20_cm": "<20 厘米 [1000立方米（带皮）]",
+                "total_volume": "总储量 [1000立方米（带皮）]",
+                "unspecified": "未指明 [1000立方米（带皮）]",
+                "volumeByDiameterClasses1000mob": "储量（按胸径区间）"
+            },
+            "disclaimer": {
+                "and": "和",
+                "fao": "FAO",
+                "forestEurope": "欧洲森林保护部长级会议",
+                "govSwitzerland": "瑞士政府",
+                "part1": "本网站的制作得到了下述各方的协助[支持]：",
+                "platformDeveloped": "This platform was developed jointly by",
+                "sweden": "Sweden",
+                "switzerland": "Switzerland",
+                "technicalSupport": "with the technical support of",
+                "unece": "UNECE"
+            },
+            "employmentByEducationAndJobCharacteristics": {
+                "_0_2": "0-2",
+                "_1000Persons": "1000人",
+                "_3_4": "3-4",
+                "_5_6": "5-6",
+                "categoryYear": "类别-年份",
+                "education": "教育(ISCED类别 1997)",
+                "education_0_2": "教育 (ISCED类别 1997): 0-2",
+                "education_3_4": "教育 (ISCED类别 1997): 3-4",
+                "education_5_6": "教育 (ISCED类别 1997): 5-6",
+                "employees": "工作性质: 雇员",
+                "employeesJobCharacteristics": "雇员",
+                "employmentByEducationAndJobCharacteristics": "就业（按教育背景和工作性质）",
+                "forestry": "林业 (ISIC/NACE 02) - {{year}}",
+                "jobCharacteristics": "工作性质",
+                "manufacture_of_paper_and_paper_products": "纸张和纸制品的制造 (ISIC/NACE 17) - {{year}}",
+                "manufacture_of_wood_and_articles_in_wood": "木材和木制品的制造 (ISIC/NACE 16) - {{year}}",
+                "selfEmployed": "自营",
+                "self_employed": "工作性质: 自营"
+            },
+            "employmentByGenderAndAge": {
+                "_1000Persons": "1000人",
+                "_15_49": "15-49",
+                "_50_": "50+",
+                "ageGroup": "年龄段",
+                "age_group_15_49": "年龄段: 15-49",
+                "age_group_50_plus": "年龄段: 50+",
+                "categoryYear": "类别-年份",
+                "employmentByGenderAge1000p": "Employment by gender and age (1 000 people)",
+                "employmentByGenderAndAge": "就业（按性别和年龄）",
+                "female": "女性",
+                "forestry": "林业(ISIC/NACE 02) - {{year}}",
+                "gender": "性别",
+                "gender_female": "性别: 女性",
+                "gender_male": "性别: 男性",
+                "male": "男性",
+                "manufacture_of_paper_and_paper_products": "纸张和纸制品的制造(ISIC/NACE 17) - {{year}}",
+                "manufacture_of_wood_and_articles_in_wood": "木材和木制品的制造(ISIC/NACE 16) - {{year}}",
+                "total": "总和"
+            },
+            "factorIncomeAndEntrepreneurialIncome": {
+                "categoryYear": "类别-年份",
+                "factorIncomeAndEntrepreneurialIncome": "生产要素收入和创业收入",
+                "factor_income": "生产要素收入",
+                "forestry": "林业 (ISIC/NACE 02) - {{year}}",
+                "millionNationalCurrency": "百万国家货币",
+                "net_operating_surplus": "净营业盈余"
+            },
+            "forestArea": {
+                "_of_which_available_for_wood_supply": "…可用于木材供应-{{year}}",
+                "_of_which_with_tree_cover": "…有树木覆盖-{{year}}",
+                "area": "面积",
+                "area1000Ha": "面积(1000公顷)",
+                "categoryYear": "类别-年份",
+                "forest": "森林-{{year}}",
+                "forestArea": "森林面积",
+                "forestAreaByForestTypeNumber": "II. Forest area by forest type",
+                "forestAreaNumber": "I. Forest area",
+                "other_land": "其他土地-{{year}}",
+                "other_wooded_land": "其他林地-{{year}}",
+                "remaining_land_area": "Remaining land area - {{year}}",
+                "total_forest_and_other_wooded_land": "森林及其他林地总和-{{year}}"
+            },
+            "forestAreaByForestTypes": {
+                "category": "类别",
+                "forestArea1000Ha": "森林面积(1000公顷)",
+                "forestAreaByForestTypes": "森林面积（按森林类型）",
+                "forest_area_1990": "森林面积- 1990",
+                "forest_area_2000": "森林面积- 2000",
+                "forest_area_2005": "森林面积- 2005",
+                "forest_area_2010": "森林面积- 2010",
+                "forest_area_2015": "森林面积- 2015",
+                "forest_area_2020": "森林面积- 2020",
+                "mixed_forest": "针阔混交林",
+                "predominantly_broadleaved_forest": "主要为阔叶林",
+                "predominantly_coniferous_forest": "主要为针叶林"
+            },
+            "forestAreaWithDamage": {
+                "affectedThousandHa": "Forest area affected (1 000 ha)",
+                "areaDamageExcFire": "Area with damage by different agents (excluding fire)",
+                "areaDamageExcFireHa": "Area with damage by different agents (excluding fire) (1 000ha)",
+                "areaWithDamageByDifferentAgents": "遭破坏的森林面积（按不同因素）",
+                "categoryYear": "类别-年份",
+                "damagePrimarilyHumanInduced": "主要因人为因素遭到破坏",
+                "disease": "Disease",
+                "forest": "森林-{{year}}",
+                "forestAreaWithDamage": "遭破坏的森林面积",
+                "forestOperations": "森林作业",
+                "forest_operations": "人为因素: 森林作业",
+                "insects": "Insects",
+                "insectsAndDisease": "病虫害",
+                "insects_and_disease": "生物因素：病虫害",
+                "ofWhichHumanInduced": "人为引发",
+                "of_which_human_induced": "火灾: 人为引发",
+                "other": "人为因素: 其他",
+                "otherHumanInduced": "其他",
+                "other_wooded_land": "其他林地-{{year}}",
+                "primarilyDamagedByAbioticAgents": "主要因非生物因素遭到破坏(风暴、风、雪等)",
+                "primarilyDamagedByBioticAgents": "主要因生物因素遭到破坏",
+                "primarilyDamagedByFire": "主要因火灾遭到破坏",
+                "primarilyDamagedByFireHa": "Primarily damaged by fire (1 000ha)",
+                "primarilyDamagedByFireTotal": "总计",
+                "primarily_damaged_by_abiotic_agents": "非生物因素 (风暴、风、雪等)",
+                "primarily_damaged_by_fire_total": "火灾: 总和",
+                "thousandHa": "1000公顷",
+                "total": "Total",
+                "total_area_with_damage": "遭破坏的森林面积总和",
+                "total_forest_and_other_wooded_land": "森林和其他林地总和-{{year}}",
+                "unspecifiedMixedDamage": "Unspecified / Mixed damage",
+                "wildlifeAndGrazing": "野生生物和放牧",
+                "wildlife_and_grazing": "生物因素: 野生生物和放牧"
+            },
+            "forestHoldings": {
+                "_11_500_ha_area": "11 - 500公顷: 面积 (1000公顷)",
+                "_11_500_ha_number": "11 - 500公顷: 经营单位数量",
+                "_11_500ha": "11 - 500公顷",
+                "area1000Ha": "面积(1000公顷)",
+                "areaAndNumberOfForestHoldingsInSizeClasses": "森林经营单位面积和数量（按面积区间）",
+                "categoryYear": "类别-年份",
+                "forest": "Forest",
+                "forestHoldings": "森林经营单位",
+                "in_private_ownership": "私有-{{year}}",
+                "in_public_ownership": "公有-{{year}}",
+                "less10ha": "≤ 10公顷",
+                "less_10_ha_area": "≤ 10公顷: 面积 (1000公顷)",
+                "less_10_ha_number": "≤ 10公顷: 经营单位数量",
+                "more500ha": "≥ 500公顷",
+                "more_500_ha_area": "≥ 500公顷: 面积(1000公顷)",
+                "more_500_ha_number": "≥ 500公顷: 经营单位数量",
+                "numberOfHoldings": "经营单位数量",
+                "other": "Other types of ownership/unknown",
+                "other_types_of_ownership_unknown": "其他类型的所有权/未知- {{year}}",
+                "private_ownership": "In private ownership",
+                "public_ownership": "In public ownership",
+                "total_forest_area": "森林面积总和(1000公顷)",
+                "total_number_of_holdings": "经营单位总数"
+            },
+            "grossValueAdded": {
+                "categoryYear": "类别-年份",
+                "forestry": "林业 (ISIC/NACE 02) - {{year}}",
+                "grossValueAdded": "总增值",
+                "grossValueAddedCol": "总增值（GVA））",
+                "manufacture_of_paper_and_paper_products": "纸张和纸制品的制造(ISIC/NACE 17) - {{year}}",
+                "manufacture_of_wood_and_articles_in_wood": "木材和木制品的制造 (ISIC/NACE 16) - {{year}}",
+                "million_national_currency": "百万国家货币",
+                "percent_of_total_gva": "占总GVA百分比"
+            },
+            "growingStock": {
+                "_ofWhich": "…为",
+                "_of_which_available_for_wood_supply": "…可用于木材供应-{{year}}",
+                "broadleaved": "阔叶林",
+                "categoryYear": "类别-年份",
+                "coniferous": "针叶林",
+                "forest": "森林-{{year}}",
+                "forestGrowingStockCompositionNumber": "III. Forest growing stock composition",
+                "growingStock": "立木蓄积量",
+                "growingStockByForestTypeNumber": "II. Growing stock by forest type",
+                "growingStockCompositionNumber": "III. Growing stock composition",
+                "growingStockMillionM3OB": "立木蓄积量[百万立方米（带皮）]",
+                "growingStockNumber": "I. Growing stock",
+                "of_which_available_for_wood_supply_only": "of which available for wood supply",
+                "other_wooded_land": "其他林地-{{year}}",
+                "other_wooded_land_only": "Other wooded land",
+                "total": "总计",
+                "total_forest_and_other_wooded_land": "森林及其他林地总和-{{year}}",
+                "total_forest_and_other_wooded_land_only": "Total forest and other wooded land"
+            },
+            "growingStockByForestType": {
+                "category": "类别",
+                "growingStockByForestType": "立木蓄积量（按森林类型）",
+                "growingStockMillionM3OB": "立木蓄积量[百万立方米（带皮）]",
+                "growing_stock_1990": "立木蓄积量 - 1990",
+                "growing_stock_2000": "立木蓄积量 - 2000",
+                "growing_stock_2005": "立木蓄积量 - 2005",
+                "growing_stock_2010": "立木蓄积量 - 2010",
+                "growing_stock_2015": "立木蓄积量 - 2015",
+                "growing_stock_2020": "立木蓄积量 - 2020",
+                "mixed_forest": "针阔混交林",
+                "predominantly_broadleaved_forest": "主要为阔叶林",
+                "predominantly_coniferous_forest": "主要为针叶林"
+            },
+            "growingStockComposition": {
+                "commonName": "通用名",
+                "common_name": "通用名",
+                "growingStockComposition": "立木蓄积量组成",
+                "growingStockInForestMillionM3OB": "森林立木蓄积量[百万立方米（带皮）]",
+                "growing_stock_in_forest_1990": "森林立木蓄积量[百万立方米（带皮）] - 1990",
+                "growing_stock_in_forest_2000": "森林立木蓄积量[百万立方米（带皮）] - 2000",
+                "growing_stock_in_forest_2005": "森林立木蓄积量[百万立方米（带皮）] - 2005",
+                "growing_stock_in_forest_2010": "森林立木蓄积量[百万立方米（带皮）] - 2010",
+                "growing_stock_in_forest_2015": "森林立木蓄积量[百万立方米（带皮）] - 2015",
+                "growing_stock_in_forest_2020": "森林立木蓄积量[百万立方米（带皮）] - 2020",
+                "no10_ranked_in_terms_of_volume": "从数量而言，排名第#10",
+                "no1_ranked_in_terms_of_volume": "从数量而言，排名第#1",
+                "no2_ranked_in_terms_of_volume": "从数量而言，排名第#2",
+                "no3_ranked_in_terms_of_volume": "从数量而言，排名第#3",
+                "no4_ranked_in_terms_of_volume": "从数量而言，排名第#4",
+                "no5_ranked_in_terms_of_volume": "从数量而言，排名第#5",
+                "no6_ranked_in_terms_of_volume": "从数量而言，排名第#6",
+                "no7_ranked_in_terms_of_volume": "从数量而言，排名第#7",
+                "no8_ranked_in_terms_of_volume": "从数量而言，排名第#8",
+                "no9_ranked_in_terms_of_volume": "从数量而言，排名第#9",
+                "noShort_ranked_in_terms_of_volume": "#1,#2,...,#10 Ranked in terms of volume",
+                "rank": "排名",
+                "remaining": "其余的",
+                "scientificName": "学名",
+                "scientific_name": "学名",
+                "speciesName": "树种名称",
+                "total": "总计"
+            },
+            "home": {
+                "description1": "本数据集中的数据来自国家通讯员在填写欧洲森林保护部长级会议/联合国欧洲经济委员会/粮农组织泛欧洲可持续森林管理量化指标联合调查问卷时所提供的信息。",
+                "description2": "2020年泛欧洲报告的编写与2020年全球森林资源评估（FRA 2020）同时进行。尽管是两项单独进程，但一些变量在两者中同时出现。但请注意，由于数据收集完毕后，部分被用于《2020年欧洲森林状况》的信息在经与国家通讯员协商后进行了调整，因此，可能与FRA平台上的信息有所不同。",
+                "title": "Joint Pan-European Data Collection"
+            },
+            "incrementAndFellings": {
+                "_of_which_forest_available_for_wood_supply": "...为:可用于木材供应的森林 - {{year}}",
+                "_of_which_of_natural_losses": "采伐量：自然损失",
+                "categoryYear": "类别-年份",
+                "fellings": "采伐量",
+                "fellingsTotal": "总计",
+                "fellings_total": "采伐量: 总和",
+                "forest": "森林 - {{year}}",
+                "gross_annual_increment": "年度总增量",
+                "incrementAndFellings": "增量和采伐量",
+                "incrementAndFellingsVolume1000mob": "Increment and fellings volume (1 000 m³ over bark)",
+                "natural_losses": "自然损失",
+                "net_annual_increment": "年度净增量",
+                "ofWhichOfNaturalLosses": "...为: 自然损失",
+                "volume1000mob": "体积[1000立方米（带皮）]"
+            },
+            "intensityOfUse": {
+                "annualNumberOfVisitsMillion": "年访问量( 百万人次)",
+                "areaAvailableForPublicRecreation": "可供公众休闲的面积",
+                "areaPrimarilyDesignatedAndOrManagedForPublicRecreation": "主要指定用于公共休闲区域的面积或主要按公共休闲区域加以管理的面积",
+                "area_available_for_public_recreation": "可供公众休闲的面积",
+                "area_designated_and_or_managed_for_public_recreation": "主要指定用于公共休闲区域的面积或主要按公共休闲区域加以管理的面积",
+                "categoryYear": "类别-年份",
+                "intensityOfUse": "使用强度",
+                "total_forest_and_other_wooded_land": "森林及其他林地总和 - {{year}}"
+            },
+            "introducedTreeSpecies": {
+                "_of_which_invasive": "其中… 为: 入侵种",
+                "areaOfStandsDominatedByIntroducedTreeSpecies1000ha": "以引进树种为主的林地面积(1000 公顷)",
+                "categoryYear": "类别-年份",
+                "forest": "森林- {{year}}",
+                "forest_only": "Forest",
+                "introducedTreeSpecies": "以引进树种为主的林地面积",
+                "introducedTreeSpecies4_4bNumber": "II. Introduced tree species",
+                "introducedTreeSpeciesNumber": "I. Area of stands dominated by introduced tree species",
+                "invasiveTreeSpeciesNumber": "III. Invasive tree species",
+                "other_wooded_land": "其他林地 - {{year}}",
+                "total": "总和",
+                "total_forest_and_other_wooded_land": "森林及其他林地总和 - {{year}}"
+            },
+            "introducedTreeSpecies4_4b": {
+                "_01": "引进树种 1",
+                "_02": "引进树种 2",
+                "_03": "引进树种 3",
+                "_04": "引进树种 4",
+                "_05": "引进树种 5",
+                "_06": "引进树种 6",
+                "_07": "引进树种 7",
+                "_08": "引进树种 8",
+                "_09": "引进树种 9",
+                "_10": "引进树种 10",
+                "_11": "引进树种 11",
+                "_12": "引进树种 12",
+                "_13": "引进树种 13",
+                "_14": "引进树种 14",
+                "_15": "引进树种 15",
+                "_16": "引进树种 16",
+                "_17": "引进树种 17",
+                "_18": "引进树种 18",
+                "_19": "引进树种 19",
+                "_20": "引进树种 20",
+                "category": "类别",
+                "forestAreaOccupied1000Ha": "占据森林面积 (1000 公顷)",
+                "forest_area_occupied_2005": "占据森林面积 (1000公顷) - 2005",
+                "forest_area_occupied_2010": "占据森林面积 (1000公顷) - 2010",
+                "forest_area_occupied_2015": "占据森林面积 (1000公顷) - 2015",
+                "introducedTreeSpecies4_4b": "引进树种",
+                "scientificNameOfIntroducedTreeSpecies": "引进树种学名",
+                "scientific_name_of_introduced_tree_species": "引进树种学名"
+            },
+            "invasiveTreeSpecies": {
+                "_01": "入侵树种 1",
+                "_02": "入侵树种 2",
+                "_03": "入侵树种 3",
+                "_04": "入侵树种 4",
+                "_05": "入侵树种 5",
+                "_06": "入侵树种 6",
+                "_07": "入侵树种 7",
+                "_08": "入侵树种 8",
+                "_09": "入侵树种 9",
+                "_10": "入侵树种 10",
+                "_11": "入侵树种 11",
+                "_12": "入侵树种 12",
+                "_13": "入侵树种 13",
+                "_14": "入侵树种 14",
+                "_15": "入侵树种 15",
+                "_16": "入侵树种 16",
+                "_17": "入侵树种 17",
+                "_18": "入侵树种 18",
+                "_19": "入侵树种 19",
+                "_20": "入侵树种 20",
+                "category": "类别",
+                "forestAreaAffected1000Ha": "受影响森林面积(1000公顷)",
+                "forest_area_affected_2005": "受影响的森林面积 (1000公顷) - 2005",
+                "forest_area_affected_2010": "受影响的森林面积 (1000公顷) - 2010",
+                "forest_area_affected_2015": "受影响的森林面积 (1000公顷) - 2015",
+                "invasiveTreeSpecies": "入侵树种",
+                "scientificNameOfInvasiveTreeSpecies": "入侵树种学名",
+                "scientific_name_of_invasive_tree_species": "入侵树种学名"
+            },
+            "labels": {
+                "short": "panEuropean"
+            },
+            "landing": {
+                "link": "欧洲森林保护部长级会议/联合国欧洲经济委员会/粮农组织泛欧洲可持续森林管理指标联合报告：欧洲森林保护部长级会议"
+            },
+            "marketedServices": {
+                "marketedServices": "Marketed services"
+            },
+            "marketedServices2015": {
+                "_01st": "第1位 (价值)",
+                "_02nd": "第2位 (价值)",
+                "_03rd": "第3位 (价值)",
+                "_04th": "第4位 (价值)",
+                "_05th": "第5位 (价值)",
+                "_06th": "第6位 (价值)",
+                "_07th": "第7位 (价值)",
+                "_08th": "第8位 (价值)",
+                "_09th": "第9位 (价值)",
+                "_10th": "第10位 (价值)",
+                "amountOfServiceProduct": "服务/产品数量",
+                "forestServiceCategory": "森林服务类别",
+                "forest_service_category": "森林服务类别",
+                "marketedServices": "Marketed services",
+                "marketedServices2015": "市场服务 (2015)",
+                "nameOfServiceProduct": "服务/产品名称",
+                "name_of_service_product": "服务/产品名称",
+                "rankValue": "排名 (价值)",
+                "remaining_total": "剩余总和",
+                "serviceProvision": "服务提供",
+                "service_provision_amount_of_service_product": "服务提供: 服务/产品数量",
+                "service_provision_value_1000_national_currency": "服务提供: 价值 (1000国家货币)",
+                "total": "总计",
+                "unit": "单位",
+                "value1000NationalCurrency": "价值 (1000国家货币)"
+            },
+            "naturalness": {
+                "area1000ha": "面积 (1000公顷)",
+                "categoryYear": "类别-年份",
+                "forest": "森林-{{year}}",
+                "naturalness": "天然程度",
+                "naturalnessBySubclassNumber": "II. Naturalness by subclass",
+                "naturalnessNumber": "I. Naturalness",
+                "other_wooded_land": "其他林地-{{year}}",
+                "plantations": "种植林",
+                "semi_natural": "半天然",
+                "total_forest_and_other_wooded_land": "森林及其他林地总和-{{year}}",
+                "undisturbed_by_man": "不受人类干扰"
+            },
+            "naturalnessBySubclasses": {
+                "area1000ha": "面积(1000公顷)",
+                "categoryYear": "类别-年份",
+                "coppice": "半天然: 矮林",
+                "coppiceSemiNatural": "矮林",
+                "establishedByPlantingAndOrSeeding": "通过种植和/或播种形成",
+                "established_by_planting_and_or_seeding": "半天然: 通过种植和/或播种形成",
+                "forest": "森林- {{year}}",
+                "introducedSpecies": "引进种",
+                "introduced_species": "种植林: 引进种",
+                "nativeSpecies": "本地种",
+                "native_species": "种植林: 本地种",
+                "naturalisedIntroducedSpecies": "驯化的引进种",
+                "naturalised_introduced_species": "半天然:驯化的引进种",
+                "naturallyEstablished": "天然形成",
+                "naturally_established": "半天然: 天然形成",
+                "naturalnessBySubclasses": "天然程度（按子类）",
+                "plantations": "种植林",
+                "semiNatural": "半天然",
+                "semiNaturalSubclasses": "Semi-natural subclasses",
+                "unknownOrigin": "未知来源",
+                "unknown_origin": "半天然: 未知来源"
+            },
+            "navigation": {
+                "biologicalDiversityInForestEcosystems": "森林生态系统的生物多样性",
+                "forestResourcesAndCarbon": "森林资源和碳",
+                "maintenanceOfForestEcosystemHealthAndVitality": "维护森林生态系统的健康与活力",
+                "productiveFunctionsOfForestsWoodAndNonWood": "森林的生产功能(木材和非木材)",
+                "protectiveFunctionsInForestManagement": "森林管理的保护功能",
+                "socioEconomicFunctionsAndConditions": "社会经济职能和条件"
+            },
+            "nonWoodGoods": {
+                "nonWoodGoods": "Non-wood goods"
+            },
+            "nonWoodGoods2015": {
+                "_01st": "第1位 (价值)",
+                "_02nd": "第2位 (价值)",
+                "_03rd": "第3位 (价值)",
+                "_04th": "第4位 (价值)",
+                "_05th": "第5位 (价值)",
+                "_06th": "第6位 (价值)",
+                "_07th": "第7位 (价值)",
+                "_08th": "第8位 (价值)",
+                "_09th": "第9位 (价值)",
+                "_10th": "第10位 (价值)",
+                "all_other_animal_products": "所有其他动物产品",
+                "all_other_plant_products": "所有其他植物产品",
+                "keySpecies": "主要种类",
+                "key_species": "关键种类",
+                "marketValue1000NationalCurrency": "市场价值 (1000当地货币)",
+                "market_value_1000_national_currency": "市场价值 (1000国家货币)",
+                "nameOfGroupsOfProduct": "产品（组）名称",
+                "name_of_groups_of_product": "产品（组）名称",
+                "nonWoodGoods": "Non-wood goods",
+                "nonWoodGoods2015": "非木材产品(2015)",
+                "nwfpCategory": "非木质林产品类别",
+                "nwfp_category": "非木材林产品类别",
+                "quantity": "数量",
+                "rankValue": "排名(价值)",
+                "total": "总计",
+                "totalHarvestedNonWoodGoods": "已收获非木材产品总和",
+                "total_harvested_non_wood_goods_quantity": "已收获非木材产品总和：数量",
+                "total_harvested_non_wood_goods_unit": "已收获非木材产品总和: 单位",
+                "unit": "单位"
+            },
+            "occupationalAccidents": {
+                "annualRatePer1000Workers": "年度发生率（‰）",
+                "categoryYear": "类别-年份",
+                "fatalOccupationalAccidents": "致命职业事故",
+                "fatal_occupational_accidents_number": "致命职业事故：数量",
+                "fatal_occupational_accidents_per_1000_workers": "致命职业事故: 年度发生率（‰）",
+                "forestry_isic_nace_02": "林业 (ISIC/NACE 02) - {{year}}",
+                "nonFatalOccupationalAccidents": "非致命职业事故",
+                "non_fatal_occupational_accidents_number": "非致命职业事故: 数量",
+                "non_fatal_occupational_accidents_per_1000_workers": "非致命职业事故: 年度发生率（‰）",
+                "number": "数量",
+                "occupationalAccidents": "职业事故"
+            },
+            "otherRecreationFacilitiesPilotReporting2015": {
+                "category": "类别",
+                "extent_multiplicity": "范围（Extent）/复合度（Multiplicity）",
+                "facility": "设施",
+                "facility_category": "设施类别",
+                "measurement_unit": "测量单位",
+                "no10_area_available_for_public_recreation": "可供公众休闲的面积 10",
+                "no11_area_available_for_public_recreation": "可供公众休闲的面积 11",
+                "no12_area_available_for_public_recreation": "可供公众休闲的面积 12",
+                "no13_area_available_for_public_recreation": "可供公众休闲的面积 13",
+                "no14_area_available_for_public_recreation": "可供公众休闲的面积 14",
+                "no15_area_available_for_public_recreation": "可供公众休闲的面积 15",
+                "no16_area_available_for_public_recreation": "可供公众休闲的面积 16",
+                "no17_area_available_for_public_recreation": "可供公众休闲的面积 17",
+                "no18_area_available_for_public_recreation": "可供公众休闲的面积 18",
+                "no19_area_available_for_public_recreation": "可供公众休闲的面积 19",
+                "no1_area_available_for_public_recreation": "可供公众休闲的面积 1",
+                "no20_area_available_for_public_recreation": "可供公众休闲的面积 20",
+                "no2_area_available_for_public_recreation": "可供公众休闲的面积 2",
+                "no3_area_available_for_public_recreation": "可供公众休闲的面积 3",
+                "no4_area_available_for_public_recreation": "可供公众休闲的面积 4",
+                "no5_area_available_for_public_recreation": "可供公众休闲的面积 5",
+                "no6_area_available_for_public_recreation": "可供公众休闲的面积 6",
+                "no7_area_available_for_public_recreation": "可供公众休闲的面积 7",
+                "no8_area_available_for_public_recreation": "可供公众休闲的面积 8",
+                "no9_area_available_for_public_recreation": "可供公众休闲的面积 9",
+                "otherRecreationFacilitiesPilotReporting2015": "其他休闲设施-试点报告 (2015)"
+            },
+            "panEuCommentsTitle": "Additional Comments",
+            "panEuropeanAssessment": "泛欧洲评估",
+            "print": {
+                "disclaimer": "FAO has been monitoring the world's forests at 5 to 10 year intervals since 1946. The Global Forest Resources Assessments (FRA) are now produced every five years in an attempt to provide a consistent approach to describing the world's forests and how they are changing. The FRA is a country-driven process and the assessments are based on reports prepared by officially nominated National Correspondents. If a report is not available, the FRA Secretariat prepares a desk study using earlier reports, existing information and/or remote sensing based analysis.",
+                "disclaimerGenerated": "This document was generated automatically using the report made available as a contribution to the FAO Global Forest Resources Assessment {{cycleName}}, and submitted to FAO as an official government document. The content and the views expressed in this report are the responsibility of the entity submitting the report to FAO. FAO cannot be held responsible for any use made of the information contained in this document.",
+                "disclaimerGeneratedDeskStudy": "This document was generated automatically from a desk study. FAO cannot be held responsible for any use made of the information contained in this document.",
+                "tableOfContent": "Table of contents",
+                "title": "panEuropean {{cycleName}} report",
+                "titleTables": "panEuropean {{cycleName}} reporting tables"
+            },
+            "protectedForests": {
+                "categoryYear": "类别-年份",
+                "forest": "森林 - {{year}}",
+                "ha1000": "1000公顷",
+                "mcpfe_class_1_1": "欧洲大森林地区森林保护部长级会议（MCPFE） 类别 1.1",
+                "mcpfe_class_1_2": "欧洲大森林地区森林保护部长级会议（MCPFE） 类别 1.2",
+                "mcpfe_class_1_3": "欧洲大森林地区森林保护部长级会议（MCPFE） 类别 1.3",
+                "mcpfe_class_2": "欧洲大森林地区森林保护部长级会议（MCPFE） 类别 2",
+                "other_wooded_land": "其他林地 - {{year}}",
+                "protectedForests": "受保护森林",
+                "total_forest_and_other_wooded_land": "森林及其他林地总和-{{year}}"
+            },
+            "protectiveForestsSoilWaterAndOtherEcosystemFunctions": {
+                "categoryYear": "类别-年份",
+                "forest": "森林- {{year}}",
+                "infrastructure_and_managed_natural_resources": "基础设施及得到管理的自然资源",
+                "other_wooded_land": "其他林地-{{year}}",
+                "protectiveForestsMCPFEClass31000ha": "受保护的森林-欧洲大森林地区森林保护部长级会议（MCPFE） 类别 3 (1000公顷)",
+                "protectiveForestsSoilWaterAndOtherEcosystemFunctions": "受保护的森林–土壤、水及其他生态系统功能;基础设施及得到管理的自然资源",
+                "soil_water_and_other_forest_ecosystem_functions": "土壤、水及其他森林生态系统功能",
+                "total": "总和",
+                "total_forest_and_other_wooded_land": "森林及其他林地总和- {{year}}"
+            },
+            "reasonabilityChecks": {
+                "FAWS": "FAWS",
+                "FOWL": "FOWL",
+                "OWL": "OWL",
+                "carbonAboveByGrowingStock": "Carbon in above-ground biomass/ growing stock (1.4a/1.2a) - {{year}}",
+                "carbonBelowByCarbonAbove": "Carbon in below-ground biomass/ Carbon in above-ground biomass (1.4a) - {{year}}",
+                "deadwoodVolumeComparedToCarbon": "Dead wood: volume compared to carbon stock (4.5/1.4a) - {{year}}",
+                "description": "This section is to help national correspondents and reviewers verify data correctness and consistency across different reporting tables. It is non-editable and will not be published.",
+                "fellingsAsPct": "Fellings as percent of net annual increment (3.1) - {{year}}",
+                "fellingsPerHa": "Fellings per ha (3.1/1.1a) - {{year}}",
+                "forest": "Forest",
+                "growingStockPerHa": "Growing stock per hectar (1.2a/1.1a) - {{year}}",
+                "netAnnualIncrementPerHa": "Net annual increment per ha (3.1/1.1a) - {{year}}",
+                "reasonabilityCheck": "Reasonableness check",
+                "roundwoodRemovalAsPctOfGrowingStockSupply": "Roundwood removals as percent of growing stock on Forest available for wood supply (3.2 / 1.2a) - {{year}}",
+                "roundwoodRemovalAsPctOfGrowingStockTotal": "Roundwood removals as percent of growing stock on Forest and Other wooded land (3.2 / 1.2a) - {{year}}",
+                "soilCarbon": "Soil carbon (1.4a/1.1a) - {{year}}",
+                "totalWithDamageOverTotal": "Area with damage as a share of Total forest area (2.4/1.1a) - {{year}}",
+                "variable": "Variable - Year"
+            },
+            "recreationFacilities": {
+                "_ofWhichDesignatedForHikingBikingCrossCountrySkiingEtc": "... 指定用于远足、骑自行车、越野滑雪等项目",
+                "_of_which_designated_for_hiking_biking_cross_country_skiing_etc": "... 指定用于远足、骑自行车、越野滑雪等项目",
+                "area_available_for_public_recreation": "可供公众休闲的面积 - {{year}}",
+                "categoryYear": "类别-年份",
+                "facilityLengthIn1000Km": "设施 (单位：1000公里)",
+                "forestRoadsAndPathsAvailableForPublicRecreation": "可供公众休闲的森林道路和小径",
+                "forest_roads_and_paths_available_for_public_recreation": "可供公众休闲的森林道路和小径",
+                "recreationFacilities": "休闲设施"
+            },
+            "removals": {
+                "categoryYear": "类别-年份",
+                "industrialRoundwood": "工业原木",
+                "industrial_roundwood_market_value": "工业原木: 市场价值(1000当地货币)",
+                "industrial_roundwood_volume": "工业原木: 体积[1000立方米（带皮）]",
+                "marketValue1000NationalCurrency": "市场价值(1000当地货币)",
+                "removals": "消耗",
+                "roundwood": "原木- {{year}}",
+                "total": "总和",
+                "total_volume": "总和: 体积[1000立方米（带皮）]",
+                "volume1000M3UB": "体积[1000立方米（带皮）]",
+                "woodRemovals": "木材消耗",
+                "woodfuel": "薪柴燃料",
+                "woodfuel_market_value": "薪柴燃料: 市场价值(1000当地货币)",
+                "woodfuel_volume": "薪柴燃料: 体积 [1000立方米（带皮）]"
+            },
+            "threatenedForestSpecies": {
+                "absoluteNumber": "绝对数",
+                "birds": "鸟类 - {{year}}",
+                "categoryYear": "类别-年份",
+                "critically_endangered": "极危",
+                "cryptogams_and_fungi": "隐花植物和真菌 - {{year}}",
+                "endangered": "濒危",
+                "extinct_in_the_wild": "野外灭绝",
+                "invertebrates": "无脊椎动物 - {{year}}",
+                "mammals": " 哺乳动物- {{year}}",
+                "other_vertebrates": "其他脊椎动物 - {{year}}",
+                "threatenedForestSpecies": "受威胁森林物种",
+                "threatenedForestSpeciesCol": "受威胁森林物种",
+                "threatenedForestSpeciesColAbs": "Forest Species (Absolute Number)",
+                "total_of_taxa": "分类汇总",
+                "trees": "树木 - {{year}}",
+                "vascular_plants": "维管植物- {{year}}",
+                "vulnerable": "易危"
+            },
+            "totalCapitalTransfersInForestsAndForestry": {
+                "capitalTransfersMillionNationalCurrency": "资本转移(百万国家货币)",
+                "capital_transfers": "资本转移",
+                "categoryYear": "类别-年份",
+                "forestry_isic_nace_02": "林业 (ISIC/NACE 02) - {{year}}",
+                "totalCapitalTransfersInForestsAndForestry": "森林和林业资本转移总和"
+            },
+            "totalEnergySupplyFromWood": {
+                "_1000_metric_tonnes_dry_matter": "1000公吨干物质",
+                "_1000_metric_tonnes_dry_matter_2007": "2007: 1000公吨干物质",
+                "_1000_metric_tonnes_dry_matter_2009": "2009: 1000公吨干物质",
+                "_1000_metric_tonnes_dry_matter_2011": "2011: 1000公吨干物质",
+                "_1000_metric_tonnes_dry_matter_2013": "2013: 1000公吨干物质",
+                "_1000_metric_tonnes_dry_matter_2015": "2015: 1000公吨干物质",
+                "category": "类别",
+                "energy_from_co_products": "- 来自木材加工业的副产品和残留物的能源:",
+                "energy_from_direct_wood_fibre_sources": "- 直接来自木纤维的能源:",
+                "energy_from_post_consumer_recovered_wood": "- 来自消费后回收木材的能源",
+                "energy_from_processed_wood_based_fuels": "- 来自加工后的木质燃料(颗粒、煤球、木炭)的能源:",
+                "energy_from_unknown_unspecified_sources": "- 来自未知、未指明来源的能源",
+                "of_which_from_forests": "来自森林",
+                "of_which_from_other_wooded_land": "来自林地及其他土地(森林外树木)",
+                "of_which_imported": "进口",
+                "of_which_solid_residues": "来自固体残留物(碎屑、颗粒、木屑、树皮（不包括加工后的木质燃料）)",
+                "tj": "总焦耳",
+                "tj_2007": "2007: 总焦耳",
+                "tj_2009": "2009: 总焦耳",
+                "tj_2011": "2011: 总焦耳",
+                "tj_2013": "2013: 总焦耳",
+                "tj_2015": "2015: 总焦耳",
+                "totalEnergySupplyFromWood": "木材能源供应总和",
+                "total_energy_supply_from_wood": "木材能源供应总和:",
+                "total_primary_energy_supply": "初级能源供应总和",
+                "total_renewable_energy_supply": "可再生能源供应总和"
+            },
+            "totalFixedCapitalConsumptionInForestsAndForestry": {
+                "categoryYear": "类别-年份",
+                "fixedCapitalConsumptionMillionNationalCurrency": "固定资本消耗 (百万国家货币)",
+                "fixed_capital_consumption": "固定资本消耗",
+                "forestry_isic_nace_02": "林业(ISIC/NACE 02) - {{year}}",
+                "totalFixedCapitalConsumptionInForestsAndForestry": "森林和林业固定资本消耗总额"
+            },
+            "totalForestAreaByExpansionAndRegenerationType": {
+                "afforestation_and_regeneration_by_planting_and_or_seeding": "通过种植和/或播种造林和再生",
+                "annualForestExpansionAndRegenerationNumber": "II. Annual forest expansion and regeneration",
+                "categoryYear": "类别-年份",
+                "coppice": "矮林",
+                "forest": "森林-{{year}}",
+                "forestAreaByExpansionAndRegenerationSubcategories": "Forest area by expansion and regeneration subcategories",
+                "natural_expansion_and_natural_regeneration": "自然扩张和自然再生",
+                "totalAreaOfForestByExpansionRegenerationType1000ha": "森林总面积（按扩张/再生类型） (1000公顷)",
+                "totalForestAreaByExpansionAndRegenerationType": "森林总面积（按扩张和再生类型）",
+                "totalForestAreaByExpansionAndRegenerationTypeNumber": "I. Total forest area by expansion and regeneration type"
+            },
+            "totalGrossFixedCapitalFormationInForestsAndForestry": {
+                "categoryYear": "类别-年份",
+                "equipmentAndBuildings": "设备和建筑",
+                "equipment_and_buildings": "设备和建筑",
+                "forestry_isic_nace_02": "林业 (ISIC/NACE 02) - {{year}}",
+                "grossFixedCapitalFormationMillionNationalCurrency": "固定资本形成总额 (百万国家货币)",
+                "otherGrossFixedCapitalFormation": "其他固定资本形成总额",
+                "other_gross_fixed_capital_formation": "其他固定资本形成总额",
+                "plantingOfTreesToProvideRegularIncome": "通过植树造林提供固定收入",
+                "planting_of_trees_to_provide_regular_income": "通过植树造林提供固定收入",
+                "total": "总和",
+                "totalGrossFixedCapitalFormationInForestsAndForestry": "森林和林业固定资本形成总额"
+            },
+            "tradeInWood": {
+                "_1992": "1992",
+                "_1993": "1993",
+                "_1994": "1994",
+                "_1995": "1995",
+                "_1996": "1996",
+                "_1997": "1997",
+                "_1998": "1998",
+                "_1999": "1999",
+                "_2000": "2000",
+                "_2001": "2001",
+                "_2002": "2002",
+                "_2003": "2003",
+                "_2004": "2004",
+                "_2005": "2005",
+                "_2006": "2006",
+                "_2007": "2007",
+                "_2008": "2008",
+                "_2009": "2009",
+                "_2010": "2010",
+                "_2011": "2011",
+                "_2012": "2012",
+                "_2013": "2013",
+                "_2014": "2014",
+                "_2015": "2015",
+                "_2016": "2016",
+                "_2017": "2017",
+                "category": "类别",
+                "exports_of_forest_products_quantity": "森林产品出口(百万立方米原木当量)",
+                "exports_of_forest_products_value": "森林产品出口 (百万欧元/欧洲货币单位)",
+                "imports_of_forest_products_quantity": "森林产品进口 (百万立方米原木当量)",
+                "imports_of_forest_products_value": "森林产品进口 (百万欧元/欧洲货币单位)",
+                "tradeInWood": "木材贸易"
+            },
+            "treeSpeciesComposition": {
+                "areaWithNumberOfTreeSpeciesOccurring1": "1",
+                "areaWithNumberOfTreeSpeciesOccurring1000ha": "面积（按树种数量）(1000公顷)",
+                "areaWithNumberOfTreeSpeciesOccurring2_3": "2-3",
+                "areaWithNumberOfTreeSpeciesOccurring4_5": "4-5",
+                "areaWithNumberOfTreeSpeciesOccurring6_pl": "6+",
+                "area_with_number_of_tree_species_occurring_1": "面积-树种数量为: 1",
+                "area_with_number_of_tree_species_occurring_2_3": "面积-树种数量为: 2-3",
+                "area_with_number_of_tree_species_occurring_4_5": "面积-树种数量为: 4-5",
+                "area_with_number_of_tree_species_occurring_6_pl": "面积-树种数量为: 6+",
+                "categoryYear": "类别-年份",
+                "forest": "森林- {{year}}",
+                "other_wooded_land": "其他林地 - {{year}}",
+                "total_forest_and_other_wooded_land": "森林及其他林地总和 - {{year}}",
+                "treeSpeciesComposition": "树种组成"
+            },
+            "variable": "变量",
+            "woodConsumption": {
+                "_1992": "1992",
+                "_1993": "1993",
+                "_1994": "1994",
+                "_1995": "1995",
+                "_1996": "1996",
+                "_1997": "1997",
+                "_1998": "1998",
+                "_1999": "1999",
+                "_2000": "2000",
+                "_2001": "2001",
+                "_2002": "2002",
+                "_2003": "2003",
+                "_2004": "2004",
+                "_2005": "2005",
+                "_2006": "2006",
+                "_2007": "2007",
+                "_2008": "2008",
+                "_2009": "2009",
+                "_2010": "2010",
+                "_2011": "2011",
+                "_2012": "2012",
+                "_2013": "2013",
+                "_2014": "2014",
+                "_2015": "2015",
+                "_2016": "2016",
+                "_2017": "2017",
+                "category": "类别",
+                "woodConsumption": "木材消耗",
+                "woodConsumption1000M3RWE": "木材消耗(1000立方米原木当量)",
+                "wood_consumption": "森林产品消耗"
+            }
+        },
+        "panEuropeanIndicators": {
+            "accessReportingPage": "访问报告页",
+            "chooseFile": "选择文件",
+            "download": "下载",
+            "downloadQuestionnaire": "下载文件",
+            "noQuestionnaire": "未选择问卷",
+            "panEuropeanIndicators": "泛欧可持续森林管理量化指标",
+            "panEuropeanQualitativeIndicators": "泛欧可持续森林管理定性指标",
+            "remove": "移除",
+            "uploadQuestionnaire": "上传问卷"
+        },
+        "review": {
+            "cancel": "取消",
+            "commentDeleted": "评论删除",
+            "commentMarkedAsResolved": "标注为”已解决”",
+            "commentingClosed": "评论关闭",
+            "comments": "评论",
+            "confirmDelete": "确定要删除此条评论吗？此操作不可撤销。",
+            "delete": "删除",
+            "loading": "正在加载",
+            "noComments": "无评论",
+            "resolve": "解决",
+            "writeComment": "写评论…"
+        },
+        "specificForestCategories": {
+            "areaUnitLabel": "面积 (1000公顷)",
+            "bamboo": "竹林",
+            "categoryHeader": "FRA类别",
+            "exceedsNaturallyRegeneratingForest": "超过天然再生林(1b)",
+            "mangroves": "红树林",
+            "primaryForest": "原始林",
+            "rubberWood": "橡胶种植林",
+            "specificForestCategories": "原始林和特殊森林类别",
+            "temporarilyUnstocked": "暂时无储量或近期恢复的"
+        },
+        "statisticalFactsheets": {
+            "carbonAndGrowingStock": {
+                "carbon_stock_biomass_total": "生物质碳储量 ($t({{unit}}))",
+                "carbon_stock_total": "碳储量合计 ($t({{unit}}))",
+                "growing_stock_total": "$t(growingStock.growingStock) ($t({{unit}}))",
+                "rowName": "",
+                "title": "森林立木蓄积量和碳储量, {{startYear}} - {{endYear}}"
+            },
+            "forestArea": {
+                "title": "森林面积, {{startYear}} - {{endYear}}"
+            },
+            "forestAreaPercent": {
+                "title": "{{year}}年森林占土地面积的百分比"
+            },
+            "forestAreaWithinProtectedAreas": {
+                "title": "{{year}}保护区内森林面积 (占森林面积百分比)"
+            },
+            "forestOwnership": {
+                "title": "$t(forestOwnership.forestOwnership) %, {{year}}"
+            },
+            "naturallyRegeneratingForest": {
+                "title": "自然再生林和人工林面积, {{startYear}} - {{endYear}}, $t({{unit}})"
+            },
+            "noData": "暂无数据",
+            "primaryDesignatedManagementObjective": {
+                "conservation_of_biodiversity": "$t(designatedManagementObjective.biodiversityConservation)",
+                "multiple_use": "$t(designatedManagementObjective.multipleUse)",
+                "no_designation": "$t(fra.designatedManagementObjective.noDesignation)",
+                "other": "$t(common.other)",
+                "production": "$t(designatedManagementObjective.production)",
+                "protection_of_soil_and_water": "$t(designatedManagementObjective.soilWaterProtection)",
+                "rowName": "",
+                "social_services": "$t(designatedManagementObjective.socialServices)",
+                "title": "$t(designatedManagementObjective.primaryDesignatedManagementObjective), {{startYear}} - {{endYear}}, $t({{unit}})",
+                "unknown": "$t(fra.designatedManagementObjective.unknown2025)"
+            },
+            "primaryForest": {
+                "title": "原始林占森林面积百分比, {{year}}"
+            },
+            "rowName": {
+                "area": "面积",
+                "forest": "森林",
+                "landArea": "土地面积",
+                "naturalForestArea": "$t(forestCharacteristics.naturalForestArea)",
+                "other": "$t(common.other)",
+                "otherArea": "其他面积",
+                "otherForest": "其他森林",
+                "otherLand": "$t(fraClass.otherLand)",
+                "other_or_unknown": "其他或未知",
+                "plantedForest": "$t(forestCharacteristics.plantedForest)",
+                "primaryForest": "$t(specificForestCategories.primaryForest)",
+                "private_ownership": "私有",
+                "protected": "受保护",
+                "public_ownership": "公有",
+                "unknown": "$t(fra.forestOwnership.unknown2025)"
+            }
+        },
+        "sustainableDevelopment": {
+            "aboveGroundBiomassStockForests": "森林地上生物量",
+            "forestArea1000Ha": "森林面积(1000公顷)",
+            "forestAreaAnnualNetChangeRate": "森林面积年度净变化率",
+            "forestAreaProportionLandArea2015": "森林面积占陆地总面积的比例（陆地总面积以2015年数据为基准）",
+            "forestAreaVerifiedForestManagement": "基于独立验证的森林管理认证计划下的森林面积",
+            "indicator": "指标",
+            "nameOfAgencyResponsible": "负责机构名称",
+            "percent": "百分比",
+            "percent2015ForestAreaBaseline": "百分比（森林面积以2015年数据为基准）",
+            "proportionForestAreaLegallyEstablishedProtectedAreas": "依法设立的保护区内森林面积占比",
+            "proportionForestAreaLongTermForestManagement": "纳入长期森林管理计划的森林面积占比",
+            "sdgIndicator1": "可持续发展目标指标 15.1.1 森林面积占陆地总面积的比例",
+            "sdgIndicator2": "可持续发展目标指标15.2.1 实施可持续森林管理取得的进展",
+            "subIndicator": "细化指标 {{no}}",
+            "sustainableDevelopment": "可持续发展目标15"
+        },
+        "tableWithOdp": {
+            "_1000haYear": "1000公顷/年",
+            "annualChangeExtrapolation": "年度变化",
+            "confirmGenerateFraValues": "覆盖当前值？",
+            "copyToClipboard": "复制数值",
+            "generateFraValues": "生成数值",
+            "generatingFraValues": "生成中...",
+            "linearExtrapolation": "线性",
+            "placeholderFuture": "未来",
+            "placeholderPast": "过去",
+            "placeholderSelect": "估算和预测",
+            "repeatLastExtrapolation": "重复上一步"
+        },
+        "time": {
+            "aMomentAgo": "刚才",
+            "day": "{{count}} 天前",
+            "day_plural": "{{count}}天以前",
+            "hour": "{{count}} 小时前",
+            "hour_plural": "{{count}}小时前",
+            "week": "{{count}} 星期前",
+            "week_plural": "{{count}}周前"
+        },
+        "tutorial": {
+            "collaboratorAdd": "全球森林资源评估平台用户教程 - 如何添加合作者",
+            "documentUpload": "全球森林资源评估平台用户教程 - 如何上传文档",
+            "googleLogin": "全球森林资源评估平台用户教程 - 如何使用Google邮箱验证登录",
+            "googleLoginShort": "如何使用Google邮箱验证登录",
+            "guidelinesAndSpecifications": "准则和规范",
+            "nationalDataAddReferenceLink": "全球森林资源评估平台用户教程 - 如何为国家数据添加参考链接",
+            "ndpAdd": "全球森林资源评估平台用户教程 - 如何添加国家数据点",
+            "ndpAddReferenceLink": "全球森林资源评估平台用户教程 - 如何为国家数据点添加参考链接",
+            "passwordLogin": "全球森林资源评估平台用户教程 - 如何使用自定义密码登录",
+            "passwordLoginShort": "如何使用自定义密码登录",
+            "platformNavigation": "全球森林资源评估平台用户教程 - 平台导航",
+            "watch": "观看"
+        },
+        "uc": {
+            "alreadyAnswered": "已提供我的反馈",
+            "doNotShow": "Do not show again",
+            "message1": "Dear user,",
+            "message2": "Thank you for accessing the FRA platform!",
+            "message3": "We would very much appreciate if you please can help us improve our services by providing your feedback by taking our user survey. The survey should not take more than 5-10 minutes to complete. Your views are very important to us.",
+            "message4": "Thank you!",
+            "message5": "The FRA team.",
+            "noThanks": "No thanks",
+            "yesPlease": "OK"
+        },
+        "unit": {
+            "absoluteNumber": "绝对数",
+            "acre": "英亩",
+            "acre1000": "1 000 英亩",
+            "annualNumberOfVisitsMillion": "年访问量(百万)",
+            "billionCubicMeter": "10亿立方米",
+            "cubicMeterPerHa": "立方米/公顷",
+            "facilityLengthIn1000Km": "设施 (单位：1 000公里)",
+            "fte1000": "1 000 全职人力工时",
+            "growingStockPercent": "森林总立木蓄积的百分比",
+            "gt": "10亿吨",
+            "ha": "公顷",
+            "haMillion": "百万公顷",
+            "haThousand": "1 000 公顷",
+            "haThousandPerYear": "1 000 公顷/年",
+            "kmSq": "平方公里",
+            "mileSq": "平方英里",
+            "millionNationalCurrency": "百万国家货币",
+            "millionTonnes": "百万公吨",
+            "millionsCubicMeterOverBark": "百万立方米（带皮）",
+            "numberOfStudents": "$t(graduationOfStudents.numberOfStudents)",
+            "thousandCubicMeter": "1 000 立方米",
+            "thousandCubicMeterOverBark": "1 000 立方米（带皮）",
+            "thousandCubicMeterRWE": "1 000 立方米原木当量",
+            "thousandPersons": "1 000 人",
+            "tonnesPerHa": "吨/公顷"
+        },
+        "user": {
+            "resetPasswordEmail": {
+                "htmlMessage": "尊敬的 {{user}}\n<br/><br/>\n我们收到了一个重置您FRA账户密码的请求。 \n<br/>\n如果您没有提出这一要求，请忽略这封邮件。\n<br/><br/><br/>\n<a href=\"{{link}}\" style=\"text-decoration: none; background-color: #0098a6;border: 2px solid #00988F;color: white;font-size: 14px;font-weight: 700;    padding: 10px 50px;\">点击此处重设密码</a>\n<br/><br/><br/>\n谢谢！\n<br/>\nFRA工作组 fra@fao.org\n<br/>\n{{- url}}\n      ",
+                "subject": "FRA平台 - 重置密码",
+                "textMessage": "尊敬的 {{user}}\n\n我们收到了一个重置您FRA账户密码的请求。\n如果您没有提出这一要求，请忽略这封邮件。\n\n\n请点击以下链接重置您的密码\n{{- link}}\n\n\n谢谢！,\nFRA工作组 fra@fao.org\n{{- url}}"
+            },
+            "roles": {
+                "ADMINISTRATOR": "管理员",
+                "ALTERNATE_NATIONAL_CORRESPONDENT": "候补国家通讯员",
+                "COLLABORATOR": "合作者",
+                "NATIONAL_CORRESPONDENT": "国家通讯员",
+                "REVIEWER": "审核人",
+                "VIEWER": "观察者",
+                "alternateNationalCorrespondent_plural": "候补国家通讯员",
+                "collaborator_plural": "合作者",
+                "nationalCorrespondent_plural": "国家通讯员",
+                "noRole": "",
+                "reviewer_plural": "审查者"
+            }
+        },
+        "userChat": {
+            "cancel": "取消",
+            "chatHeader": "与 {{user}}的消息",
+            "noMessages": "无消息",
+            "notificationEmail": {
+                "htmlMessage": "尊敬的 {{recipient}},\n<br/><br/>\n{{sender}} 发送了一条有关 {{country}}的消息给您。\n<br/><br/>\n<b><a href=\"{{- link}}\">请登陆平台查看和回复消息。</a></b>\n<br/><br/>\nFRA工作组\n<br/>\n{{- url}}\n    ",
+                "subject": "{{sender}} 发送了一条有关{{country}}的消息给您",
+                "textMessage": "尊敬的 {{recipient}},\n\n{{sender}} 发送了一条有关 {{country}}的消息给您。\n\n请通过下述URL登陆平台查看和回复消息:\n{{- link}}\n\nFRA工作组\n{{- url}}\n    "
+            },
+            "send": "发送",
+            "writeMessage": "写消息…"
+        },
+        "userManagement": {
+            "addUser": "添加合作者",
+            "allUsers": "所有合作者",
+            "confirmDelete": "移除 {{user}}?",
+            "done": "完成",
+            "edit": "编辑",
+            "editPermissions": "编辑权限",
+            "formErrors": "表格内有错误。请修改后再次提交。",
+            "info": "信息",
+            "insufficientPrivileges": "权限不足",
+            "invitationDeleted": "邀请已被删除",
+            "invitationEmail": {
+                "htmlMessage": "尊敬的 {{invitedUser}},\n<br/><br/>\n您被邀请以{{country}}{{role}} 的身份访问FRA平台。.\n<br/><br/>\n<b><a href=\"{{- link}}\">接受邀请并访问平台</a></b>\n<br/><br/>\n欢迎来访！\n<br/><br/>\nFRA工作组 fra@fao.org\n<br/>\n{{- url}}\n    ",
+                "subject": "FRA平台邀请",
+                "textMessage": "尊敬的 {{invitedUser}},\n\n您被邀请以{{country}}{{role}} 的身份访问FRA平台。\n\n请点击下述链接接受邀请和访问FRA平台：\n{{- link}}\n\n欢迎来访！\n\nFRA工作组 fra@fao.org\n{{- url}}\n    "
+            },
+            "invitationEmailSent": "已发送邀请邮件",
+            "invitationLink": "邀请链接",
+            "invitationLinkCopied": "The invitation link has been copied",
+            "inviteAgain": "再次邀请",
+            "loginEmail": "登陆",
+            "manageCollaborators": "管理合作者",
+            "noUsers": "未添加合作者",
+            "permissionNames": {
+                "descriptions": "描述",
+                "tableData": "表格数据"
+            },
+            "permissions": "权限",
+            "personalInfoRequired": "请在继续之前完成您的个人信息",
+            "placeholder": "选择…",
+            "remove": "移除",
+            "sendInvitation": "发送邀请邮件",
+            "userAdded": "{{email}}已被添加",
+            "userModified": "用户{{user}}已被修改"
+        },
+        "validation": {
+            "repositoryItem": {
+                "eitherFileOrLink": "Only one between file and link must be specified",
+                "fileOrLink": "Either a file or a link is required",
+                "nameIsRequired": "Name is required",
+                "optionsDisabled": "Label, public visibility and delete are disabled because this item is used by:"
+            }
+        },
+        "yesNoTextSelect": {
+            "no": "否",
+            "notSelected": "",
+            "yes": "是"
+        }
+    }
+}
