@@ -2,8 +2,9 @@ name: Upload translation sources
 
 on:
   push:
-    paths: ['src/i18n/en/**']
-    branches: [ development ]
+    paths: ["src/i18n/resources/en/**"]
+    paths-ignore: ["src/i18n/resources/en/panEuropean/**"]
+    branches: [development]
 
 jobs:
   crowdin-upload-sources:
