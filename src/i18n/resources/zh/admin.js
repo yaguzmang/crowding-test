@@ -10,4 +10,4 @@ module.exports = {
   urlParsingError: 'URL解析错误',
   usersCount: '用户数量',
   verifyLinks: '验证链接',
-}
+};

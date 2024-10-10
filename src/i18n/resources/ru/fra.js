@@ -1,27 +1,46 @@
+// TODO: all fra labels will be migrated here in a future refactor
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const print = require('./print')
-
+const _2020 = require('./2020');
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const _2025 = require('./2025');
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const print = require('./print');
 module.exports = {
+  2020: _2020,
+  2025: _2025,
   print,
-
-  // common
-  area100HaYear: 'Площадь (1000 га)',
-  categoryHeader2020: 'Категории ОЛР-2020',
-  categoryHeader2025: 'Категории ОЛР-2025',
-  forestArea100HaYear: 'Площадь лесов (1000 га)',
-  area100Ha: 'Площадь (1000 га)',
+  // assessment labels
   labels: {
     short: 'ОЛР',
   },
+  // common
+  area100HaYear: 'Площадь (1000 га)',
+  area100Ha: 'Площадь (1000 га)',
+  categoryHeader2020: 'Категории ОЛР-2020',
+  categoryHeader2025: 'Категории ОЛР-2025',
+  forestArea100HaYear: 'Площадь лесов (1000 га)',
+  // tables
   areaAffectedByFire: {
     areaAffected: 'Пройденная площадь (1000 га)',
     areaAffectedByFire2025: 'Площади, пройденные пожарами',
+    totalLandAreaAffectedByFire2025: '$t(areaAffectedByFire.totalLandAreaAffectedByFire)',
+  },
+  biomassStock: {
+    aboveGround2025: '$t(biomassStock.aboveGround)',
+    belowGround2025: '$t(biomassStock.belowGround)',
+    deadWood2025: '$t(biomassStock.deadWood)',
+    biomassStock2025: '$t(biomassStock.biomassStock)',
   },
   biomassStockAvg: {
     forestBiomass: 'Биомасса лесов (тонн/га)',
   },
   biomassStockTotal: {
     totalForestBiomass: 'Общая биомасса лесов (млн тонн)',
+  },
+  carbonStock: {
+    carbonAboveGroundBiomass2025: '$t(carbonStock.carbonAboveGroundBiomass)',
+    carbonBelowGroundBiomass2025: '$t(carbonStock.carbonBelowGroundBiomass)',
+    carbonStock2025: '$t(carbonStock.carbonStock)',
   },
   carbonStockTotal: {
     totalForestCarbon: 'Общий углерод лесов (млн тонн)',
@@ -33,6 +52,7 @@ module.exports = {
     expectedYearForNextCountryReportUpdate: 'Ожидаемый год для следующего обновления отчета страны ',
   },
   degradedForest: {
+    // Title
     degradedForest: 'Деградировавшие леса',
     degradedForestDefinition: 'Определение деградировавших лесов',
     forestDegradationMonitoringAndAssessment: 'Мониторинг и оценка деградации леса',
@@ -44,8 +64,10 @@ module.exports = {
     ifYes: 'Если "да"',
     whatIsDefinition: 'Каково национальное определение "деградировавших лесов"?',
     yearOfLatestAssessment: 'Год последней оценки',
+    // Multiple choice
+    // generic
     other: 'Другое (объяснить в комментариях)',
-    notSelected: '#VALUE!',
+    notSelected: '',
     criteriaOfDegradedForest: 'Критерии, применяемые при определении деградировавших лесов',
     changeInForestStructureDecreaseInForestCanopy: 'Изменение структуры лесов / уменьшение площади лесного покрова',
     forestDisturbances: 'Нарушения состояния лесов',
@@ -67,8 +89,10 @@ module.exports = {
     subnational: 'Субнациональный',
     biome: 'Биом',
     standLocal: 'Древостой / Местный',
+    criteriaOfDegradedForest2025: '$t(fra.degradedForest.criteriaOfDegradedForest)',
   },
   designatedManagementObjective: {
+    designatedManagementObjective2025: '$t(designatedManagementObjective.designatedManagementObjective)',
     noDesignation: 'Нет назначения',
     unknown2025: 'Неизвестно',
   },
@@ -76,11 +100,18 @@ module.exports = {
     forestDamage: 'Повреждения лесов',
     predominantCause: 'Преобладающая причина',
     forestAreaAffected: 'Затронутая площадь лесов (1000 га)',
+    severeWeatherEvents2025: '$t(disturbances.severeWeatherEvents)',
   },
   extentOfForest: {
     remainingLandArea: 'Остальные земельные площади',
+    totalLandArea2025: '$t(extentOfForest.totalLandArea)',
     extentOfForest2025: 'Площадь лесов и прочих лесистых земель',
     otherWoodedLand: 'Прочие лесистые земли',
+  },
+  forestAreaChange: {
+    forestExpansion2025: '$t(forestAreaChange.forestExpansion)',
+    forestAreaChange2025: '$t(forestAreaChange.forestAreaChange)',
+    forestAreaNetChange2025: '$t(forestAreaChange.forestAreaNetChange)',
   },
   forestAreaWithinProtectedAreas: {
     forestAreaWithLongTermManagementPlan2025: 'Площадь лесов с долгосрочным планом управления',
@@ -88,14 +119,19 @@ module.exports = {
       'Площадь лесов на охраняемых территориях и лесов с долгосрочным планом управления',
   },
   forestCharacteristics: {
+    ofWhichOtherPlantedForest: '$t(growingStock.otherPlantedForest)',
+    ofWhichPlantationForest: '$t(growingStock.plantationForest)',
     primaryForest: '…в том числе первичные леса',
     plantationForestIntroducedArea2025: '…в том числе интродуцированные породы',
+    naturalForestArea2025: '$t(forestCharacteristics.naturalForestArea)',
   },
   forestOwnership: {
+    ofWhichPrivateBusinesses2025: '$t(forestOwnership.ofWhichPrivateBusinesses)',
     ofWhichCommunities2025: '…в том числе принадлежащие коренным народам и местным общинам',
     other2025: 'Прочее (укажите в комментариях)',
     unknown2025: 'Неизвестно',
     total2025: 'Всего',
+    forestOwnership2025: '$t(forestOwnership.forestOwnership)',
   },
   forestRestoration: {
     forestRestoration: 'Восстановление лесов',
@@ -112,6 +148,10 @@ module.exports = {
   },
   growingStock: {
     totalForest: 'Всего лесов',
+    naturallyRegeneratingForest2025: '$t(growingStock.naturallyRegeneratingForest)',
+    plantationForest2025: '$t(growingStock.plantationForest)',
+    plantedForest2025: '$t(growingStock.plantedForest)',
+    otherPlantedForest2025: '$t(growingStock.otherPlantedForest)',
   },
   growingStockComposition: {
     millionCubicMeter: 'Млн м³',
@@ -121,8 +161,15 @@ module.exports = {
     totalGrowingStock: 'Общий запас древостоя',
     totalIntroducedTreeSpecies: 'Всего интродуцированных пород деревьев',
     totalNativeTreeSpecies: 'Всего местных пород деревьев',
+    updatedGrowingStockComposition: '$t(growingStockComposition.growingStockComposition)',
+    nativeTreeSpecies2025: '$t(growingStockComposition.nativeTreeSpecies)',
+    remainingNative2025: '$t(growingStockComposition.remainingNative)',
+    introducedTreeSpecies2025: '$t(growingStockComposition.introducedTreeSpecies)',
+    remainingIntroduced2025: '$t(growingStockComposition.remainingIntroduced)',
   },
   holderOfManagementRights: {
+    holderOfManagementRights2025: '$t(holderOfManagementRights.holderOfManagementRights)',
+    privateBusinesses2025: '$t(holderOfManagementRights.privateBusinesses)',
     communities2025: 'Коренные народы и местные сообщества',
     other2025: 'Прочее (укажите в комментариях)',
     unknown2025: 'Неизвестно',
@@ -130,14 +177,21 @@ module.exports = {
   otherWoodedLand: {
     otherWoodedLand2025: 'Прочие лесистые земли',
   },
-  otherLandWithTreeCover: {
-    otherLandWithTreeCover2025: 'Прочие земли с древесным покровом',
-  },
   nonWoodForestProductsRemovals: {
     nonWoodForestProductsRemovals2025: 'Вывозка и стоимость недревесной лесной продукции 2020',
+    nameOfProduct2025: '$t(nonWoodForestProductsRemovals.nameOfProduct)',
+    allOtherPlantProducts2025: '$t(nonWoodForestProductsRemovals.allOtherPlantProducts)',
+    allOtherAnimalProducts2025: '$t(nonWoodForestProductsRemovals.allOtherAnimalProducts)',
+    currency2025: '$t(nonWoodForestProductsRemovals.currency)',
+  },
+  otherLandWithTreeCover: {
+    otherLandWithTreeCover2025: 'Прочие земли с древесным покровом',
+    agroforestry2025: '$t(otherLandWithTreeCover.agroforestry)',
+    other2025: '$t(otherLandWithTreeCover.other)',
   },
   primaryForestByClimaticDomain: {
     primaryForestByClimaticDomain: 'Первичные леса в климатическом поясе',
+    primaryForestArea100Ha: 'Primary forest area ($t(unit.haThousand))',
     primaryForestBoreal: '… в том числе бореальные первичные леса',
     primaryForestTemperate: '… в том числе умеренные первичные леса',
     primaryForestTropical: '… в том числе тропические первичные леса',
@@ -146,13 +200,30 @@ module.exports = {
   },
   specificForestCategories: {
     specificForestCategories2025: 'Особые категории лесов',
-    mangroves2025: 'Мангровые леса¹',
-    mangrovesDisclaimer: '¹Включает как леса, так и прочие лесопокрытые земли',
+    mangroves2025: `Mangroves¹`,
+    rubberWood2025: '$t(specificForestCategories.rubberWood)',
+    mangrovesDisclaimer: `¹Includes both Forest and Other wooded land`,
+  },
+  forestPolicy: {
+    forestPolicy2025: '$t(forestPolicy.forestPolicy)',
+    policiesSFM2025: '$t(forestPolicy.policiesSFM)',
+    legislationsSFM2025: '$t(forestPolicy.legislationsSFM)',
+    stakeholderParticipation2025: '$t(forestPolicy.stakeholderParticipation)',
+    existenceOfTraceabilitySystem2025: '$t(forestPolicy.existenceOfTraceabilitySystem)',
+  },
+  areaOfPermanentForestEstate: {
+    areaOfPermanentForestEstate2025: '$t(areaOfPermanentForestEstate.areaOfPermanentForestEstate)',
   },
   sustainableDevelopment: {
     annualForestAreaChangeRate: 'Годовые темпы изменения площади лесов',
     sdgIndicator1_2025: 'Индикатор ЦУР 15.1.1 Площадь лесов в процентном отношении к общей площади суши',
     forestAreaProportionLandArea: 'Площадь лесов в процентном отношении к общей площади суши',
+    aboveGroundBiomassStockForests2025: '$t(sustainableDevelopment.aboveGroundBiomassStockForests)',
+    proportionForestAreaLegallyEstablishedProtectedAreas2025:
+      '$t(sustainableDevelopment.proportionForestAreaLegallyEstablishedProtectedAreas)',
+    proportionForestAreaLongTermForestManagement2025:
+      '$t(sustainableDevelopment.proportionForestAreaLongTermForestManagement)',
+    forestAreaVerifiedForestManagement2025: '$t(sustainableDevelopment.forestAreaVerifiedForestManagement)',
     dataProvidedBy: `Данные по этому субиндикатору ЦУР представляются FSC и PEFC (организациями по сертификации лесов).`,
     'Metadata-15-01-01': `Показатель ЦУР 15.1.1 Метаданные`,
     'Metadata-15-02-01': `Показатель ЦУР 15.2.1 Метаданные`,
@@ -160,9 +231,12 @@ module.exports = {
   navigation: {
     sectionHeaders: {
       employmentEducationAndNwfp2025: 'Вывозка и стоимость недревесной лесной продукции 2020',
+      forestGrowingStockBiomassAndCarbon2025: '$t(navigation.sectionHeaders.forestGrowingStockBiomassAndCarbon)',
+      forestDesignationAndManagement2025: '$t(navigation.sectionHeaders.forestDesignationAndManagement)',
+      forestOwnershipAndManagementRights2025: '$t(navigation.sectionHeaders.forestOwnershipAndManagementRights)',
+      forestDisturbances2025: 'Нарушения состояния лесов',
       forestExtentCharacteristicsAndChanges2025: 'Площадь, характеристики и изменения лесов',
       forestPolicyAndLegislation2025: 'Политика и законодательство в отношении лесов',
-      forestDisturbances2025: 'Нарушения состояния лесов',
     },
   },
   extentOfForest_forestAreaStatusAndTrend_Description: {
@@ -193,6 +267,15 @@ module.exports = {
         'Источники данных: старая² Старая² национальная инвентаризация лесов, частичные полевые инвентаризации, или ВСЛ без вероятностных наземных образцов.',
       low: 'Источники данных: другие источники данных, такие как спутниковые данные, реестры, вопросники или экспертные оценки.',
     },
+    status2025: {
+      high: '$t(fra.growingStock_growingStockStatus_Description.status.high)',
+      medium: '$t(fra.growingStock_growingStockStatus_Description.status.medium)',
+      low: '$t(fra.growingStock_growingStockStatus_Description.status.low)',
+    },
+    footer1:
+      '¹ Data not older than 10 years from year of submission of report (2013 or more recent for FRA 2025 country reports)',
+    footer2:
+      '² Data older than 10 years from year of submission of report (older than 2013 for FRA 2025 country reports)',
   },
   biomassStock_biomassStockStatus_Description: {
     header_0: 'Критерии уровня методов оценки биомассы ',
@@ -202,8 +285,5 @@ module.exports = {
         'Применение общих аллометрических уравнений на уровне биома или комбинации специфических коэффициентов пересчета для страны/биома и стандартных коэффициентов расширения биомассы МГЭИК',
       low: 'Стандартные коэффициенты пересчета и расширения биомассы МГЭИК (например, с использованием "калькулятора биомассы") или оценки, основанные на картах биомассы, составленных с помощью дистанционного зондирования.',
     },
-    footer1:
-      '¹ Данные не старше 10 лет с момента представления доклада (начиная с 2013 года для страновых докладов по ОЛР-2025)',
-    footer2: '² Данные старше 10 лет с момента представления доклада (до 2013 года для страновых докладов по ОЛР-2025)',
   },
-}
+};

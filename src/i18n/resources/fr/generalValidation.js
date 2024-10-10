@@ -8,7 +8,7 @@ module.exports = {
   forestAreaExceedsExtentOfForest: `Ne correspond pas à la Superficie de forêt (1a)`,
   forestAreaReportedIsDifferentFromPreviousCycle: `La superficie indiquée ({{forestArea2025}}) diffère de celle précédemment déclarée ({{forestArea2020}}). Veuillez fournir un commentaire expliquant les raisons de cette différence`,
   forestSumAreaExceedsExtentOfForest: `La somme des valeurs des catégories de FRA renseignées dépasse la valeur de la superficie de forêt totale indiquée dans le tableau 1a`,
-  invalidLink: `Lien non valide`,
+  invalidLink: 'Invalid link',
   landAreaExceedsTotalLandArea: `La superficie des terres dépasse la superficie totale des terres (1a) ({{value}})`,
   mustBeEqualToForestArea: `La somme des valeurs de la Forêt naturellement régénérée et de la Forêt Plantée n'est pas égale à la valeur totale de la Forêt`,
   mustBeEqualToForestExpansion: `La somme des valeurs des sous-catégories doit être égale à la valeur de l'Expansion de la forêt`,
@@ -22,7 +22,7 @@ module.exports = {
   remainingLandExceedsExtentOfForest: `Dépasse la superficie des terres restantes (1a)`,
   shouldContainAtLeastOneCharacter: `La valeur doit contenir au moins un caractère`,
   subCategoryExceedsParent: `La valeur de la sous-catégorie dépasse celle de la catégorie`,
-  sumEqualTo: 'La somme de {{categoryLabels}} ({{categoriesSum}}) doit être égale à {{maxValue}}',
+  sumEqualTo: `The sum of {{categoryLabels}} ({{categoriesSum}}) must be equal to {{maxValue}}`,
   sumNotGreaterThan: `La somme ne doit pas dépasser {{maxValue}}`,
   sumSubCategoriesExceedParent: `La somme des {{categoryLabels}} dépasse {{parentLabel}} ({{parentValue}})`,
   sumSubCategoriesNotEqualToParent: `La somme de {{categoryLabels}} ({{categoriesSum}}) n'est pas égale à {{parentLabel}} ({{parentValue}})`,
@@ -36,4 +36,4 @@ module.exports = {
   valueNotGreaterThan: `La valeur ne doit pas être supérieure à {{maxValue}}`,
   valuesAreInconsistent1aOr1b: `Les valeurs ne sont pas cohérentes avec celles des superficies indiquées dans les tableaux 1a ou 1b`,
   valuesAreInconsistentWithNetChange: `Les valeurs ne sont pas cohérentes avec celle du changement net de la superficie de forêt`,
-}
+};

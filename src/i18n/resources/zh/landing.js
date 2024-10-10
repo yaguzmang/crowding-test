@@ -4,10 +4,10 @@ module.exports = {
     about: '关于FRA',
     contentCheck: '内容/检查',
     externalData: '外部数据',
-    landing: '链接和存储库',
     messageBoard: '留言板',
     overview: '概览',
     recentActivity: '近期活动',
+    repository: 'Links & Repository',
     userManagement: '合作管理',
     versioning: '版本更新',
   },
@@ -72,15 +72,15 @@ module.exports = {
       updateAssessmentStatus: '将{{assessment}} 的状态变更为 {{status}}',
     },
     fraProcess:
-      '自1946年以来，粮农组织每隔5至10年对世界森林进行一次监测。全球森林资源评估（FRA）报告现在每五年编制一次，目的是提供一种连贯一致的方法来描述世界森林及其变化情况。该评估基于两个主要数据来源：国家通讯员编写的国家报告，以及粮农组织与国家联络点和区域伙伴一起进行的遥感监测。自1948年发表第一份评估报告以来，FRA报告的范围经常发生变化。这些评估构成了全球森林资源利益方面的一段有趣历史，不仅具备实质性的内容，而且涵盖的范围不断变化。',
-    linkFraProcess: '了解有关FRA进程的更多信息',
+      '自1946年以来，粮农组织每隔5至10年对世界森林进行一次评估。全球森林资源评估（FRA）报告现在每五年编制一次，目的是提供一种连贯一致的方法来描述世界森林及其变化情况。该评估基于两个主要数据来源：国家通讯员编写的国家报告，以及粮农组织与国家联络点和区域伙伴一起进行的遥感监测。自1948年发表第一份评估报告以来，FRA报告的范围经常发生变化。这些评估构成了全球森林资源利益方面的一段有趣历史，不仅具备实质性的内容，而且涵盖的范围不断变化。',
+    linkFraProcess: '了解FRA进程的更多信息',
   },
   links: {
     links: '链接',
     repository: '资源库',
     uploadFile: '上传文件',
-    confirmDelete: '删除 {{file}}? 此操作无法撤销。',
     fileUploaded: '文件成功上传',
+    confirmDelete: '删除 {{file}}? 此操作无法撤销。',
     fileDeleted: '文件成功删除',
     fileOperationFailed: `该操作无法进行，因为此文件已被用于:\n{{sectionNames}}`,
   },
@@ -112,4 +112,4 @@ module.exports = {
       scheduledAt: '预定于',
     },
   },
-}
+};

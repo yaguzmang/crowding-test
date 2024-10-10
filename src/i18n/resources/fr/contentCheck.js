@@ -1,4 +1,5 @@
 module.exports = {
+  '//': 'Keys are in same format as the database fields',
   extent: {
     title: 'Étendue',
     forest_area: 'Forêt (1 000 ha)',
@@ -7,6 +8,8 @@ module.exports = {
     protected_forest_percent: 'Forêt dans les aires protégées (% de la forêt)',
     management_plan_percent: 'Superficie forestière avec plan de gestion (% de la forêt)',
     certified_area: 'Superficie forestière certifiée (1 000 ha)',
+    bamboo: '$t(specificForestCategories.bamboo)',
+    mangroves: '$t(specificForestCategories.mangroves)',
   },
   periodicChangeRate: {
     title: 'Taux de changement périodique (taux annuels)',
@@ -42,16 +45,35 @@ module.exports = {
     dead_living_mass_ratio: 'Rapport (Carbone/ Biomasse) pour le bois mort',
   },
   primaryDesignatedManagementObjective: {
-    title: 'Objectif de gestion principal ',
+    title: 'Objectif de gestion désigné principal',
+    production: '$t(designatedManagementObjective.production)',
+    protection_of_soil_and_water: '$t(designatedManagementObjective.soilWaterProtection)',
+    conservation_of_biodiversity: '$t(designatedManagementObjective.biodiversityConservation)',
+    social_services: '$t(designatedManagementObjective.socialServices)',
+    multiple_use: '$t(designatedManagementObjective.multipleUse)',
+    other: '$t(designatedManagementObjective.other)',
+    no_unknown: '$t(designatedManagementObjective.unknown)',
   },
-  totalAreaDesignatedManagementObjective: 'Superficie totale de forêt avec un objectif de gestion fixé',
+  totalAreaDesignatedManagementObjective: 'Superficie totale avec un objectif de gestion désigné',
   forestOwnership: {
     title: 'Droits de propriété',
+    private_ownership: '$t(forestOwnership.privateOwnership)',
+    public_ownership: '$t(forestOwnership.publicOwnership)',
+    other_or_unknown: '$t(forestOwnership.otherOrUnknown)',
   },
   holderOfManagementRights: {
     title: 'Droits de gestion des forêts publiques',
+    public_administration: '$t(holderOfManagementRights.publicAdministration)',
+    individuals: '$t(holderOfManagementRights.individuals)',
+    private_businesses: 'Entités et institutions commerciales privées',
+    communities: '$t(holderOfManagementRights.communities)',
+    other: '$t(holderOfManagementRights.other)',
   },
   disturbances: {
     title: 'Perturbations',
+    insects: '$t(disturbances.insects)',
+    diseases: '$t(disturbances.diseases)',
+    severe_weather_events: 'Phénomènes météorologiques graves',
+    other: '$t(disturbances.other)',
   },
-}
+};

@@ -10,4 +10,4 @@ module.exports = {
   urlParsingError: 'خطأ في التوصل إلى عنوان الموقع',
   usersCount: 'عدد المستخدمين',
   verifyLinks: 'التحقق من الروابط',
-}
+};

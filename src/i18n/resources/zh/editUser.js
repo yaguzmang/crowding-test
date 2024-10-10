@@ -9,6 +9,7 @@ module.exports = {
   countryIso: '国家',
   deactivate: '取消激活',
   demoteToUser: '你确定要删除管理员权限吗？',
+  disabled: 'Disabled',
   done: '保存',
   email: '电子邮箱',
   institution: '机构',
@@ -40,4 +41,4 @@ module.exports = {
   title: '称呼',
   whatsapp: 'Whatsapp',
   zipCode: '邮编',
-}
+};

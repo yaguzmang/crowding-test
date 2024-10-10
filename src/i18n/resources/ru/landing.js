@@ -63,7 +63,7 @@ module.exports = {
       edited: 'отредактировал',
       resolved: 'разрешил проблему в',
       status: 'изменил статус на',
-      addUser: 'добавил {{user}} как {{role}}', // Legacy, no longer created
+      addUser: 'добавил {{user}} как {{role}}',
       updateUser: 'отредактировал {{user}}',
       removeUser: 'удалил {{user}}',
       acceptInvitation: 'присоединился как {{role}}',
@@ -80,12 +80,37 @@ module.exports = {
     links: 'Ссылки',
     repository: 'Хранилище данных',
     uploadFile: 'Загрузить файл',
-    confirmDelete: 'Удалить {{file}}? Его невозможно будет восстановить.',
     fileUploaded: 'Файл успешно загружен',
+    confirmDelete: 'Удалить {{file}}? Его невозможно будет восстановить.',
     fileDeleted: 'Файл успешно удален',
     fileOperationFailed: `Операция не может быть выполнена, так как файл используется в:\n{{sectionNames}}`,
   },
   dataExport: {
     downloadData: 'Загрузить данные',
   },
-}
+  versioning: {
+    status: {
+      pending: 'Pending',
+      running: 'Running',
+      completed: 'Completed',
+      failed: 'Failed',
+    },
+    form: {
+      newVersion: 'New version',
+      versionNumber: 'Version',
+      date: 'Date',
+      cancel: 'Cancel',
+      error: 'There are errors in the form. Please, fix them and submit it again.',
+    },
+    table: {
+      noVersions: 'No versions yet',
+      databaseVersions: 'Database Versions',
+      versionNumber: 'Version Number',
+      publishedAt: 'Scheduled Time',
+      createdBy: 'Created By',
+      status: 'Status',
+      delete: 'Delete',
+      scheduledAt: 'Scheduled at',
+    },
+  },
+};

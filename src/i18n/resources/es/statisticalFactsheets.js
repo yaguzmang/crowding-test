@@ -56,4 +56,4 @@ module.exports = {
     title:
       'Área de bosque con procesos de regeneración natural y bosque plantado, {{startYear}} - {{endYear}}, $t({{unit}})',
   },
-}
+};

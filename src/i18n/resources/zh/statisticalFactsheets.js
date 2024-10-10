@@ -55,4 +55,4 @@ module.exports = {
   naturallyRegeneratingForest: {
     title: '自然再生林和人工林面积, {{startYear}} - {{endYear}}, $t({{unit}})',
   },
-}
+};

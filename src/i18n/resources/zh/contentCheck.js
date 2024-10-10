@@ -1,8 +1,6 @@
 module.exports = {
   '//': 'Keys are in same format as the database fields',
   extent: {
-    bamboo: '$t(specificForestCategories.bamboo)',
-    mangroves: '$t(specificForestCategories.mangroves)',
     title: '范围',
     forest_area: '森林(1000公顷)',
     other_wooded_land: '其它林地(1000公顷)',
@@ -10,8 +8,9 @@ module.exports = {
     protected_forest_percent: '保护区内的森林(占森林的百分比)',
     management_plan_percent: '有管理计划的森林面积(占森林的百分比)',
     certified_area: '经认证的森林面积(1000公顷)',
+    bamboo: '$t(specificForestCategories.bamboo)',
+    mangroves: '$t(specificForestCategories.mangroves)',
   },
-
   periodicChangeRate: {
     title: '周期性变化率(年率)',
     forest_area_annual_net_change: '森林面积年净变化(1000公顷)',
@@ -25,7 +24,6 @@ module.exports = {
     planted_forest_annual_net_change: '人工林年净变化',
     planted_forest_annual_net_change_rate: '人工林变化率(百分比)',
   },
-
   forestGrowingStockBiomassCarbon: {
     title: '森林立木蓄积、生物量和碳储量',
     forest: '立木蓄积量(m3/ha)',
@@ -44,9 +42,8 @@ module.exports = {
     carbon_biomass_below_ground_ratio: '地下生物量比率（碳/生物量）',
     dead_living_mass_ratio: '枯死木比率（碳/生物量）',
   },
-
   primaryDesignatedManagementObjective: {
-    title: '首要指定管理目标',
+    title: '主要指定管理目标',
     production: '$t(designatedManagementObjective.production)',
     protection_of_soil_and_water: '$t(designatedManagementObjective.soilWaterProtection)',
     conservation_of_biodiversity: '$t(designatedManagementObjective.biodiversityConservation)',
@@ -55,16 +52,13 @@ module.exports = {
     other: '$t(designatedManagementObjective.other)',
     no_unknown: '$t(designatedManagementObjective.unknown)',
   },
-
-  totalAreaDesignatedManagementObjective: '指定管理目标的总面积',
-
+  totalAreaDesignatedManagementObjective: '指定管理目标所涉面积总和',
   forestOwnership: {
     title: '所有权',
     private_ownership: '$t(forestOwnership.privateOwnership)',
     public_ownership: '$t(forestOwnership.publicOwnership)',
     other_or_unknown: '$t(forestOwnership.otherOrUnknown)',
   },
-
   holderOfManagementRights: {
     title: '公有森林的管理权',
     public_administration: '$t(holderOfManagementRights.publicAdministration)',
@@ -73,12 +67,11 @@ module.exports = {
     communities: '$t(holderOfManagementRights.communities)',
     other: '$t(holderOfManagementRights.other)',
   },
-
   disturbances: {
-    title: '干扰',
+    title: '森林干扰因素',
     insects: '$t(disturbances.insects)',
     diseases: '$t(disturbances.diseases)',
-    severe_weather_events: '$t(disturbances.severeWeatherEvents)',
+    severe_weather_events: '极端天气事件',
     other: '$t(disturbances.other)',
   },
-}
+};

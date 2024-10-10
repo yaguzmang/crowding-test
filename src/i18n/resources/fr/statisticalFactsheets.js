@@ -55,4 +55,4 @@ module.exports = {
   naturallyRegeneratingForest: {
     title: 'Superficie de forêt naturellement régénérée et plantée, {{startYear}} - {{endYear}}, $t({{unit}})',
   },
-}
+};

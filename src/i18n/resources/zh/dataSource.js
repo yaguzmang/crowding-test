@@ -12,4 +12,5 @@ module.exports = {
   remoteSensingBasedAssessmentWithoutGroundTruthing: '基于遥感的评估，没有辅以地面实况调查',
   vegetationMapping: '植被测绘',
   registersAndStatistics: '登记册和统计资料',
-}
+  other: '其他(在评论中阐述)',
+};

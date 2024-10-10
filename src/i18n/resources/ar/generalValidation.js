@@ -8,7 +8,7 @@ module.exports = {
   forestAreaExceedsExtentOfForest: `تتجاوز مساحة الغابة (اأ)`,
   forestAreaReportedIsDifferentFromPreviousCycle: `المساحة المُبلَّغ عنها ({{forestArea2025}}) تختلف عن المُبلَّغ عنها سابقًا ({{forestArea2020}}). يرجى تقديم تعليق يشرح فيه سبب الاختلاف.`,
   forestSumAreaExceedsExtentOfForest: `مجموع فئات الفرا المُبلَّغ عنها تتجاوز مساحة الغابات المُبلَّغ عنها في الجدول 1أ.`,
-  invalidLink: `رابط غير متوفر`,
+  invalidLink: 'Invalid link',
   landAreaExceedsTotalLandArea: `مساحة الأرض تتجاوز مجموع مساحة الأراضي الكلية (1أ) ({{value}}).`,
   mustBeEqualToForestArea: `جموع الغابات المتجدد الطبيعيا والغابات المزروعة غير مساوٍ لإجمالي مساحة الغابات.`,
   mustBeEqualToForestExpansion: `يجب أن يكون مجموع الفئات الفرعية مساويًا لمساحة الغابات المتوسعة.`,
@@ -22,7 +22,7 @@ module.exports = {
   remainingLandExceedsExtentOfForest: `تجاوز مساحة الأراضي المتبقية (1أ).`,
   shouldContainAtLeastOneCharacter: `يجب أن تحتوي القيمة على حرف واحد على الأقل.`,
   subCategoryExceedsParent: `تتجاوز الفئة الفرعية الفئة الرئيسية.`,
-  sumEqualTo: '{{maxValue}} مساويًا لـ ({{categoriesSum}}) {{categoryLabels}} يجب أن يكون مجموع ال',
+  sumEqualTo: `The sum of {{categoryLabels}} ({{categoriesSum}}) must be equal to {{maxValue}}`,
   sumNotGreaterThan: `يجب ألا يتجاوز مجموع القيم {{maxValue}}.`,
   sumSubCategoriesExceedParent: `مجموع {{categoryLabels}} يتجاوز {{parentLabel}} ({{parentValue}}).`,
   sumSubCategoriesNotEqualToParent: `({{parentValue}}) {{parentLabel}}  ليس مساويًا لـ ({{categoriesSum}}) {{categoryLabels}}  يجب أن يكون مجموع ال`,
@@ -36,4 +36,4 @@ module.exports = {
   valueNotGreaterThan: `يجب ألا تتجاوز القيمة {{maxValue}}.`,
   valuesAreInconsistent1aOr1b: `القيم غير متناسقة مع القيم المذكورة في الجداول 1أ أو 1ب.`,
   valuesAreInconsistentWithNetChange: `القيم غير متناسقة مع تغير صافي مساحة الغابات.`,
-}
+};

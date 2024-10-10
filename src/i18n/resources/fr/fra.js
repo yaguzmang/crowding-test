@@ -1,21 +1,34 @@
+// TODO: all fra labels will be migrated here in a future refactor
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const print = require('./print')
-
+const _2020 = require('./2020');
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const _2025 = require('./2025');
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const print = require('./print');
 module.exports = {
+  2020: _2020,
+  2025: _2025,
   print,
-
+  // assessment labels
+  labels: {
+    short: 'FRA',
+  },
   // common
   area100HaYear: 'Superficie (1000 ha)',
+  area100Ha: 'Superficie (1 000 ha)',
   categoryHeader2020: 'Catégories de FRA 2020',
   categoryHeader2025: 'Catégories de FRA 2025',
   forestArea100HaYear: 'Superficie forestière (1000 ha)',
-  area100Ha: 'Superficie (1 000 ha)',
+  // tables
   areaAffectedByFire: {
     areaAffected: 'Superficie touchée (1 000 ha)',
     areaAffectedByFire2025: '$t(areaAffectedByFire.areaAffectedByFire)',
     totalLandAreaAffectedByFire2025: 'Superficie totale des terres touchées par des incendies',
   },
   biomassStock: {
+    aboveGround2025: '$t(biomassStock.aboveGround)',
+    belowGround2025: '$t(biomassStock.belowGround)',
+    deadWood2025: '$t(biomassStock.deadWood)',
     biomassStock2025: 'Stock de biomasse',
   },
   biomassStockAvg: {
@@ -25,6 +38,8 @@ module.exports = {
     totalForestBiomass: 'Biomasse totale de la forêt (en million de tonnes)',
   },
   carbonStock: {
+    carbonAboveGroundBiomass2025: '$t(carbonStock.carbonAboveGroundBiomass)',
+    carbonBelowGroundBiomass2025: '$t(carbonStock.carbonBelowGroundBiomass)',
     carbonStock2025: 'Stock de carbone',
   },
   carbonStockTotal: {
@@ -37,6 +52,7 @@ module.exports = {
     expectedYearForNextCountryReportUpdate: 'Année prévue pour la prochaine mise à jour du rapport national',
   },
   degradedForest: {
+    // Title
     degradedForest: 'Forêt dégradée',
     degradedForestDefinition: 'Définition de la forêt dégradée',
     forestDegradationMonitoringAndAssessment: 'Evaluation et suvi de la dégradation des forêts',
@@ -48,6 +64,8 @@ module.exports = {
     ifYes: 'Si « Oui »',
     whatIsDefinition: 'Quelle est la définition nationale de la « forêt dégradée » ?',
     yearOfLatestAssessment: 'Année de la dernière évaluation',
+    // Multiple choice
+    // generic
     other: 'Autre (expliquer dans les commentaires)',
     notSelected: '',
     criteriaOfDegradedForest: 'Critères utilisés dans la définition de la forêt dégradée',
@@ -87,10 +105,12 @@ module.exports = {
   },
   extentOfForest: {
     remainingLandArea: 'Terres restantes',
+    totalLandArea2025: '$t(extentOfForest.totalLandArea)',
     extentOfForest2025: '$t(extentOfForest.extentOfForest)',
     otherWoodedLand: '$t(fraClass.otherWoodedLand)',
   },
   forestAreaChange: {
+    forestExpansion2025: '$t(forestAreaChange.forestExpansion)',
     forestAreaChange2025: 'Expansion de la forêt, déforestation et changement net annuels',
     forestAreaNetChange2025: 'Changement net de la superficie de forêt (a-b)',
   },
@@ -101,16 +121,18 @@ module.exports = {
   },
   forestCharacteristics: {
     ofWhichOtherPlantedForest: '...dont autres forêts plantées',
+    ofWhichPlantationForest: '$t(growingStock.plantationForest)',
     primaryForest: '...dont forêt primaire',
     plantationForestIntroducedArea2025: "...dont d'espèces introduites",
-    otherPlantedForest2025: '...dont autres forêts plantées',
+    naturalForestArea2025: '$t(forestCharacteristics.naturalForestArea)',
   },
   forestOwnership: {
     ofWhichPrivateBusinesses2025: '...dont appartenant à des entités et institutions commerciales privées',
     ofWhichCommunities2025: '...dont Peuples autochtones et aux communautés locales',
     other2025: 'Autres formes de propriété (préciser dans les commentaires)',
-    unknown2025: 'Propriété inconnue',
+    unknown2025: 'Affectation inconnue',
     total2025: 'Total',
+    forestOwnership2025: '$t(forestOwnership.forestOwnership)',
   },
   forestRestoration: {
     forestRestoration: 'Restauration des forêts',
@@ -130,6 +152,7 @@ module.exports = {
   growingStock: {
     totalForest: 'Total Forêt',
     naturallyRegeneratingForest2025: 'Forêt naturellement régénérée',
+    plantationForest2025: '$t(growingStock.plantationForest)',
     plantedForest2025: 'Forêts plantées',
     otherPlantedForest2025: '...dont autres forêts plantées',
   },
@@ -141,6 +164,7 @@ module.exports = {
     totalGrowingStock: 'TOTAL Matériel sur pied ',
     totalIntroducedTreeSpecies: 'TOTAL Espèces d’arbres introduites ',
     totalNativeTreeSpecies: 'TOTAL Espèces d’arbres indigènes ',
+    updatedGrowingStockComposition: '$t(growingStockComposition.growingStockComposition)',
     nativeTreeSpecies2025: 'Espèces d’arbres indigènes',
     remainingNative2025: 'Autres espèces d’arbres indigènes',
     introducedTreeSpecies2025: 'Espèces d’arbres introduite',
@@ -150,8 +174,8 @@ module.exports = {
     holderOfManagementRights2025: 'Droits de gestion des forêts publiques',
     privateBusinesses2025: 'Entités et institutions commerciales privées',
     communities2025: 'Peuples autochtones et communautés locales ',
-    other2025: 'Autres formes de droits de gestion (préciser dans les commentaires)',
-    unknown2025: 'Droits de gestion inconnus',
+    other2025: 'Autres formes de propriété (préciser dans les commentaires)',
+    unknown2025: 'Affectation inconnue',
   },
   otherWoodedLand: {
     otherWoodedLand2025: 'Autres terres boisées',
@@ -170,18 +194,18 @@ module.exports = {
   },
   primaryForestByClimaticDomain: {
     primaryForestByClimaticDomain: 'Forêt primaire par domaine climatique',
+    primaryForestArea100Ha: 'Primary forest area ($t(unit.haThousand))',
     primaryForestBoreal: '...dont forêt primaire boréale',
     primaryForestTemperate: '...dont forêt primaire tempérée',
     primaryForestTropical: '...dont  forêt primaire tropicale',
     primaryForestSubTropical: '...dont l forêt primaire subtropicale',
-    totalPrimaryForest: 'Total Forêt primaire',
+    totalPrimaryForest: 'Total',
   },
   specificForestCategories: {
     specificForestCategories2025: 'Catégories spécifiques de forêts',
-    mangroves2025: 'Mangroves¹',
+    mangroves2025: `Mangroves¹`,
     rubberWood2025: 'Hévéas',
-    mangrovesDisclaimer:
-      '¹Pour la catégorie « Mangroves », la superficie doit inclure celles des « Forêts » et des « Autres terres boisées »',
+    mangrovesDisclaimer: `¹Includes both Forest and Other wooded land`,
   },
   forestPolicy: {
     forestPolicy2025:
@@ -215,6 +239,9 @@ module.exports = {
       employmentEducationAndNwfp2025: 'Extraction et valeur des produits forestiers non ligneux en 2020',
       forestGrowingStockBiomassAndCarbon2025: 'Matériel sur pied, biomasse et carbone de la forêt',
       forestDesignationAndManagement2025: 'Affectation et gestion des forêts',
+      forestOwnershipAndManagementRights2025: '$t(navigation.sectionHeaders.forestOwnershipAndManagementRights)',
+      forestDisturbances2025: '$t(navigation.sectionHeaders.forestDisturbances)',
+      forestExtentCharacteristicsAndChanges2025: '$t(navigation.sectionHeaders.forestExtentCharacteristicsAndChanges)',
       forestPolicyAndLegislation2025: 'Politiques et législations forestières',
     },
   },
@@ -238,15 +265,6 @@ module.exports = {
       '² Données remontant à plus de 5 ans à partir de l’année de soumission du rapport (antérieures à 2018 pour les rapports nationaux de FRA 2025)',
     footer3: '³ Compatibles en termes de méthodes, de catégories et de définitions utilisées',
   },
-  biomassStock_biomassStockStatus_Description: {
-    header_0: 'Critères d’évaluation du niveau pour le Matériel sur pied',
-    status: {
-      high: 'Application des facteurs de conversion et d’expansion de la biomasse ou équations allométriques spécifiques au pays.',
-      medium:
-        'Application d’équations allométriques génériques ou au niveau du biome, ou d’une combinaison de facteurs de conversion spécifiques au pays/biome et de facteurs par défaut de l’expansion de la biomasse du GIEC.',
-      low: 'Application des facteurs par défaut de conversion et d’expansion de la biomasse du GIEC (par exemple, utilisation du « calculateur de biomasse »), ou estimations reposant sur une cartographie par télédétection de la biomasse.',
-    },
-  },
   growingStock_growingStockStatus_Description: {
     header_0: 'Critères d’évaluation du niveau pour les estimations de la biomasse',
     status: {
@@ -266,4 +284,13 @@ module.exports = {
     footer2:
       '² Données remontant à plus de 10 ans à compter de l’année de soumission du rapport (antérieures à 2013 pour les rapports nationaux de FRA 2025)',
   },
-}
+  biomassStock_biomassStockStatus_Description: {
+    header_0: 'Critères d’évaluation du niveau pour le Matériel sur pied',
+    status: {
+      high: 'Application des facteurs de conversion et d’expansion de la biomasse ou équations allométriques spécifiques au pays.',
+      medium:
+        'Application d’équations allométriques génériques ou au niveau du biome, ou d’une combinaison de facteurs de conversion spécifiques au pays/biome et de facteurs par défaut de l’expansion de la biomasse du GIEC.',
+      low: 'Application des facteurs par défaut de conversion et d’expansion de la biomasse du GIEC (par exemple, utilisation du « calculateur de biomasse »), ou estimations reposant sur une cartographie par télédétection de la biomasse.',
+    },
+  },
+};

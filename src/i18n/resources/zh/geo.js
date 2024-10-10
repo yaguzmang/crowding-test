@@ -78,6 +78,7 @@ module.exports = {
   selectMinTreeCoverPercent: '选择最小树木覆盖百分比：',
   sentinel: '哨兵卫星(Sentinel)',
   showSatelliteMosaic: '显示卫星镶嵌',
+  snowMasking: 'Snow masking',
   statistics: {
     burnedArea: {
       burnedAreaByYear: '烧毁区域（按年）',
@@ -100,4 +101,4 @@ module.exports = {
   treeCoverAgreementSelected: '选定的同意树木覆盖区域',
   treeCoverProtectedAreas: '受保护区域内的树木覆盖',
   treeCoverProtectedAreasWithUnit: '$t(geo.treeCoverProtectedAreas) ({{unit}})',
-}
+};

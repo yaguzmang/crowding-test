@@ -55,4 +55,4 @@ module.exports = {
   naturallyRegeneratingForest: {
     title: 'مساحة الغابات المتجددة طبيعياً والمزروعة ,{{startYear}} - {{endYear}}, $t({{unit}})',
   },
-}
+};

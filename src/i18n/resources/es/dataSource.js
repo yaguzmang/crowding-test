@@ -15,4 +15,5 @@ module.exports = {
     'Evaluación basada en mapas realizados mediante técnicas de teledetección sin verificación sobre el terreno',
   vegetationMapping: 'Mapa de vegetación',
   registersAndStatistics: 'Registros y estadísticas',
-}
+  other: '$t(common.otherSpecifyInComments)',
+};
