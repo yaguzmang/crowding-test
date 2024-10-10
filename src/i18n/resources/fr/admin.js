@@ -1,13 +1,13 @@
 module.exports = {
-  admin: `Administration`,
+  admin: false,
   enotfound: 'Erreur DBS',
-  filter: `Filtrer par`,
-  invitationPending: `Invitation en attente`,
-  invitationsAcceptedCount: `Nombre d'invitations acceptées`,
-  invitationsSentCount: `Nombre d'invitations envoyées`,
+  filter: false,
+  invitationPending: false,
+  invitationsAcceptedCount: false,
+  invitationsSentCount: false,
   lastStatus: 'Dernier statut',
-  locationsCount: `Nº d'emplacements`,
-  urlParsingError: `Erreur d'analyse de l'URL`,
-  usersCount: `Nombre d'utilisateurs`,
+  locationsCount: false,
+  urlParsingError: false,
+  usersCount: false,
   verifyLinks: 'Vérifier les liens',
-}
+};

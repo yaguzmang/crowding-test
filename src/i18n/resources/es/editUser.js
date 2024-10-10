@@ -1,4 +1,5 @@
 module.exports = {
+  activate: false,
   activated: 'Activado',
   chooseProfilePicture: 'Elegir foto',
   city: 'Ciudad',
@@ -6,11 +7,13 @@ module.exports = {
   contactPreferenceMethod: 'Método de contacto',
   contributions: 'Contribuciones',
   countryIso: 'País',
+  deactivate: false,
   demoteToUser: '¿Está seguro de que desea eliminar los privilegios de administrador?',
+  disabled: false,
   done: 'Guardar',
   email: 'Correo electrónico',
   institution: 'Institución',
-  loginEmail: 'Iniciar sesión',
+  loginEmail: 'Acceso',
   mandatoryFields: '* son campos obligatorios',
   mr: 'Sr.',
   mrs: 'Srta.',
@@ -32,10 +35,10 @@ module.exports = {
   secondaryPhoneNumber: 'Número de teléfono secundario',
   signal: 'Señal',
   skype: 'Nombre de usuario en Skype',
-  status: 'Estado',
+  status: false,
   street: 'Dirección ',
   surname: 'Apellido(s)',
   title: 'Denominación',
   whatsapp: 'Whatsapp',
   zipCode: 'Código postal',
-}
+};

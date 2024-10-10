@@ -22,7 +22,7 @@ module.exports = {
   },
   carbonAndGrowingStock: {
     title: 'Volume de bois sur pied et Carbone dans les forêts, {{startYear}} - {{endYear}}',
-    rowName: '',
+    rowName: false,
     carbon_stock_biomass_total: 'Stock de carbone dans la biomasse ($t({{unit}}))',
     carbon_stock_total: 'Stock de carbone total ($t({{unit}}))',
     growing_stock_total: '$t(growingStock.growingStock) ($t({{unit}}))',
@@ -42,7 +42,7 @@ module.exports = {
   primaryDesignatedManagementObjective: {
     title:
       '$t(designatedManagementObjective.primaryDesignatedManagementObjective), {{startYear}} - {{endYear}}, $t({{unit}})',
-    rowName: '',
+    rowName: false,
     conservation_of_biodiversity: '$t(designatedManagementObjective.biodiversityConservation)',
     multiple_use: '$t(designatedManagementObjective.multipleUse)',
     other: '$t(common.other)',
@@ -55,4 +55,4 @@ module.exports = {
   naturallyRegeneratingForest: {
     title: 'Superficie de forêt naturellement régénérée et plantée, {{startYear}} - {{endYear}}, $t({{unit}})',
   },
-}
+};

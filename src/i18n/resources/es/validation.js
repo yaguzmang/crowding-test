@@ -6,4 +6,4 @@ module.exports = {
     optionsDisabled:
       'La etiqueta, la visibilidad pública y la eliminación están desactivadas porque este elemento es utilizado por:',
   },
-}
+};

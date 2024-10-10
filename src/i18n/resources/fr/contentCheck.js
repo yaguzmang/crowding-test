@@ -1,4 +1,5 @@
 module.exports = {
+  '//': false,
   extent: {
     title: 'Étendue',
     forest_area: 'Forêt (1 000 ha)',
@@ -7,6 +8,8 @@ module.exports = {
     protected_forest_percent: 'Forêt dans les aires protégées (% de la forêt)',
     management_plan_percent: 'Superficie forestière avec plan de gestion (% de la forêt)',
     certified_area: 'Superficie forestière certifiée (1 000 ha)',
+    bamboo: false,
+    mangroves: false,
   },
   periodicChangeRate: {
     title: 'Taux de changement périodique (taux annuels)',
@@ -42,16 +45,35 @@ module.exports = {
     dead_living_mass_ratio: 'Rapport (Carbone/ Biomasse) pour le bois mort',
   },
   primaryDesignatedManagementObjective: {
-    title: 'Objectif de gestion principal ',
+    title: 'Objectif de gestion désigné principal',
+    production: '$t(designatedManagementObjective.production)',
+    protection_of_soil_and_water: '$t(designatedManagementObjective.soilWaterProtection)',
+    conservation_of_biodiversity: '$t(designatedManagementObjective.biodiversityConservation)',
+    social_services: '$t(designatedManagementObjective.socialServices)',
+    multiple_use: '$t(designatedManagementObjective.multipleUse)',
+    other: false,
+    no_unknown: false,
   },
-  totalAreaDesignatedManagementObjective: 'Superficie totale de forêt avec un objectif de gestion fixé',
+  totalAreaDesignatedManagementObjective: 'Superficie totale avec un objectif de gestion désigné',
   forestOwnership: {
     title: 'Droits de propriété',
+    private_ownership: false,
+    public_ownership: false,
+    other_or_unknown: false,
   },
   holderOfManagementRights: {
     title: 'Droits de gestion des forêts publiques',
+    public_administration: false,
+    individuals: false,
+    private_businesses: 'Entités et institutions commerciales privées',
+    communities: false,
+    other: false,
   },
   disturbances: {
     title: 'Perturbations',
+    insects: false,
+    diseases: false,
+    severe_weather_events: 'Phénomènes météorologiques graves',
+    other: false,
   },
-}
+};

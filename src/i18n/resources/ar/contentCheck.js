@@ -1,8 +1,6 @@
 module.exports = {
   '//': 'المفاتيح هي بنفس صيغة حقول قاعدة البيانات ',
   extent: {
-    bamboo: '$t(specificForestCategories.bamboo)',
-    mangroves: '$t(specificForestCategories.mangroves)',
     title: 'مَدًى',
     forest_area: 'الغابة (١٠٠٠  هكتار)',
     other_wooded_land: 'أراضي حرجية أخرى (١٠٠٠  هكتار)',
@@ -10,6 +8,8 @@ module.exports = {
     protected_forest_percent: 'الغابات في المناطق المحمية (٪ من الغابات)',
     management_plan_percent: 'مساحة الغابات مع خطط الإدارة (٪ من الغابات)',
     certified_area: 'مساحة الغابات المعتمدة (١٠٠٠  هكتار)',
+    bamboo: '$t(specificForestCategories.bamboo)',
+    mangroves: '$t(specificForestCategories.mangroves)',
   },
   periodicChangeRate: {
     title: 'معدلات التغيير الدوري (المعدلات السنوية)',
@@ -43,7 +43,7 @@ module.exports = {
     dead_living_mass_ratio: 'نسبة (الكربون / الكتلة الحيوية) الحطب الميّت',
   },
   primaryDesignatedManagementObjective: {
-    title: 'الهدف الرئيسى المحدد للإدارة',
+    title: 'الهدف الرئيسي المحدد للإدارة',
     production: '$t(designatedManagementObjective.production)',
     protection_of_soil_and_water: '$t(designatedManagementObjective.soilWaterProtection)',
     conservation_of_biodiversity: '$t(designatedManagementObjective.biodiversityConservation)',
@@ -63,15 +63,15 @@ module.exports = {
     title: 'حقوق إدارة الغابات العامة',
     public_administration: '$t(holderOfManagementRights.publicAdministration)',
     individuals: '$t(holderOfManagementRights.individuals)',
-    private_businesses: '$t(holderOfManagementRights.privateBusinesses)',
+    private_businesses: false,
     communities: '$t(holderOfManagementRights.communities)',
     other: '$t(holderOfManagementRights.other)',
   },
   disturbances: {
-    title: 'الاضطرابات',
+    title: 'اضطرابات',
     insects: '$t(disturbances.insects)',
     diseases: '$t(disturbances.diseases)',
-    severe_weather_events: '$t(disturbances.severeWeatherEvents)',
+    severe_weather_events: false,
     other: '$t(disturbances.other)',
   },
-}
+};

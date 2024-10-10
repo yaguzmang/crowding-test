@@ -13,4 +13,11 @@ module.exports = {
 <br/><br/>
 فريق التقييم العالمي للموارد الحرجيه`,
   },
-}
+  remindReviewer: {
+    subject: false,
+    messageHeader: false,
+    messageFooter: `false`,
+    messageBodyText: `false`,
+    messageBodyHTML: `false`,
+  },
+};
