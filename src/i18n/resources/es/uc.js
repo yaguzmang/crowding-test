@@ -8,6 +8,5 @@ module.exports = {
   noThanks: 'No thanks',
   yesPlease: 'OK',
   doNotShow: 'Do not show again',
-
   alreadyAnswered: 'Ya he dado mi opinión',
-}
+};

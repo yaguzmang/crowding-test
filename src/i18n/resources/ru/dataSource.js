@@ -1,6 +1,7 @@
 module.exports = {
   referenceToTataSource: 'Ссылка на источник данных',
   typeOfDataSource: 'Вид источника данных',
+  typeOfDataSourceText: false,
   fraVariable: 'Переменная ОЛР',
   variable: 'Переменная',
   yearForDataSource: 'Год для источника данных',
@@ -13,4 +14,5 @@ module.exports = {
     'Оценка на основе дистанционного зондирования без наземной выверки',
   vegetationMapping: 'Картографирование растительности',
   registersAndStatistics: 'Реестры и статистика',
-}
+  other: 'Прочее (укажите в комментариях)',
+};

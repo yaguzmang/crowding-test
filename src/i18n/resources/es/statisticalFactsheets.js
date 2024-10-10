@@ -22,7 +22,7 @@ module.exports = {
   },
   carbonAndGrowingStock: {
     title: 'Existencias en formación y carbono en los bosques, {{startYear}} - {{endYear}}',
-    rowName: '',
+    rowName: false,
     carbon_stock_biomass_total: 'Carbono en la biomasa ($t({{unit}}))',
     carbon_stock_total: 'Total de carbono ($t({{unit}}))',
     growing_stock_total: '$t(growingStock.growingStock) ($t({{unit}}))',
@@ -42,7 +42,7 @@ module.exports = {
   primaryDesignatedManagementObjective: {
     title:
       '$t(designatedManagementObjective.primaryDesignatedManagementObjective), {{startYear}} - {{endYear}}, $t({{unit}})',
-    rowName: '',
+    rowName: false,
     conservation_of_biodiversity: '$t(designatedManagementObjective.biodiversityConservation)',
     multiple_use: '$t(designatedManagementObjective.multipleUse)',
     other: '$t(common.other)',
@@ -56,4 +56,4 @@ module.exports = {
     title:
       'Área de bosque con procesos de regeneración natural y bosque plantado, {{startYear}} - {{endYear}}, $t({{unit}})',
   },
-}
+};

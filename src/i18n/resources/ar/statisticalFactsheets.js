@@ -22,7 +22,7 @@ module.exports = {
   },
   carbonAndGrowingStock: {
     title: 'مخزون وكربون الأشجار الحية في الغابات ,{{startYear}} - {{endYear}}',
-    rowName: '',
+    rowName: false,
     carbon_stock_biomass_total: 'مخزون الكربون في الكتلة الحيوية($t({{unit}}))',
     carbon_stock_total: 'إجمالي مخزون الكربون($t({{unit}})) ',
     growing_stock_total: '$t(growingStock.growingStock) ($t({{unit}}))',
@@ -42,7 +42,7 @@ module.exports = {
   primaryDesignatedManagementObjective: {
     title:
       '$t(designatedManagementObjective.primaryDesignatedManagementObjective), {{startYear}} - {{endYear}}, $t({{unit}})',
-    rowName: '',
+    rowName: false,
     conservation_of_biodiversity: '$t(designatedManagementObjective.biodiversityConservation)',
     multiple_use: '$t(designatedManagementObjective.multipleUse)',
     other: '$t(common.other)',
@@ -55,4 +55,4 @@ module.exports = {
   naturallyRegeneratingForest: {
     title: 'مساحة الغابات المتجددة طبيعياً والمزروعة ,{{startYear}} - {{endYear}}, $t({{unit}})',
   },
-}
+};

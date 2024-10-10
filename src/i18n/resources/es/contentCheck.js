@@ -1,4 +1,5 @@
 module.exports = {
+  '//': false,
   extent: {
     title: 'Extensión',
     forest_area: 'Bosque (1000 ha)',
@@ -7,6 +8,8 @@ module.exports = {
     protected_forest_percent: 'Bosque dentro de áreas protegidas (% de bosques)',
     management_plan_percent: 'Área de bosque con planes de gestión (% de bosque)',
     certified_area: 'Superficie forestal certificada (1000 ha)',
+    bamboo: false,
+    mangroves: false,
   },
   periodicChangeRate: {
     title: 'Tasas de variación periódica (tasas anuales)',
@@ -40,16 +43,35 @@ module.exports = {
     dead_living_mass_ratio: 'Ratio (carbono/biomasa) de la madera muerta',
   },
   primaryDesignatedManagementObjective: {
-    title: 'Objetivo principal de gestión designado',
+    title: 'Objetivo primario de gestión designado',
+    production: '$t(designatedManagementObjective.production)',
+    protection_of_soil_and_water: '$t(designatedManagementObjective.soilWaterProtection)',
+    conservation_of_biodiversity: '$t(designatedManagementObjective.biodiversityConservation)',
+    social_services: '$t(designatedManagementObjective.socialServices)',
+    multiple_use: '$t(designatedManagementObjective.multipleUse)',
+    other: false,
+    no_unknown: false,
   },
   totalAreaDesignatedManagementObjective: 'Área total con objetivo de gestión designado',
   forestOwnership: {
     title: 'Propiedad',
+    private_ownership: false,
+    public_ownership: false,
+    other_or_unknown: false,
   },
   holderOfManagementRights: {
     title: 'Derechos de gestión de bosques públicos',
+    public_administration: false,
+    individuals: false,
+    private_businesses: false,
+    communities: false,
+    other: false,
   },
   disturbances: {
     title: 'Perturbaciones',
+    insects: false,
+    diseases: false,
+    severe_weather_events: 'Fenómenos meteorológicos extremos',
+    other: false,
   },
-}
+};

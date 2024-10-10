@@ -9,6 +9,7 @@ module.exports = {
   countryIso: 'البلد',
   deactivate: 'إلغاء التفعيل',
   demoteToUser: 'هل أنت متأكد أنك تريد إزالة امتيازات المسؤول؟',
+  disabled: false,
   done: 'حفظ',
   email: 'البريد الإلكتروني',
   institution: 'المؤسسة',
@@ -40,4 +41,4 @@ module.exports = {
   title: 'التسمية',
   whatsapp: 'رقم الواتس اب',
   zipCode: 'الرمز البريدي',
-}
+};

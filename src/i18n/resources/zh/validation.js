@@ -5,4 +5,4 @@ module.exports = {
     nameIsRequired: '名称是必需的',
     optionsDisabled: '标签、公开和删除已被禁用，因为此项已被使用：',
   },
-}
+};

@@ -62,7 +62,7 @@ module.exports = {
         hansenGfc2020: 'Hansen GFC (2020)',
         hansenGfc2020WithPercent: '$t(geo.sections.forest.layerTitles.hansenGfc2020) {{hansenPercent}} %',
         jaxa2017: 'JAXA (2017)',
-        modis: 'MODIS',
+        modis: 'МОДИС',
         tanDemX2019: 'TanDEM-X (2019)',
       },
       title: 'Деревянный покров',
@@ -79,6 +79,7 @@ module.exports = {
   selectMinTreeCoverPercent: 'Выберите мин. процент покрытия деревьев:',
   sentinel: 'Sentinel',
   showSatelliteMosaic: 'Показать спутниковую мозаику',
+  snowMasking: false,
   statistics: {
     burnedArea: {
       burnedAreaByYear: 'Площадь пожаров по годам',
@@ -88,7 +89,7 @@ module.exports = {
       extentOfForestTreeCover: 'Степень древесного покрова по источникам',
       forestAreaHa: 'Площадь лесного покрова, га',
       forestAreaPercentOfLandArea: 'Площадь лесного покрова % площади суши',
-      landArea: 'Площадь земельного участка',
+      landArea: 'Площадь земель',
     },
     graphs: 'Статистические графики',
     protectedArea: {
@@ -101,4 +102,4 @@ module.exports = {
   treeCoverAgreementSelected: 'Выбрано соглашение о покрытии деревьев',
   treeCoverProtectedAreas: 'Древесный покров на охраняемых территориях',
   treeCoverProtectedAreasWithUnit: '$t(geo.treeCoverProtectedAreas) ({{unit}})',
-}
+};

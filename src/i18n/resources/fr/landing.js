@@ -11,9 +11,6 @@ module.exports = {
     userManagement: 'Gérer collaborateurs',
     versioning: 'Gestion des versions',
   },
-  dataExport: {
-    downloadData: 'Télécharger les données',
-  },
   overview: {
     loadingMap: 'Chargement carte…',
     withFinancialSupportOf: 'Avec le soutien financier de ',
@@ -66,7 +63,7 @@ module.exports = {
       edited: 'a modifié',
       resolved: 'a résolu',
       status: 'changer le statut à',
-      addUser: '{{user}} a été ajouté comme {{role}}', // Legacy, no longer created
+      addUser: '{{user}} a été ajouté comme {{role}}',
       updateUser: 'a modifié {{user}}',
       removeUser: 'a éliminé {{user}}',
       acceptInvitation: 'est devenu membre en tant que {{role}}',
@@ -76,16 +73,44 @@ module.exports = {
       updateAssessmentStatus: 'a changé le statut de {{assessment}} à {{status}}',
     },
     fraProcess:
-      "Depuis 1946, la FAO assure le suivi des ressources forestières mondiales tous les 5 à 10 ans. Les évaluations des ressources forestières mondiales (FRA) sont désormais produites tous les cinq ans afin de fournir une approche cohérente pour décrire les forêts du monde et leur mode d'évolution. L'évaluation repose sur deux sources de données principales: les rapports nationaux préparés par les Correspondants nationaux et des analyses par télédétection menées par la FAO en collaboration avec les points de contact nationaux et des partenaires régionaux. Le champ d'application de FRA évolue régulièrement depuis la première évaluation publiée en 1948. Ces évaluations tracent une histoire intéressante de l'intérêt accordé aux ressources forestières mondiales en ce qui concerne le contenu concret et l'évolution du champ d'application.",
+      "Depuis 1946, la FAO assure un suivi des ressources forestières mondiales tous les 5 à 10 ans. Les évaluations des ressources forestières mondiales (FRA) sont désormais produites tous les cinq ans afin de fournir une approche cohérente pour décrire les forêts du monde et leur mode d'évolution. L'évaluation repose sur deux sources de données principales: les rapports nationaux préparés par les Correspondants nationaux et des analyses par télédétection menées par la FAO en collaboration avec les points de contact nationaux et des partenaires régionaux. Le champ d'application de FRA évolue régulièrement depuis la première évaluation publiée en 1948. Ces évaluations tracent une histoire intéressante de l'intérêt accordé aux ressources forestières mondiales en ce qui concerne le contenu concret et l'évolution du champ d'application.",
     linkFraProcess: 'En savoir davantage sur le processus de FRA',
   },
   links: {
     links: 'Liens',
     repository: 'Référentiel',
     uploadFile: 'Mettre en ligne un fichier',
-    confirmDelete: 'Supprimer {{file}}? Cette action ne peut pas être annulée.',
     fileUploaded: 'Fichier téléchargé avec succès',
+    confirmDelete: 'Supprimer {{file}}? Cette action ne peut pas être annulée.',
     fileDeleted: 'Fichier supprimé avec succès',
     fileOperationFailed: `L'opération ne peut pas être réalisée parce que le fichier est en cours d'utilisation dans:\n{{sectionNames}}`,
   },
-}
+  dataExport: {
+    downloadData: 'Télécharger les données',
+  },
+  versioning: {
+    status: {
+      pending: false,
+      running: false,
+      completed: false,
+      failed: false,
+    },
+    form: {
+      newVersion: false,
+      versionNumber: false,
+      date: false,
+      cancel: false,
+      error: false,
+    },
+    table: {
+      noVersions: false,
+      databaseVersions: false,
+      versionNumber: false,
+      publishedAt: false,
+      createdBy: false,
+      status: false,
+      delete: false,
+      scheduledAt: false,
+    },
+  },
+};

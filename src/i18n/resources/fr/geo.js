@@ -48,7 +48,7 @@ module.exports = {
       layerTitles: {
         modis: 'MODIS',
       },
-      title: 'Zone brûlée',
+      title: 'Zone incendiée',
     },
     forest: {
       layerTitles: {
@@ -102,4 +102,4 @@ module.exports = {
   treeCoverAgreementSelected: 'Accord sélectionné sur le couvert arboré',
   treeCoverProtectedAreas: 'Couvert arboré dans les zones protégées',
   treeCoverProtectedAreasWithUnit: '$t(geo.treeCoverProtectedAreas) ({{unit}})',
-}
+};

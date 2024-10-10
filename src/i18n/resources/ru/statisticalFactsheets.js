@@ -22,7 +22,7 @@ module.exports = {
   },
   carbonAndGrowingStock: {
     title: 'Запасы древостоя и углерода в лесах, {{startYear}} - {{endYear}}',
-    rowName: '',
+    rowName: false,
     carbon_stock_biomass_total: 'Запас углерода в биомассе ($t({{unit}}))',
     carbon_stock_total: 'Общий запас углерода ($t({{unit}}))',
     growing_stock_total: '$t(growingStock.growingStock) ($t({{unit}}))',
@@ -42,7 +42,7 @@ module.exports = {
   primaryDesignatedManagementObjective: {
     title:
       '$t(designatedManagementObjective.primaryDesignatedManagementObjective), {{startYear}} - {{endYear}} $t({{unit}})',
-    rowName: '',
+    rowName: false,
     conservation_of_biodiversity: '$t(designatedManagementObjective.biodiversityConservation)',
     multiple_use: '$t(designatedManagementObjective.multipleUse)',
     other: '$t(common.other)',
@@ -55,4 +55,4 @@ module.exports = {
   naturallyRegeneratingForest: {
     title: 'Площадь естественно возобновляемых лесов и лесных культур, {{startYear}} - {{endYear}}, $t({{unit}})',
   },
-}
+};
