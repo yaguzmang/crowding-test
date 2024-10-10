@@ -2,8 +2,7 @@ name: Upload translation sources
 
 on:
   push:
-    paths: ["src/i18n/resources/en/**"]
-    paths-ignore: ["src/i18n/resources/en/panEuropean/**"]
+    paths: ["src/i18n/resources/en/**", "!src/i18n/resources/en/panEuropean/**"]
     branches: [development]
 
 jobs:
