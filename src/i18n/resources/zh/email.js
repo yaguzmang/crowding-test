@@ -13,4 +13,11 @@ module.exports = {
 <br/><br/>
 全球森林资源评估报告小组`,
   },
-}
+  remindReviewer: {
+    subject: false,
+    messageHeader: false,
+    messageFooter: `false`,
+    messageBodyText: `false`,
+    messageBodyHTML: `false`,
+  },
+};

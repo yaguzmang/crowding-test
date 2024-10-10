@@ -48,7 +48,7 @@ module.exports = {
       layerTitles: {
         modis: 'موديس',
       },
-      title: 'المنطقة المحترقة',
+      title: 'المنطقة المحروقة',
     },
     forest: {
       layerTitles: {
@@ -79,6 +79,7 @@ module.exports = {
   selectMinTreeCoverPercent: 'حدد الحد الأدنى للنسبة المئوية للغطاء الشجري:',
   sentinel: 'سينتينيل',
   showSatelliteMosaic: 'عرض فسيفساء القمر الصناعي',
+  snowMasking: false,
   statistics: {
     burnedArea: {
       burnedAreaByYear: 'المنطقة المحروقة حسب السنة',
@@ -102,4 +103,4 @@ module.exports = {
   treeCoverAgreementSelected: 'اتفاقية الغطاء الشجري المحدد',
   treeCoverProtectedAreas: 'الغطاء الشجري داخل المناطق المحمية',
   treeCoverProtectedAreasWithUnit: '$t(geo.treeCoverProtectedAreas) ({{unit}})',
-}
+};

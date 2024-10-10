@@ -1,4 +1,5 @@
 module.exports = {
+  '//': false,
   extent: {
     title: 'Площадь',
     forest_area: 'Леса (1000 га)',
@@ -7,6 +8,8 @@ module.exports = {
     protected_forest_percent: 'Леса на охраняемых территориях (% лесов)',
     management_plan_percent: 'Площадь лесов с планом управления  (% лесов)',
     certified_area: 'Площадь сертифицированных лесов (1000 га)',
+    bamboo: false,
+    mangroves: false,
   },
   periodicChangeRate: {
     title: 'Периодические изменения (годовые темпы)',
@@ -40,16 +43,35 @@ module.exports = {
     dead_living_mass_ratio: 'Соотношение (углерод/биомасса) для мертвой древесины',
   },
   primaryDesignatedManagementObjective: {
-    title: 'Основная назначенная цель управления',
+    title: 'Главная назначенная цель управления ',
+    production: '$t(designatedManagementObjective.production)',
+    protection_of_soil_and_water: '$t(designatedManagementObjective.soilWaterProtection)',
+    conservation_of_biodiversity: '$t(designatedManagementObjective.biodiversityConservation)',
+    social_services: '$t(designatedManagementObjective.socialServices)',
+    multiple_use: '$t(designatedManagementObjective.multipleUse)',
+    other: false,
+    no_unknown: false,
   },
   totalAreaDesignatedManagementObjective: 'Общая площадь с назначенной целью управления',
   forestOwnership: {
     title: 'Права собственности',
+    private_ownership: false,
+    public_ownership: false,
+    other_or_unknown: false,
   },
   holderOfManagementRights: {
     title: 'Права управления государственными лесами',
+    public_administration: false,
+    individuals: false,
+    private_businesses: false,
+    communities: false,
+    other: false,
   },
   disturbances: {
-    title: 'Нарушения состояния лесов',
+    title: 'Нарушения ',
+    insects: false,
+    diseases: false,
+    severe_weather_events: false,
+    other: false,
   },
-}
+};

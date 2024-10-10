@@ -13,4 +13,11 @@ L’utilisateur {{invitedUserName}} {{invitedUserSurname}} a accepté votre invi
 <br/><br/>
 L’équipe FRA`,
   },
-}
+  remindReviewer: {
+    subject: false,
+    messageHeader: false,
+    messageFooter: `false`,
+    messageBodyText: `false`,
+    messageBodyHTML: `false`,
+  },
+};
