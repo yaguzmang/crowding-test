@@ -1,41 +1,47 @@
+// TODO: all fra labels will be migrated here in a future refactor
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const print = require('./print')
-
+const _2020 = require(false);
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const _2025 = require(false);
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const print = require('./print');
 module.exports = {
+  2020: _2020,
+  2025: _2025,
   print,
-
+  // assessment labels
+  labels: {
+    short: false,
+  },
   // common
   area100HaYear: '面积 (1000 公顷)',
+  area100Ha: '面积(1000公顷)',
   categoryHeader2020: 'FRA 2020类别',
   categoryHeader2025: 'FRA 2025类别',
   forestArea100HaYear: '森林面积(1000公顷)',
-
-  area100Ha: '面积(1000公顷)',
+  // tables
   areaAffectedByFire: {
     areaAffected: '受影响的面积(1000公顷)',
     areaAffectedByFire2025: '$t(areaAffectedByFire.areaAffectedByFire)',
+    totalLandAreaAffectedByFire2025: false,
   },
-
   biomassStock: {
     aboveGround2025: '地上生物量',
     belowGround2025: '地下生物量',
     deadWood2025: '枯死木',
     biomassStock2025: '生物量',
   },
-
   biomassStockAvg: {
     forestBiomass: '森林生物量(t/ha)',
   },
   biomassStockTotal: {
     totalForestBiomass: '森林生物量总量(百万吨)',
   },
-
   carbonStock: {
     carbonAboveGroundBiomass2025: '地上生物量碳',
     carbonBelowGroundBiomass2025: '地下生物量碳',
     carbonStock2025: '碳储量',
   },
-
   carbonStockTotal: {
     totalForestCarbon: '森林碳总量(百万吨)',
   },
@@ -46,6 +52,7 @@ module.exports = {
     expectedYearForNextCountryReportUpdate: '下次更新国家报告的预期年份',
   },
   degradedForest: {
+    // Title
     degradedForest: '退化的森林',
     degradedForestDefinition: '退化的森林定义',
     forestDegradationMonitoringAndAssessment: '森林退化监测和评估',
@@ -57,8 +64,10 @@ module.exports = {
     ifYes: '如果 "是"',
     whatIsDefinition: '国家对 "退化的森林 "的定义是什么？',
     yearOfLatestAssessment: '最近一次评估的年份',
+    // Multiple choice
+    // generic
     other: '其他(在评论中阐述)',
-    notSelected: '',
+    notSelected: false,
     criteriaOfDegradedForest: '定义“退化的森林”时采用的标准',
     changeInForestStructureDecreaseInForestCanopy: '森林结构的变化/森林冠层的减少',
     forestDisturbances: '森林受到干扰',
@@ -80,8 +89,10 @@ module.exports = {
     subnational: '次国家级',
     biome: '生物群落级',
     standLocal: '林分/地方',
+    criteriaOfDegradedForest2025: false,
   },
   designatedManagementObjective: {
+    designatedManagementObjective2025: false,
     noDesignation: '无指定',
     unknown2025: '不明',
   },
@@ -97,22 +108,24 @@ module.exports = {
     extentOfForest2025: '$t(extentOfForest.extentOfForest)',
     otherWoodedLand: '$t(fraClass.otherWoodedLand)',
   },
-
   forestAreaChange: {
     forestExpansion2025: '森林扩张',
     forestAreaChange2025: '年度森林扩张、砍伐和净变化',
+    forestAreaNetChange2025: false,
   },
-
   forestAreaWithinProtectedAreas: {
     forestAreaWithLongTermManagementPlan2025: '有长期管理计划的森林面积',
     forestAreaWithinProtectedAreas2025: '$t(forestAreaWithinProtectedAreas.forestAreaWithinProtectedAreas)',
   },
   forestCharacteristics: {
+    ofWhichOtherPlantedForest: false,
+    ofWhichPlantationForest: false,
     primaryForest: '...其中原生林',
     plantationForestIntroducedArea2025: '...其中引进树种',
-    naturalForestArea2025: '自然再生林',
+    naturalForestArea2025: '$t(forestCharacteristics.naturalForestArea)',
   },
   forestOwnership: {
+    ofWhichPrivateBusinesses2025: false,
     ofWhichCommunities2025: '...其中土著居民和当地社区拥有的部分',
     other2025: '其他(在评论中阐述)',
     unknown2025: '不明',
@@ -132,6 +145,9 @@ module.exports = {
   growingStock: {
     totalForest: '森林总量',
     naturallyRegeneratingForest2025: '自然再生林',
+    plantationForest2025: false,
+    plantedForest2025: false,
+    otherPlantedForest2025: false,
   },
   growingStockComposition: {
     millionCubicMeter: '百万立方米',
@@ -141,10 +157,15 @@ module.exports = {
     totalGrowingStock: '总立木蓄积',
     totalIntroducedTreeSpecies: '引进树种总数',
     totalNativeTreeSpecies: '乡土树种总数',
+    updatedGrowingStockComposition: false,
     nativeTreeSpecies2025: '乡土树种',
+    remainingNative2025: false,
     introducedTreeSpecies2025: '引进树种',
+    remainingIntroduced2025: false,
   },
   holderOfManagementRights: {
+    holderOfManagementRights2025: false,
+    privateBusinesses2025: false,
     communities2025: '土著居民和当地社区',
     other2025: '其他(在评论中阐述)',
     unknown2025: '不明',
@@ -154,14 +175,19 @@ module.exports = {
   },
   nonWoodForestProductsRemovals: {
     nonWoodForestProductsRemovals2025: '非木材林产品采集和价值 2020',
+    nameOfProduct2025: false,
+    allOtherPlantProducts2025: false,
+    allOtherAnimalProducts2025: false,
+    currency2025: false,
   },
-
   otherLandWithTreeCover: {
     otherLandWithTreeCover2025: '有树木覆盖的其他土地',
+    agroforestry2025: false,
+    other2025: false,
   },
-
   primaryForestByClimaticDomain: {
     primaryForestByClimaticDomain: '按气候区划划分的原生林',
+    primaryForestArea100Ha: false,
     primaryForestBoreal: '......其中北方原生林',
     primaryForestTemperate: '...其中温带原生林',
     primaryForestTropical: '...其中热带原生林',
@@ -170,13 +196,28 @@ module.exports = {
   },
   specificForestCategories: {
     specificForestCategories2025: '具体的森林类别',
-    mangroves2025: '红树林¹',
-    mangrovesDisclaimer: '¹包括森林和其它林地',
+    mangroves2025: `false`,
+    rubberWood2025: false,
+    mangrovesDisclaimer: `false`,
+  },
+  forestPolicy: {
+    forestPolicy2025: false,
+    policiesSFM2025: false,
+    legislationsSFM2025: false,
+    stakeholderParticipation2025: false,
+    existenceOfTraceabilitySystem2025: false,
+  },
+  areaOfPermanentForestEstate: {
+    areaOfPermanentForestEstate2025: false,
   },
   sustainableDevelopment: {
     annualForestAreaChangeRate: '年森林面积变化率',
     sdgIndicator1_2025: '可持续发展目标指标 15.1.1 森林面积占土地总面积的比例',
     forestAreaProportionLandArea: '森林面积占土地总面积的比例',
+    aboveGroundBiomassStockForests2025: false,
+    proportionForestAreaLegallyEstablishedProtectedAreas2025: false,
+    proportionForestAreaLongTermForestManagement2025: false,
+    forestAreaVerifiedForestManagement2025: false,
     dataProvidedBy: `该可持续发展目标次级指标的数据由FSC和PEFC（森林认证机构）提供。`,
     'Metadata-15-01-01': `可持续发展目标指标15.1.1元数据`,
     'Metadata-15-02-01': `可持续发展目标指标15.2.1元数据`,
@@ -216,6 +257,11 @@ module.exports = {
       medium: '数据来源：旧的²国家森林资源清查，部分实地抽样，或者没有辅以概率地面抽样的机载激光扫描（ALS）',
       low: '数据来源：其他数据来源，如卫星数据、登记册、问卷调查或专家评估。',
     },
+    status2025: {
+      high: false,
+      medium: false,
+      low: false,
+    },
     footer1: '¹ 从提交报告的年份起不超过10年的数据（对于2025年全球森林资源评估国家报告，年份应在2013年或之后）',
     footer2: '² 从提交报告的年份起超过10年的数据（对于2025年全球森林资源评估国家报告，年份应早于2013年）',
   },
@@ -227,4 +273,4 @@ module.exports = {
       low: '应用IPCC默认的生物量转换和扩展系数（如使用 "生物量计算器"），或基于遥感生物量地图的估计。',
     },
   },
-}
+};

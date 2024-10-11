@@ -8,7 +8,7 @@ module.exports = {
   forestAreaExceedsExtentOfForest: `Превышает "Площадь лесов" (1a)`,
   forestAreaReportedIsDifferentFromPreviousCycle: `Представленная площадь ({{forestarea2025}}) отличается от ранее представленной ({{forestarea2020}}). Пожалуйста, оставьте комментарий, объясняющий, почему она отличается.`,
   forestSumAreaExceedsExtentOfForest: `Сумма представленных категорий FRA превышает лесной площади, о которой сообщается в таблице 1а`,
-  invalidLink: `Недействительная ссылка`,
+  invalidLink: false,
   landAreaExceedsTotalLandArea: `Площадь земель превышает общую площадь земель (1a) ({{value}})`,
   mustBeEqualToForestArea: `Сумма естественно возобновляемых лесов и лесных культур не равна общей площади лесов`,
   mustBeEqualToForestExpansion: `Сумма подкатегорий должна быть равна расширению лесов`,
@@ -22,7 +22,7 @@ module.exports = {
   remainingLandExceedsExtentOfForest: `Превышает остальные земельные площади (1А)`,
   shouldContainAtLeastOneCharacter: `Значение должно содержать хотя бы один символ`,
   subCategoryExceedsParent: `Подкатегория превышает родительскую категорию`,
-  sumEqualTo: 'Сумма {{categoryLabels}} ({{categoriesSum}}) должна быть равна {{maxValue}}',
+  sumEqualTo: `false`,
   sumNotGreaterThan: `Сумма не должна превышать {{maxValue}}`,
   sumSubCategoriesExceedParent: `Сумма {{CategoryLabels}} превышает {{parentLabel}} ({{parentValue}})`,
   sumSubCategoriesNotEqualToParent: `Сумма {{categoryLabels}} ({{categoriesSum}}) не равна {{parentLabel}} ({{parentValue}})`,
@@ -36,4 +36,4 @@ module.exports = {
   valueNotGreaterThan: `Значение должно быть не больше, чем {{maxValue}}`,
   valuesAreInconsistent1aOr1b: `Значения не соответствуют площадям, представленным в таблицах 1a или 1b`,
   valuesAreInconsistentWithNetChange: `Значения не соответствуют чистому изменению площади лесов`,
-}
+};

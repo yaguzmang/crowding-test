@@ -13,4 +13,11 @@ module.exports = {
 <br/><br/>
 Команда по ОЛР`,
   },
-}
+  remindReviewer: {
+    subject: false,
+    messageHeader: false,
+    messageFooter: `false`,
+    messageBodyText: `false`,
+    messageBodyHTML: `false`,
+  },
+};

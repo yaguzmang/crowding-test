@@ -3,7 +3,6 @@ module.exports = {
     dropFilesHere: 'Coloque aquí los archivos',
     dragAndDropOrClick: 'Arrastre y coloque los archivos aquí, o haga clic en "Seleccionar archivos"',
   },
-
   language: {
     en: 'English',
     es: 'Español',
@@ -12,28 +11,6 @@ module.exports = {
     ar: 'العربية',
     zh: '中文',
   },
-
-  home: {
-    keyFindings: `El área total de bosques en el mundo es de 4 060 millones de hectáreas (ha),
-que corresponde al 31 por ciento de la superficie total de la tierra. Esta área
-es equivalente a 0,52 ha por persona
-, aunque los bosques no están distribuidos
-de manera equitativa por población mundial o situación geográfica. Las zonas
-tropicales poseen la mayor proporción de los bosques del mundo (45 por ciento),
-el resto está localizado en las regiones boreales, templadas y subtropicales.`,
-  },
-
-  footer: {
-    contactUs: 'Contacto',
-    termsAndConditions: 'Términos y condiciones',
-    scamAlert: 'Alerta de estafa',
-    reportMisconduct: 'Reportar mala conducta',
-    tutorials: 'Vídeo',
-    sendFeedback: 'Enviar comentarios',
-    licenses: 'Licencias',
-    platformVersion: 'Versión de la plataforma',
-  },
-
   disclaimer: {
     statisticalFactsheets:
       'Descargo de responsabilidad: puede contener estimaciones de la FAO, puede contener valores faltantes',
@@ -49,7 +26,25 @@ el resto está localizado en las regiones boreales, templadas y subtropicales.`,
       '. Su contenido es responsabilidad exclusiva de la FAO y no puede considerarse que refleje en modo alguno las opiniones de la Unión Europea, el Gobierno de Finlandia, el Gobierno de Noruega y el Fondo para el Medio Ambiente Mundial.',
     termsOfUse: 'Condiciones de uso de la base de datos estadísticos',
   },
-
+  home: {
+    keyFindings: `El área total de bosques en el mundo es de 4 060 millones de hectáreas (ha),
+que corresponde al 31 por ciento de la superficie total de la tierra. Esta área
+es equivalente a 0,52 ha por persona
+, aunque los bosques no están distribuidos
+de manera equitativa por población mundial o situación geográfica. Las zonas
+tropicales poseen la mayor proporción de los bosques del mundo (45 por ciento),
+el resto está localizado en las regiones boreales, templadas y subtropicales.`,
+  },
+  footer: {
+    contactUs: 'Contacto',
+    termsAndConditions: 'Términos y condiciones',
+    scamAlert: 'Alerta de estafa',
+    reportMisconduct: 'Reportar mala conducta',
+    tutorials: 'Vídeo',
+    sendFeedback: 'Enviar comentarios',
+    licenses: 'Licencias',
+    platformVersion: 'Versión de la plataforma',
+  },
   unit: {
     haThousand: '1 000 ha',
     ha: 'ha',
@@ -60,34 +55,40 @@ el resto está localizado en las regiones boreales, templadas y subtropicales.`,
     haMillion: 'millones de ha',
     haThousandPerYear: '1 000 ha / an',
     tonnesPerHa: 'toneladas / ha',
+    cubicMeterPerHa: false,
+    millionTonnes: false,
     millionsCubicMeterOverBark: 'millones de m³ sobre corteza',
+    thousandCubicMeterOverBark: false,
     billionCubicMeter: 'mil millones m³',
+    thousandCubicMeter: false,
+    thousandCubicMeterRWE: false,
+    thousandPersons: false,
     gt: 'Gt',
     fte1000: '1 000 EDC',
     numberOfStudents: '$t(graduationOfStudents.numberOfStudents)',
+    absoluteNumber: false,
+    annualNumberOfVisitsMillion: false,
+    millionNationalCurrency: false,
+    facilityLengthIn1000Km: false,
     growingStockPercent: '% del total de las Existencias Forestales en Formación',
   },
-
   countrySelection: {
     selectCountry: 'Seleccionar país',
   },
-
   definition: {
     definitionLabel: 'Véanse las definiciones',
     faqLabel: 'Preguntas frecuentes',
+    seeReportingNotes: false,
   },
-
   audit: {
     notStarted: 'No iniciado',
     edited: 'Editado',
   },
-
   yesNoTextSelect: {
     yes: 'Sí',
     no: 'No',
-    notSelected: '',
+    notSelected: false,
   },
-
   user: {
     roles: {
       REVIEWER: 'Evaluador',
@@ -95,46 +96,54 @@ el resto está localizado en las regiones boreales, templadas y subtropicales.`,
       ALTERNATE_NATIONAL_CORRESPONDENT: 'Corresponsal Nacional alterno',
       COLLABORATOR: 'Colaborador',
       ADMINISTRATOR: 'Administrador',
-      noRole: '',
-
       VIEWER: 'Observador',
+      noRole: false,
+      // unused?
       reviewer_plural: 'Revisores',
       nationalCorrespondent_plural: 'Corresponsales nacionales',
       alternateNationalCorrespondent_plural: 'Corresponsales nacionales suplentes',
       collaborator_plural: 'Colaboradores',
+      // deprecated
+      // reviewer: 'Reviewer',
+      // nationalCorrespondent: 'National correspondent',
+      // alternateNationalCorrespondent: 'Alternate national correspondent',
+      // collaborator: 'Collaborator',
+      // administrator: 'Administrator',
     },
     resetPasswordEmail: {
       subject: 'Plataforma FRA - Restablecer contraseña',
+      textMessage: `false`,
+      htmlMessage: `false`,
     },
   },
-
   fraClass: {
     forest: 'Bosque',
     otherWoodedLand: 'Otras tierras boscosas',
     otherLand: 'Otras tierras',
   },
-
   fraForestCharacteristicsClass: {
     naturallyRegeneratingForest: 'Bosque regenerado de forma natural',
     plantationForest: 'Plantación forestal',
     ofWhichIntroduced: '…de la cual de especies introducidas',
+    ofWhichPrimaryForest: false,
     otherPlantedForest: 'Otros bosques plantados',
     totalForest: 'Área total de bosque',
   },
-
   fraOtherLandClass: {
     palms: '…de las cuales palmas (aceitera, cocotera, dátiles, etc)',
     treeOrchards: '…de las cuales huertos de árboles (frutas, frutos secos, aceitunas,etc.)',
     agroforestry: '…de las cuales agroforestería',
     treesUrbanSettings: '…de las cuales árboles en espacios urbanos',
   },
-
+  messageBoard: {
+    messageBoard: false,
+  },
   userChat: {
     chatHeader: 'Mensajes con {{user}}',
     noMessages: 'Ningún mensaje',
     writeMessage: 'Escriba un mensaje…',
     send: 'Enviar',
-    cancel: 'Cancelar',
+    cancel: false,
     notificationEmail: {
       subject: '{{sender}} le envió un mensaje',
       textMessage: `Estimado/a {{recipient}},
@@ -162,15 +171,17 @@ El equipo de FRA
    `,
     },
   },
-
   // error messages
   error: {
     access: {
       countryRoleNotSpecified:
         'Error: El usuario {{user}} intentó acceder {{countryIso}} pero no se había especificado ninguna función',
       countryUserNotReviewer: 'Error: El usuario {{user}} intentó acceder {{countryIso}}, del cual no es evaluador',
+      userNotAdministrator:
+        'Error: El usuario {{user}} ha intentado acceder a un recurso disponible sólo para administradores',
       roleChangeNotAllowed:
         'Error: El usuario {{user}} intentó asignar otra función de usuario a {{role}}, lo que está prohibido para el usuario conectado',
+      userAlreadyAddedToCountry: 'Error: El usuario {{user}} ya está añadido al país {{country Iso}}',
       invitationAlreadyUsed:
         'Error: La invitación {{invitationUuid}} ya se ha utilizado, ¡el robo del {{loginEmail}} está prohibido!',
       countryDoesNotMatch: 'Error: El país {{countyryIso}} no coincide',
@@ -178,9 +189,6 @@ El equipo de FRA
         'Error: El usuario {{user}} en función {{role}} no puede editar la evaluación en el estado {{assessmentStatus}} por país {{countryIso}}',
       assessmentCommentingNotAllowed:
         'Error: El usuario {{user}} en función {{role}} no puede comentar la evaluación en el estado {{assessmentStatus}} por país {{countryIso}}',
-      userNotAdministrator:
-        'Error: El usuario {{user}} ha intentado acceder a un recurso disponible sólo para administradores',
-      userAlreadyAddedToCountry: 'Error: El usuario {{user}} ya está añadido al país {{country Iso}}',
     },
     assessment: {
       transitionNotAllowed:
@@ -202,7 +210,6 @@ El equipo de FRA
     annuallyUpdated: 'Actualizado anualmente',
     fra2020: 'FRA 2020',
   },
-
   navigation: {
     hideAll: 'Esconder todo',
     showAll: 'Mostrar todo',
@@ -220,18 +227,17 @@ El equipo de FRA
       forestGrowingStockBiomassAndCarbon: 'Existencias en formación, biomasa y carbono',
       forestDesignationAndManagement: 'Designación y gestión del bosque',
       forestOwnershipAndManagementRights: 'Propiedad del bosque y derechos de gestión',
-      forestDisturbances: 'Perturbaciones en el bosque',
+      forestDisturbances: 'Perturbaciones forestales',
       forestPolicyAndLegislation: 'Política y legislación forestal',
       employmentEducationAndNwfp: 'Empleo, educación y PFNM',
       sustainableDevelopment: 'Objetivo de Desarrollo Sostenible 15',
       panEuropeanIndicators: 'Indicadores paneuropeos',
     },
-    cancel: 'Cancelar',
+    cancel: false,
     changeStatusTextPlaceholder: 'Añadir un mensaje opcional',
     doNotNotifyUsers: 'No notificar a los usuarios',
     notifySelf: 'Enviar copia a uno mismo',
   },
-
   header: {
     editProfile: 'Editar perfil',
     logout: 'Desconectar',
@@ -243,31 +249,28 @@ El equipo de FRA
       lastSaveTimestampReceived: 'Editado por última vez',
     },
   },
-
   time: {
     hour: 'Hace {{count}} hora',
-    day: 'Hace {{count}} día',
-    week: 'Hace {{count}} semana',
-    aMomentAgo: 'Hace un momento',
     hour_plural: 'Hace {{count}} horas',
+    day: 'Hace {{count}} día',
     day_plural: 'Hace {{count}} días ',
+    week: 'Hace {{count}} semana',
     week_plural: 'Hace {{count}} semanas',
+    aMomentAgo: 'Hace un momento',
   },
-
   review: {
     comments: 'Comentarios',
     noComments: 'Sin comentarios',
+    loading: 'Cargando',
     resolve: 'Resolver',
     confirmDelete: '¿Borrar este comentario? Esta acción no puede deshacerse.',
     commentDeleted: 'Comentario borrado',
     commentMarkedAsResolved: 'Señalado como resuelto',
-    delete: 'Borrar',
+    delete: false,
     writeComment: 'Escriba un comentario…',
     commentingClosed: 'Se han desactivado los comentarios',
-    cancel: 'Cancelar',
-    loading: 'Cargando',
+    cancel: false,
   },
-
   description: {
     edit: 'Editar',
     done: 'Finalizado',
@@ -284,7 +287,6 @@ El equipo de FRA
     estimationAndForecasting: 'Estimación y proyección',
     reclassification: 'Reclasificación en categorías de FRA {{cycleName}}',
   },
-
   nationalDataPoint: {
     clickOnNDP: 'Haga clic en el año para acceder a los datos originales',
     nationalDataPoint: 'Punto de datos nacionales',
@@ -293,20 +295,27 @@ El equipo de FRA
     nationalData: 'Datos nacionales',
     reclassificationLabel: 'Datos originales y reclasificación',
     forestCategoriesLabel: 'El bosque, otras tierras boscosas y otras tierras',
+    forestCategoriesLabel2025: 'Bosque, Otras Tierras Boscosas y Superfície Terrestre Restante',
     referenceYearData: 'Año de referencia para los datos',
     referenceYear: 'Año de referencia',
     references: 'Referencias',
+    prefill: false,
+    prefillWith: false,
     selectYear: 'Seleccionar…',
     methods: 'Métodos',
     methodsUsed: 'Métodos usados',
     dataSource: 'Fuente de datos',
     dataSources: 'Fuentes de datos',
+    dataSource2025ExplanatoryText: false,
     additionalComments: 'Comentarios adicionales',
     edit: 'Editar',
+    confirmCopyPreviousValues: false,
     copyPreviousValues: 'Copiar las referencias anteriores',
+    nationalClassifications: 'Clasificaciones nacionales',
     nationalClass: 'Clase nacional',
     nationalClasses: 'Clasificaciones y definiciones',
     definition: 'Definición',
+    categories: 'Categorías',
     class: 'Clase',
     fraClasses: 'Clases de FRA',
     area: 'Área (1000 ha)',
@@ -326,37 +335,40 @@ El equipo de FRA
       sampleBasedRemoteSensingAssessment: 'Evaluación de teledetección por muestreo',
       fullCoverMaps: 'Bosque de cubierta total/mapas de vegetación',
       registersQuestionnaires: 'Registros/cuestionarios',
-      other: 'Otros (especificar en comentarios)',
+      other: '$t(common.otherSpecifyInComments)',
     },
     appliesToVariablesOptions: {
       forest: 'Bosque',
       otherWoodedLand: 'Otras tierras boscosas',
       otherLand: 'Otras tierras',
     },
-    forestCategoriesLabel2025: 'Bosque, Otras Tierras Boscosas y Superfície Terrestre Restante',
-    nationalClassifications: 'Clasificaciones nacionales',
-    categories: 'Categorías',
     fileAddedWillBecomePublic: 'Los archivos añadidos como referencias serán de acceso público',
   },
-
   userManagement: {
-    manageCollaborators: 'Gestionar colaboradores',
-    loginEmail: 'Nombre de usuario',
-    noUsers: 'No se han añadido colaboradores',
-    placeholder: 'Elegir…',
-    remove: 'Eliminar',
+    addUser: 'Añadir colaborador',
+    allUsers: 'Todos los colaboradores',
+    confirmDelete: '¿Eliminar {{user}}?',
     done: 'Finalizado',
     edit: 'Editar',
-    addUser: 'Añadir colaborador',
-    formErrors: 'Hay errores en el formulario. Por favor, corrígelos y envíalo de nuevo.',
-    insufficientPrivileges: 'Privilegios insuficientes',
-    confirmDelete: '¿Eliminar {{user}}?',
-    allUsers: 'Todos los colaboradores',
+    editPermissions: 'Editar permisos',
+    formErrors: false,
     info: 'Información',
-    tableAccess: 'Acceso a las mesas',
+    insufficientPrivileges: 'Privilegios insuficientes',
+    invitationDeleted: 'La invitación ha sido eliminada',
+    invitationEmailSent: 'Se le ha enviado un correo electrónico de invitación',
     invitationLink: 'Enlace de invitación',
-    sendInvitation: 'Enviar correo electrónico de invitación',
+    invitationLinkCopied: false,
     inviteAgain: 'Invitar de nuevo',
+    loginEmail: 'Acceso',
+    manageCollaborators: 'Gestionar colaboradores',
+    noUsers: 'No se han añadido colaboradores',
+    permissions: 'Permisos',
+    personalInfoRequired: 'Por favor complete sus datos personales antes de continuar',
+    placeholder: 'Elegir…',
+    remove: 'Eliminar',
+    sendInvitation: 'Enviar correo electrónico de invitación',
+    userAdded: 'El email {{email}} ha sido añadido',
+    userModified: 'El usuario {{usuario}} ha sido modificado',
     invitationEmail: {
       subject: 'Invitación a la plataforma de FRA',
       textMessage: `Estimado/a {{invitedUser}},
@@ -388,19 +400,11 @@ El equipo de FRA
 {{- url}}
    `,
     },
-    editPermissions: 'Editar permisos',
-    invitationDeleted: 'La invitación ha sido eliminada',
-    invitationEmailSent: 'Se le ha enviado un correo electrónico de invitación',
-    permissions: 'Permisos',
-    personalInfoRequired: 'Por favor complete sus datos personales antes de continuar',
-    userAdded: 'El email {{email}} ha sido añadido',
-    userModified: 'El usuario {{usuario}} ha sido modificado',
     permissionNames: {
       tableData: 'Datos de la tabla',
       descriptions: 'Descripciones',
     },
   },
-
   // FRA 2020 questionare
   // Object name and title should have always the same name
 
@@ -418,10 +422,9 @@ El equipo de FRA
     tables: 'Tablas',
     none: 'Ninguna',
   },
-
   extentOfForest: {
     extentOfForest: 'Extensión de bosque y otras tierras boscosas',
-    estimationAndForecasting: 'Estimación and proyección',
+    estimationAndForecasting: 'Estimación y proyección',
     categoryHeader: 'Categorías de FRA',
     forestArea: 'Bosque',
     chart: {
@@ -436,6 +439,8 @@ El equipo de FRA
     totalLandArea: 'Superficie total de tierra',
     fedAreasExceedTotalLandArea: 'El área de bosque y otras tierras boscosas exceden la superficie total de tierra',
     forestAreaDoesNotMatchPreviouslyReported: 'El área de bosque no coincide con el área de FRA {{year}}: {{previous}}',
+    forestAreaNetChangeDoesNotMatch:
+      'El cambio neto de la superficie forestal no coincide con el valor esperado: {{value}}',
     useOriginalDataPoints: 'Usar puntos de datos nacionales',
     dontUseOriginalDataPoints: 'No usar puntos de datos nacionales',
     whatIsThis: '¿Qué significa esto?',
@@ -444,10 +449,7 @@ El equipo de FRA
     ndpMissingValues: 'El punto de dato nacional tiene valores faltantes',
     showNDPs: 'Mostrar puntos de datos nacionales',
     hideNDPs: 'Esconder puntos de datos nacionales',
-    forestAreaNetChangeDoesNotMatch:
-      'El cambio neto de la superficie forestal no coincide con el valor esperado: {{value}}',
   },
-
   climaticDomain: {
     climaticDomain: 'Región climática',
     percentOfForestArea2015: 'Porcentaje de área de bosque en 2015',
@@ -459,25 +461,24 @@ El equipo de FRA
     sub_tropical: '$t(climaticDomain.subtropical)',
     tropical: 'Tropical',
   },
-
   forestCharacteristics: {
     forestCharacteristics: 'Características de los bosques',
     estimationAndForecasting: 'Estimación y proyección',
     categoryHeader: 'Categorías de FRA',
     naturalForestArea: 'Bosque regenerado de forma natural',
     plantationForestArea: 'Plantación forestal',
-    plantationForestIntroducedArea: '…de la cual de especies introducidas',
-    otherPlantedForestArea: 'Otros bosques plantado',
+    plantationForestIntroducedArea: '...del cual de especies introducidas',
+    otherPlantedForestArea: 'Otros bosques plantados',
     plantedForest: 'Bosque plantado',
     totalForestArea: 'Área total de bosque',
     total: 'Total',
     useOriginalDataPoints: 'Usar puntos de datos nacionales',
     dontUseOriginalDataPoints: 'No usar puntos de datos nacionales',
   },
-
   tableWithOdp: {
     confirmGenerateFraValues: '¿Reemplazar los valores existentes?',
     generateFraValues: 'Generar valores',
+    generatingFraValues: 'Generando...',
     linearExtrapolation: 'Lineal',
     repeatLastExtrapolation: 'Repetir el último',
     annualChangeExtrapolation: 'Cambio anual',
@@ -486,29 +487,25 @@ El equipo de FRA
     copyToClipboard: 'Copiar valores',
     placeholderSelect: 'Estimación y proyección',
     _1000haYear: '1000 ha/año',
-    generatingFraValues: 'Generando...',
   },
-
   forestAreaChange: {
     forestAreaChange: 'Expansión, deforestación anual y cambio neto anual',
     categoryHeader: 'Categorías de FRA',
-    areaUnitLabel: 'Área (1000 ha/año)',
+    areaUnitLabel: 'Área (1000 ha)',
     forestExpansion: 'Expansión del bosque',
     ofWhichAfforestation: '…de la cual es forestación',
     ofWhichNaturalExpansion: '…de la cual es expansión natural',
     deforestation: 'Deforestación',
     forestAreaNetChange: 'Cambio neto en el área de bosque',
-    netChangeDoesNotMatch: 'No coincide con el cambio neto en el área de bosque',
     forestAreaNetChangeFrom1a: 'Cambio neto de la extensión de bosque calculado a partir de la tabla 1a',
+    netChangeDoesNotMatch: 'No coincide con el cambio neto en el área de bosque',
   },
-
   annualReforestation: {
     annualReforestation: 'Reforestación anual',
     categoryHeader: 'Categorías de FRA',
-    areaUnitLabel: 'Área (1000 ha/año)',
+    areaUnitLabel: 'Área (1000 ha)',
     reforestation: 'Reforestación',
   },
-
   specificForestCategories: {
     specificForestCategories: 'Bosque primario y categorías especiales de los bosques',
     categoryHeader: 'Categorías de FRA',
@@ -520,7 +517,6 @@ El equipo de FRA
     exceedsNaturallyRegeneratingForest: 'Excede el bosque regenerado de forma natural (1b)',
     rubberWood: 'Caucho',
   },
-
   otherLandWithTreeCover: {
     otherLandWithTreeCover: 'Otras tierras con cubierta de árboles',
     areaUnitLabel: 'Área (1000 ha)',
@@ -531,9 +527,8 @@ El equipo de FRA
     treesinurbansettings: 'Árboles en espacios urbanos',
     total: 'Total',
     otherLandArea: 'Área de otras tierras',
-    other: 'Otros (especificar en comentarios)',
+    other: '$t(common.otherSpecifyInComments)',
   },
-
   growingStock: {
     growingStock: 'Existencias en formación',
     supportText: 'Asegúrese de que ha introducido los datos en las tablas 1a y 1b antes de editar esta tabla',
@@ -548,7 +543,6 @@ El equipo de FRA
     otherWoodedLand: 'Otras tierras boscosas',
     copyToClipboard: 'Copiar valores',
   },
-
   growingStockComposition: {
     native: 'Nativa',
     introduced: 'Introducida',
@@ -559,6 +553,7 @@ El equipo de FRA
     introducedTreeSpecies: 'Especies introducidas',
     areaUnitLabel: 'Existencias en formación en el bosque (millones de m³ sobre la corteza)',
     scientificName: 'Nombre científico',
+    millionCubicMeter: false,
     commonName: 'Nombre común',
     rank: '#{{idx}} Clasificadas en cuanto al volumen',
     remainingNative: 'Especies de árboles nativos restantes',
@@ -567,8 +562,9 @@ El equipo de FRA
     totalIntroduced: 'Volumen total de especies introducidas',
     totalGrowingStock: 'Existencias totales en formación',
     rankingYear: 'Clasificación en el año 2015',
+    growingStockPercent: false,
+    mostRecentYear: false,
   },
-
   biomassStock: {
     biomassStock: 'Biomasa',
     categoryHeader: 'Categorías de FRA',
@@ -578,7 +574,6 @@ El equipo de FRA
     deadWood: 'Madera muerta',
     downloadExcel: 'Descargar calculadora de excel',
   },
-
   carbonStock: {
     carbonStock: 'Carbono',
     categoryHeader: 'Categorías de FRA',
@@ -590,7 +585,6 @@ El equipo de FRA
     carbonSoil: 'Carbono en el suelo',
     soilDepthHeading: 'Profundidad del suelo (cm) utilizada para calcular el carbono en el suelo',
   },
-
   designatedManagementObjective: {
     designatedManagementObjective: 'Objetivo de gestión designado',
     primaryDesignatedManagementObjective: 'Objetivo primario de gestión designado',
@@ -606,12 +600,11 @@ El equipo de FRA
     biodiversityConservation: 'Conservación de la biodiversidad',
     socialServices: 'Servicios sociales',
     multipleUse: 'Uso múltiple',
-    other: 'Otros (especificar en comentarios)',
+    other: '$t(common.otherSpecifyInComments)',
     unknown: 'Ninguno/desconocido',
     totalForestArea: 'Área total de bosque',
     total: 'Total',
   },
-
   forestAreaWithinProtectedAreas: {
     forestAreaWithinProtectedAreas:
       'Área de bosque dentro de áreas protegidas legalmente establecidas y área de bosque con planes de gestión a largo plazo',
@@ -621,11 +614,10 @@ El equipo de FRA
     forestAreaWithLongTermManagementPlan: 'Área de bosque con planes de gestión a largo plazo',
     ofWhichInProtectedAreas: '…de la cual en áreas protegidas',
   },
-
   forestOwnership: {
     forestOwnership: 'Propiedad del bosque',
     categoryHeader: 'Categorías de FRA',
-    areaUnitLabel: 'Área de bosque (1000 ha)',
+    areaUnitLabel: 'Área forestal (1000 ha)',
     privateOwnership: 'Propiedad privada',
     ofWhichIndividuals: '…de la cual es propiedad de individuos',
     ofWhichPrivateBusinesses: '…de la cual es propiedad de entidades comerciales e instituciones privadas',
@@ -635,11 +627,10 @@ El equipo de FRA
     totalForestArea: 'Área total de bosque',
     total: 'Total',
   },
-
   holderOfManagementRights: {
     holderOfManagementRights: 'Titular de los derechos de gestión de bosques públicos',
     categoryHeader: 'Categorías de FRA',
-    areaUnitLabel: 'Área de bosque (1000 ha)',
+    areaUnitLabel: 'Área forestal (1000 ha)',
     publicAdministration: 'La Administración Pública',
     individuals: 'Individuos',
     privateBusinesses: 'Entidades comerciales e instituciones privadas',
@@ -649,7 +640,6 @@ El equipo de FRA
     total: 'Total',
     publicOwnershipDoesNotMatch: 'No coincide con la propiedad pública total',
   },
-
   disturbances: {
     disturbances: 'Perturbaciones',
     categoryHeader: 'Categorías de FRA',
@@ -657,11 +647,10 @@ El equipo de FRA
     insects: 'Insectos',
     diseases: 'Enfermedades',
     severeWeatherEvents: 'Eventos climáticos extremos',
-    other: 'Otras (especificar en comentarios)',
+    other: '$t(common.otherSpecifyInComments)',
     totalForestArea: 'Área total de bosque',
     total: 'Total',
   },
-
   areaAffectedByFire: {
     areaAffectedByFire: 'Área afectada por incendios',
     categoryHeader: 'Categorías de FRA',
@@ -669,15 +658,9 @@ El equipo de FRA
     totalLandAreaAffectedByFire: 'Área total afectada por incendios',
     ofWhichForest: '…de la cual en bosque',
   },
-
   degradedForest: {
     degradedForest: 'Bosque degradado',
-    doesYourCountryMonitor: '¿Su país hace un seguimiento del área de bosque degradado?',
-    ifYes: 'En caso afirmativo',
-    whatIsDefinition: '¿Cuál es la definición nacional de "bosque degradado"?',
-    howMonitored: 'Describa el proceso de seguimiento y los resultados',
   },
-
   forestPolicy: {
     forestPolicy:
       'Políticas, legislación y plataforma nacional para la participación de los grupos de interés en la política forestal',
@@ -691,14 +674,12 @@ El equipo de FRA
       'Platforma que fomenta o permite la participación de grupos de interés en la elaboración de políticas forestales',
     existenceOfTraceabilitySystem: 'Sistema/s de trazabilidad para los productos madereros',
   },
-
   areaOfPermanentForestEstate: {
     areaOfPermanentForestEstate: 'Área de zona forestal permanente',
     categoryHeader: 'Categorías de FRA 2020',
-    areaUnitLabel: 'Área de bosque (1000 ha)',
+    areaUnitLabel: 'Área forestal (1000 ha)',
     applicable: '¿Es aplicable?',
   },
-
   employment: {
     employment: 'Empleo en silvicultura y extracción de madera',
     average: 'en un promedio de 3 años',
@@ -713,7 +694,6 @@ El equipo de FRA
     female: 'Mujeres',
     male: 'Hombres',
   },
-
   graduationOfStudents: {
     graduationOfStudents: 'Graduación de alumnos en estudios relativos al bosque',
     average: 'en un promedio de 3 años',
@@ -727,7 +707,6 @@ El equipo de FRA
     female: 'Mujeres',
     male: 'Hombres',
   },
-
   nonWoodForestProductsRemovals: {
     nonWoodForestProductsRemovals: 'Extracción y valor de los productos forestales no maderables en 2015',
     nameOfProduct: 'Nombre del PFNM',
@@ -758,9 +737,8 @@ El equipo de FRA
     allOtherAnimalProducts: 'Todos los demás productos animales',
     total: 'Total',
     currency: 'Nombre de la moneda local',
-    notSelected: '',
+    notSelected: false,
   },
-
   sustainableDevelopment: {
     sustainableDevelopment: 'Objetivo de Desarrollo Sostenible 15',
     indicator: 'Indicador',
@@ -776,11 +754,10 @@ El equipo de FRA
     proportionForestAreaLegallyEstablishedProtectedAreas:
       'Proporción de área de bosque dentro de áreas protegidas legalmente establecidas',
     proportionForestAreaLongTermForestManagement: 'Proporción de área de bosque con planes de gestión a largo plazo',
-    forestArea1000Ha: 'Área de bosque (1000 ha)',
+    forestArea1000Ha: 'Área forestal (1000 ha)',
     forestAreaVerifiedForestManagement:
       'Área de bosque bajo sistemas de certificación de manejo forestal verificados de forma independiente',
   },
-
   panEuropeanIndicators: {
     panEuropeanIndicators: 'Indicadores cuantitativos paneuropeos para la gestión forestal sostenible',
     uploadQuestionnaire: 'Cargar cuestionario',
@@ -792,9 +769,9 @@ El equipo de FRA
     panEuropeanQualitativeIndicators: 'Indicadores cualitativos paneuropeos para la gestión forestal sostenible',
     accessReportingPage: 'Acceder a la página de informes',
   },
-
   assessment: {
-    fra: 'FRA',
+    fra: false,
+    panEuropean: false,
     deskStudy: 'Estudio técnico',
     statusChangeNotification: {
       subject: 'El estado de {{country}} cambió a {{status}} en la plataforma de FRA',
@@ -828,6 +805,9 @@ El equipo de FRA
       changing: {
         label: 'Cambiando…',
       },
+      notStarted: {
+        label: 'No iniciado',
+      },
       editing: {
         label: 'Editando',
         previous: 'Volver a editar',
@@ -845,18 +825,13 @@ El equipo de FRA
       accepted: {
         label: 'Aceptado',
         next: 'Aceptar',
-        previous: '',
-      },
-      notStarted: {
-        label: 'No iniciado',
+        previous: false,
       },
     },
   },
-
   multiSelect: {
     placeholder: 'Elegir…',
   },
-
   emoji: {
     picker: {
       search: 'Buscar',
@@ -874,7 +849,6 @@ El equipo de FRA
       },
     },
   },
-
   country: {
     region: {
       asia: 'Asia',
@@ -887,13 +861,11 @@ El equipo de FRA
       forest_europe: 'Forest Europe',
     },
   },
-
   countryMessageBoard: {
     messageBoard: 'Tablero de mensajes',
     messageBoardDesc: 'Los mensajes publicados aquí son visibles para todos los miembros del país.',
     oneToOneMessages: 'Mensajes individuales',
   },
-
   tutorial: {
     watch: 'Ver',
     passwordLogin: 'Manual de usuario de la plataforma FRA - Cómo iniciar sesión con una contraseña autodefinida',
@@ -910,4 +882,4 @@ El equipo de FRA
     nationalDataAddReferenceLink:
       'Tutorial del usuario de la plataforma FRA - Cómo agregar un enlace de referencia para datos nacionales',
   },
-}
+};

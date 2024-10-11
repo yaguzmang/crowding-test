@@ -22,7 +22,7 @@ module.exports = {
   },
   carbonAndGrowingStock: {
     title: '森林立木蓄积量和碳储量, {{startYear}} - {{endYear}}',
-    rowName: '',
+    rowName: false,
     carbon_stock_biomass_total: '生物质碳储量 ($t({{unit}}))',
     carbon_stock_total: '碳储量合计 ($t({{unit}}))',
     growing_stock_total: '$t(growingStock.growingStock) ($t({{unit}}))',
@@ -42,7 +42,7 @@ module.exports = {
   primaryDesignatedManagementObjective: {
     title:
       '$t(designatedManagementObjective.primaryDesignatedManagementObjective), {{startYear}} - {{endYear}}, $t({{unit}})',
-    rowName: '',
+    rowName: false,
     conservation_of_biodiversity: '$t(designatedManagementObjective.biodiversityConservation)',
     multiple_use: '$t(designatedManagementObjective.multipleUse)',
     other: '$t(common.other)',
@@ -55,4 +55,4 @@ module.exports = {
   naturallyRegeneratingForest: {
     title: '自然再生林和人工林面积, {{startYear}} - {{endYear}}, $t({{unit}})',
   },
-}
+};
