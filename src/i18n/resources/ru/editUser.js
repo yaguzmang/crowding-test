@@ -9,6 +9,7 @@ module.exports = {
   countryIso: 'Страна',
   deactivate: 'Деактивировать',
   demoteToUser: 'Вы уверены, что хотите удалить привилегии администратора?',
+  disabled: false,
   done: 'Сохранить',
   email: 'Электронная почта',
   institution: 'Учреждение',
@@ -34,10 +35,10 @@ module.exports = {
   secondaryPhoneNumber: 'Второй номер телефона',
   signal: 'Signal',
   skype: 'Имя пользователя Skype',
-  status: 'Статус',
+  status: false,
   street: 'Адрес ',
   surname: 'Фамилия',
   title: 'Апелляция',
   whatsapp: 'WhatsApp',
   zipCode: 'Почтовый индекс',
-}
+};

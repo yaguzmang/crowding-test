@@ -1,14 +1,16 @@
 module.exports = {
   referenceToTataSource: 'مرجع مصدر البيانات',
   typeOfDataSource: 'نوع مصدر البيانات',
+  typeOfDataSourceText: false,
   fraVariable: 'متغير (فرا)',
   variable: 'المتغير',
   yearForDataSource: 'سنة مصدر البيانات',
-  comments: 'التعليقات',
+  comments: 'تعليقات',
   nationalForestInventory: 'الجرد الوطني للغابات (NFI)',
   remoteSensingBasedAssessmentWithGroundTruthing: 'التقييم القائم على الاستشعار عن بعد مع التحقيق السطحي',
   statisticalRemoteSensingSurveyWithAccuracyAssessment: 'المسح الإحصائي بالاستشعار عن بعد مع تقييم الدقة',
   remoteSensingBasedAssessmentWithoutGroundTruthing: 'التقييم القائم على الاستشعار عن بعد دون التحقيق السطحي',
   vegetationMapping: 'رسم خرائط الغطاء النباتي',
   registersAndStatistics: 'السجلات والإحصاءات',
-}
+  other: '$t(common.otherSpecifyInComments)',
+};

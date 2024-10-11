@@ -6,4 +6,4 @@ module.exports = {
     optionsDisabled:
       'Le nom, la visibilité publique et la suppression sont désactivés car cet élément est utilisé par :',
   },
-}
+};
