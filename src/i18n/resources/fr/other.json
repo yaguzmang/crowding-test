@@ -11,19 +11,6 @@
     "ar": "العربية",
     "zh": "中文"
   },
-  "home": {
-    "keyFindings": "Le monde compte une superficie forestière totale de 4,06 milliards d'hectares\n(ha), ce qui correspond à 31 pour cent de la superficie totale des terres. Cela\néquivaut à 0,52 ha par personne - bien que les forêts ne soient pas également\nréparties entre les populations du monde ou sur le plan géographique. Le domaine\ntropical compte la plus grande part de forêts du monde (45 pour cent), suivi\ndes domaines boréal, tempéré et sous-tropical"
-  },
-  "footer": {
-    "contactUs": "Contactez-nous",
-    "termsAndConditions": "Termes et conditions",
-    "scamAlert": "Alerte aux messages frauduleux",
-    "reportMisconduct": "Signaler un cas de mauvaise conduite",
-    "tutorials": "Vidéo",
-    "sendFeedback": "Envoyer réactions",
-    "licenses": "Autorisations",
-    "platformVersion": "Version de la plate-forme"
-  },
   "disclaimer": {
     "statisticalFactsheets": "Avertissement: peut contenir des estimations de la FAO, peut contenir des valeurs manquantes",
     "part1": "Ce site a été élaboré avec l’aide de l'",
@@ -37,6 +24,19 @@
     "part5": ". Son contenu relève de la seule responsabilité de la FAO  et ne peut en aucun cas être considéré comme reflétant la position de l'Union européenne du Gouvernement de Finlande, du Gouvernement de Norvège ou du Fonds pour l'environnement mondial.",
     "termsOfUse": "Conditions d'utilisation de la base de données statistiques"
   },
+  "home": {
+    "keyFindings": "Le monde compte une superficie forestière totale de 4,06 milliards d'hectares\n(ha), ce qui correspond à 31 pour cent de la superficie totale des terres. Cela\néquivaut à 0,52 ha par personne - bien que les forêts ne soient pas également\nréparties entre les populations du monde ou sur le plan géographique. Le domaine\ntropical compte la plus grande part de forêts du monde (45 pour cent), suivi\ndes domaines boréal, tempéré et sous-tropical"
+  },
+  "footer": {
+    "contactUs": "Contactez-nous",
+    "termsAndConditions": "Termes et conditions",
+    "scamAlert": "Alerte aux messages frauduleux",
+    "reportMisconduct": "Signaler un cas de mauvaise conduite",
+    "tutorials": "Vidéo",
+    "sendFeedback": "Envoyer réactions",
+    "licenses": "Autorisations",
+    "platformVersion": "Version de la plate-forme"
+  },
   "unit": {
     "haThousand": "1 000 ha",
     "ha": "ha",
@@ -47,11 +47,21 @@
     "haMillion": "millions d'ha",
     "haThousandPerYear": "1 000 ha / an",
     "tonnesPerHa": "tonnes / ha",
+    "cubicMeterPerHa": "m³/ha",
+    "millionTonnes": "million metric tonnes",
     "millionsCubicMeterOverBark": "millions de m³ sur écorce",
+    "thousandCubicMeterOverBark": "1 000 m³ over bark",
     "billionCubicMeter": "billion m³",
+    "thousandCubicMeter": "1 000 m³",
+    "thousandCubicMeterRWE": "1 000 m³ round-wood equivalent",
+    "thousandPersons": "1 000 persons",
     "gt": "Gt",
     "fte1000": "1 000 EPT",
     "numberOfStudents": "$t(graduationOfStudents.numberOfStudents)",
+    "absoluteNumber": "absolute number",
+    "annualNumberOfVisitsMillion": "annual number of visits (million)",
+    "millionNationalCurrency": "million national currency",
+    "facilityLengthIn1000Km": "facility (length in 1 000 km)",
     "growingStockPercent": "% du total"
   },
   "countrySelection": {
@@ -59,7 +69,8 @@
   },
   "definition": {
     "definitionLabel": "Voir les définitions",
-    "faqLabel": "Q&R"
+    "faqLabel": "Q&R",
+    "seeReportingNotes": "See Reporting Notes"
   },
   "audit": {
     "notStarted": "Pas commencé",
@@ -77,15 +88,17 @@
       "ALTERNATE_NATIONAL_CORRESPONDENT": "Correspondant national suppléant",
       "COLLABORATOR": "Collaborateur",
       "ADMINISTRATOR": "Administrateur",
-      "noRole": "",
       "VIEWER": "Visionneur",
+      "noRole": "",
       "reviewer_plural": "Examinateurs",
       "nationalCorrespondent_plural": "Correspondants nationaux",
       "alternateNationalCorrespondent_plural": "Correspondants nationaux suppléants",
       "collaborator_plural": "Collaborateurs"
     },
     "resetPasswordEmail": {
-      "subject": "Plateforme FRA - Réinitialiser le mot de passe"
+      "subject": "Plateforme FRA - Réinitialiser le mot de passe",
+      "textMessage": "Dear {{user}}\n\nWe have received a request to reset your password for your FRA account. \nIf you didn't make this request, you can safely ignore this email.\n\nClick the following link to reset your password\n{{- link}}\n\n\nThanks,\nThe FRA team fra@fao.org\n{{- url}}",
+      "htmlMessage": "Dear {{user}}\n<br/><br/>\nWe have received a request to reset your password for your FRA account. \n<br/>\nIf you didn't make this request, you can safely ignore this email.\n<br/><br/><br/>\n<a href=\"{{link}}\" style=\"text-decoration: none; background-color: #0098a6;border: 2px solid #00988F;color: white;font-size: 14px;font-weight: 700;    padding: 10px 50px;\">Click here to reset your password</a>\n<br/><br/><br/>\nThanks,\n<br/>\nThe FRA team fra@fao.org\n<br/>\n{{- url}}\n      "
     }
   },
   "fraClass": {
@@ -97,6 +110,7 @@
     "naturallyRegeneratingForest": "Forêt naturellement régénérée",
     "plantationForest": "Forêt de plantation",
     "ofWhichIntroduced": "…dont introduite",
+    "ofWhichPrimaryForest": "$t(fra.forestCharacteristics.primaryForest)",
     "otherPlantedForest": "Autre forêt plantée",
     "totalForest": "Forêt totale"
   },
@@ -105,6 +119,9 @@
     "treeOrchards": "…dont vergers (inclut fruits, fruits à coque, olives, etc)",
     "agroforestry": "…dont système agroforestier",
     "treesUrbanSettings": "…dont arbres en milieu urbain"
+  },
+  "messageBoard": {
+    "messageBoard": "$t(landing.sections.messageBoard)"
   },
   "userChat": {
     "chatHeader": "Échange de messages avec {{user}}",
@@ -122,13 +139,13 @@
     "access": {
       "countryRoleNotSpecified": "Erreur: L'utilisateur {{user}} a essayé d'accéder à {{countryIso}} mais aucun rôle n'a été précisé",
       "countryUserNotReviewer": "Erreur: L'utilisateur {{user}} a essayé d'accéder à {{countryIso}} dont il n'est pas examinateur",
+      "userNotAdministrator": "Erreur : l'utilisateur {{user}} a tenté d'accéder à une ressource disponible uniquement pour les administrateurs",
       "roleChangeNotAllowed": "Erreur: L'utilisateur {{user}} a essayé de configurer un autre profil d'utilisateur à {{role}} ce qui n'est pas autorisé pour l'utilisateur connecté",
+      "userAlreadyAddedToCountry": "Erreur : l'utilisateur {{user}} est déjà ajouté au pays {{countryIso}}",
       "invitationAlreadyUsed": "Erreur: L'invitation {{invitationUuid}} a déjà été utilisée, détournement par {{loginEmail}} non autorisé!",
       "countryDoesNotMatch": "Erreur: Le pays {{countyryIso}} ne correspond pas",
       "assessmentEditingNotAllowed": "Erreur: L'utilisateur {{user}} dans le rôle {{role}} ne peut pas modifier l'évaluation en {{assessmentStatus}} pour le pays {{countryIso}}",
-      "assessmentCommentingNotAllowed": "Erreur: L'utilisateur {{user}} dans le rôle {{role}} ne peut pas commenter l'évaluation en {{assessmentStatus}} pour le pays {{countryIso}}",
-      "userNotAdministrator": "Erreur : l'utilisateur {{user}} a tenté d'accéder à une ressource disponible uniquement pour les administrateurs",
-      "userAlreadyAddedToCountry": "Erreur : l'utilisateur {{user}} est déjà ajouté au pays {{countryIso}}"
+      "assessmentCommentingNotAllowed": "Erreur: L'utilisateur {{user}} dans le rôle {{role}} ne peut pas commenter l'évaluation en {{assessmentStatus}} pour le pays {{countryIso}}"
     },
     "assessment": {
       "transitionNotAllowed": "Erreur: La transition depuis {{currentStatus}} à {{status}} n'est pas autorisée pour le rôle {{role}}",
@@ -187,16 +204,17 @@
   },
   "time": {
     "hour": "Il y a {{count}} heure",
-    "day": "Il y a {{count}} jour",
-    "week": "Il y a {{count}} semaine",
-    "aMomentAgo": "Il y a un moment",
     "hour_plural": "Il y a {{count}} heures",
+    "day": "Il y a {{count}} jour",
     "day_plural": "Il y a {{count}} jours",
-    "week_plural": "il y a {{count}} semaines"
+    "week": "Il y a {{count}} semaine",
+    "week_plural": "il y a {{count}} semaines",
+    "aMomentAgo": "Il y a un moment"
   },
   "review": {
     "comments": "Commentaires",
     "noComments": "Pas de commentaires",
+    "loading": "Chargement",
     "resolve": "Résoudre",
     "confirmDelete": "Supprimer ce commentaire? Cette action ne peut pas être annulée.",
     "commentDeleted": "Commentaire supprimé",
@@ -204,8 +222,7 @@
     "delete": "Supprimer",
     "writeComment": "Écrire un commentaire…",
     "commentingClosed": "Période de commentaires terminée",
-    "cancel": "Effacer",
-    "loading": "Chargement"
+    "cancel": "Effacer"
   },
   "description": {
     "edit": "Modifier",
@@ -224,35 +241,35 @@
     "reclassification": "Reclassification dans les catégories de FRA {{cycleName}}"
   },
   "userManagement": {
-    "manageCollaborators": "Gérer collaborateurs",
-    "loginEmail": "Identifiant",
-    "noUsers": "Aucun collaborateur ajouté",
-    "placeholder": "Choisir…",
-    "remove": "Éliminer",
+    "addUser": "Ajouter collaborateur",
+    "allUsers": "Tous les collaborateurs",
+    "confirmDelete": "Éliminer {{user}}?",
     "done": "Terminé",
     "edit": "Modifier",
-    "addUser": "Ajouter collaborateur",
+    "editPermissions": "Modifier les autorisations",
     "formErrors": "Il y a des erreurs dans le formulaire. S'il vous plaît, réparez-les et soumettez-le à nouveau.",
-    "insufficientPrivileges": "Privilèges insuffisants",
-    "confirmDelete": "Éliminer {{user}}?",
-    "allUsers": "Tous les collaborateurs",
     "info": "Info",
-    "tableAccess": "Accès aux tables",
+    "insufficientPrivileges": "Privilèges insuffisants",
+    "invitationDeleted": "L'invitation a été supprimée",
+    "invitationEmailSent": "Un e-mail d'invitation a été envoyé",
     "invitationLink": "Lien d'invitation",
-    "sendInvitation": "Envoyer un email d'invitation",
+    "invitationLinkCopied": "The invitation link has been copied",
     "inviteAgain": "Inviter de nouveau",
+    "loginEmail": "Identifiant",
+    "manageCollaborators": "Gérer collaborateurs",
+    "noUsers": "Aucun collaborateur ajouté",
+    "permissions": "Autorisations",
+    "personalInfoRequired": "Veuillez compléter vos informations personnelles avant de continuer",
+    "placeholder": "Choisir…",
+    "remove": "Éliminer",
+    "sendInvitation": "Envoyer un email d'invitation",
+    "userAdded": "{{email}} a été ajouté",
+    "userModified": "{{user}} a été modifié",
     "invitationEmail": {
       "subject": "Invitation à la plateforme de FRA",
       "textMessage": "Cher {{invitedUser}},\n\nVous avez été invité à accéder {{assessmentName}} {{cycleName}} comme {{role}} pour le/la {{- country}}.\n\nAcceptez cette invitation et accédez à cette plateforme à l'adresse suivante:\n{{- link}}\n\nBon travail!\n\nL'équipe de FRA fra@fao.org\n{{- url}}\n    ",
       "htmlMessage": "Cher {{invitedUser}},\n<br/><br/>\nVous avez été invité à accéder {{assessmentName}} {{cycleName}} comme {{role}} pour le/la {{country}}.\n<br/><br/>\n<b><a href=\"{{- link}}\">Acceptez cette invitation et accédez à la plateforme</a></b>\n<br/><br/>\nBon travail!\n<br/><br/>\nL'équipe de FRA fra@fao.org\n<br/>\n{{- url}}\n    "
     },
-    "editPermissions": "Modifier les autorisations",
-    "invitationDeleted": "L'invitation a été supprimée",
-    "invitationEmailSent": "Un e-mail d'invitation a été envoyé",
-    "permissions": "Autorisations",
-    "personalInfoRequired": "Veuillez compléter vos informations personnelles avant de continuer",
-    "userAdded": "{{email}} a été ajouté",
-    "userModified": "{{user}} a été modifié",
     "permissionNames": {
       "tableData": "Données du tableau",
       "descriptions": "Descriptions"
@@ -289,14 +306,14 @@
     "totalLandArea": "Total des terres émergées",
     "fedAreasExceedTotalLandArea": "La superficie des forêts et des autres terres boisées est supérieure au total des terres émergées",
     "forestAreaDoesNotMatchPreviouslyReported": "La superficie de forêt ne correspond pas à la superficie de FRA {{year}}: {{previous}}",
+    "forestAreaNetChangeDoesNotMatch": "Le changement net de la superficie forestière ne correspond pas à la valeur attendue : {{value}}",
     "useOriginalDataPoints": "Utiliser les points de données nationales",
     "dontUseOriginalDataPoints": "Ne pas utiliser les points de données nationales",
     "whatIsThis": "Qu'est-ce-que c'est?",
     "tableNoticeMessage": "La superficie des terres enregistrée par FAOSTAT pour l'année 2015 est utilisée pour toutes les années de référence",
     "ndpMissingValues": "Le point de données nationales a des valeurs manquantes",
     "showNDPs": "Afficher les points de données nationaux",
-    "hideNDPs": "Cacher les points de données nationaux",
-    "forestAreaNetChangeDoesNotMatch": "Le changement net de la superficie forestière ne correspond pas à la valeur attendue : {{value}}"
+    "hideNDPs": "Cacher les points de données nationaux"
   },
   "climaticDomain": {
     "climaticDomain": "Domaine climatique",
@@ -326,6 +343,7 @@
   "tableWithOdp": {
     "confirmGenerateFraValues": "Remplacer valeurs existantes?",
     "generateFraValues": "Générer valeurs",
+    "generatingFraValues": "En cours de traitement...",
     "linearExtrapolation": "Linéaire",
     "repeatLastExtrapolation": "Répéter dernier",
     "annualChangeExtrapolation": "Changement annuel",
@@ -333,8 +351,7 @@
     "placeholderPast": "Passé",
     "copyToClipboard": "Copier valeurs",
     "placeholderSelect": "Estimation et prévision",
-    "_1000haYear": "1000 ha/an",
-    "generatingFraValues": "En cours de traitement..."
+    "_1000haYear": "1000 ha/an"
   },
   "forestAreaChange": {
     "forestAreaChange": "Expansion annuelle de la forêt, déforestation et changement net",
@@ -401,6 +418,7 @@
     "introducedTreeSpecies": "Espèce d'arbre introduite",
     "areaUnitLabel": "Matériel sur pied dans la forêt (millions m³ sur écorce)",
     "scientificName": "Dénomination scientifique",
+    "millionCubicMeter": "$t(fra.growingStockComposition.millionCubicMeter)",
     "commonName": "Dénomination usuelle",
     "rank": "#{{idx}} Classé(e) en volume",
     "remainingNative": "Espèces d'arbres indigènes restantes",
@@ -408,7 +426,9 @@
     "totalNative": "Volume total espèces d'arbres indigènes",
     "totalIntroduced": "Volume total espèces d'arbres introduites",
     "totalGrowingStock": "Total matériel sur pied",
-    "rankingYear": "Année de classement 2015"
+    "rankingYear": "Année de classement 2015",
+    "growingStockPercent": "$t(unit.growingStockPercent)",
+    "mostRecentYear": "$t(fra.growingStockComposition.mostRecentYear)"
   },
   "biomassStock": {
     "biomassStock": "Biomasse",
@@ -501,11 +521,7 @@
     "ofWhichForest": "…dont de forêt"
   },
   "degradedForest": {
-    "degradedForest": "Forêt dégradée",
-    "doesYourCountryMonitor": "Votre pays surveille-t-il la superficie de forêt dégradée",
-    "ifYes": "Si \"oui\"",
-    "whatIsDefinition": "Quelle est la définition nationale de \"forêt dégradée\"?",
-    "howMonitored": "Décrire le processus de surveillance et les résultats obtenus"
+    "degradedForest": "Forêt dégradée"
   },
   "forestPolicy": {
     "forestPolicy": "Politiques, législation et plateforme nationale de participation des parties prenantes aux politiques forestières",
@@ -613,6 +629,7 @@
   },
   "assessment": {
     "fra": "FRA",
+    "panEuropean": "pan-European",
     "deskStudy": "Étude de bureau",
     "statusChangeNotification": {
       "subject": "Le statut de {{- country}} a été changé à {{status}} dans la plateforme de FRA",
@@ -622,6 +639,9 @@
     "status": {
       "changing": {
         "label": "Changement…"
+      },
+      "notStarted": {
+        "label": "Pas commencé"
       },
       "editing": {
         "label": "Modifier",
@@ -641,9 +661,6 @@
         "label": "Accepté",
         "next": "Accepter",
         "previous": ""
-      },
-      "notStarted": {
-        "label": "Pas commencé"
       }
     }
   },

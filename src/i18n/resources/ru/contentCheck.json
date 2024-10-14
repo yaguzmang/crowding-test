@@ -1,4 +1,5 @@
 {
+  "//": "Keys are in same format as the database fields",
   "extent": {
     "title": "Площадь",
     "forest_area": "Леса (1000 га)",
@@ -6,7 +7,9 @@
     "primary_forest_percent": "Первичные леса (% лесов)",
     "protected_forest_percent": "Леса на охраняемых территориях (% лесов)",
     "management_plan_percent": "Площадь лесов с планом управления  (% лесов)",
-    "certified_area": "Площадь сертифицированных лесов (1000 га)"
+    "certified_area": "Площадь сертифицированных лесов (1000 га)",
+    "bamboo": "$t(specificForestCategories.bamboo)",
+    "mangroves": "$t(specificForestCategories.mangroves)"
   },
   "periodicChangeRate": {
     "title": "Периодические изменения (годовые темпы)",
@@ -40,16 +43,35 @@
     "dead_living_mass_ratio": "Соотношение (углерод/биомасса) для мертвой древесины"
   },
   "primaryDesignatedManagementObjective": {
-    "title": "Основная назначенная цель управления"
+    "title": "Основная назначенная цель управления",
+    "production": "$t(designatedManagementObjective.production)",
+    "protection_of_soil_and_water": "$t(designatedManagementObjective.soilWaterProtection)",
+    "conservation_of_biodiversity": "$t(designatedManagementObjective.biodiversityConservation)",
+    "social_services": "$t(designatedManagementObjective.socialServices)",
+    "multiple_use": "$t(designatedManagementObjective.multipleUse)",
+    "other": "$t(designatedManagementObjective.other)",
+    "no_unknown": "$t(designatedManagementObjective.unknown)"
   },
   "totalAreaDesignatedManagementObjective": "Общая площадь с назначенной целью управления",
   "forestOwnership": {
-    "title": "Права собственности"
+    "title": "Права собственности",
+    "private_ownership": "$t(forestOwnership.privateOwnership)",
+    "public_ownership": "$t(forestOwnership.publicOwnership)",
+    "other_or_unknown": "$t(forestOwnership.otherOrUnknown)"
   },
   "holderOfManagementRights": {
-    "title": "Права управления государственными лесами"
+    "title": "Права управления государственными лесами",
+    "public_administration": "$t(holderOfManagementRights.publicAdministration)",
+    "individuals": "$t(holderOfManagementRights.individuals)",
+    "private_businesses": "$t(holderOfManagementRights.privateBusinesses)",
+    "communities": "$t(holderOfManagementRights.communities)",
+    "other": "$t(holderOfManagementRights.other)"
   },
   "disturbances": {
-    "title": "Нарушения состояния лесов"
+    "title": "Нарушения состояния лесов",
+    "insects": "$t(disturbances.insects)",
+    "diseases": "$t(disturbances.diseases)",
+    "severe_weather_events": "$t(disturbances.severeWeatherEvents)",
+    "other": "$t(disturbances.other)"
   }
 }

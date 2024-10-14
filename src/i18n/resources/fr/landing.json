@@ -11,9 +11,6 @@
     "userManagement": "Gérer collaborateurs",
     "versioning": "Gestion des versions"
   },
-  "dataExport": {
-    "downloadData": "Télécharger les données"
-  },
   "overview": {
     "loadingMap": "Chargement carte…",
     "withFinancialSupportOf": "Avec le soutien financier de "
@@ -80,9 +77,37 @@
     "links": "Liens",
     "repository": "Référentiel",
     "uploadFile": "Mettre en ligne un fichier",
-    "confirmDelete": "Supprimer {{file}}? Cette action ne peut pas être annulée.",
     "fileUploaded": "Fichier téléchargé avec succès",
+    "confirmDelete": "Supprimer {{file}}? Cette action ne peut pas être annulée.",
     "fileDeleted": "Fichier supprimé avec succès",
     "fileOperationFailed": "L'opération ne peut pas être réalisée parce que le fichier est en cours d'utilisation dans:\n{{sectionNames}}"
+  },
+  "dataExport": {
+    "downloadData": "Télécharger les données"
+  },
+  "versioning": {
+    "status": {
+      "pending": "Pending",
+      "running": "Running",
+      "completed": "Completed",
+      "failed": "Failed"
+    },
+    "form": {
+      "newVersion": "New version",
+      "versionNumber": "Version",
+      "date": "Date",
+      "cancel": "Cancel",
+      "error": "There are errors in the form. Please, fix them and submit it again."
+    },
+    "table": {
+      "noVersions": "No versions yet",
+      "databaseVersions": "Database Versions",
+      "versionNumber": "Version Number",
+      "publishedAt": "Scheduled Time",
+      "createdBy": "Created By",
+      "status": "Status",
+      "delete": "Delete",
+      "scheduledAt": "Scheduled at"
+    }
   }
 }

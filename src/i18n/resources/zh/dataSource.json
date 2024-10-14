@@ -11,5 +11,6 @@
   "statisticalRemoteSensingSurveyWithAccuracyAssessment": "带有精度评估的统计遥感调查",
   "remoteSensingBasedAssessmentWithoutGroundTruthing": "基于遥感的评估，没有辅以地面实况调查",
   "vegetationMapping": "植被测绘",
-  "registersAndStatistics": "登记册和统计资料"
+  "registersAndStatistics": "登记册和统计资料",
+  "other": "$t(common.otherSpecifyInComments)"
 }

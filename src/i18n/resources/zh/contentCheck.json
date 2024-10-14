@@ -1,15 +1,15 @@
 {
   "//": "Keys are in same format as the database fields",
   "extent": {
-    "bamboo": "$t(specificForestCategories.bamboo)",
-    "mangroves": "$t(specificForestCategories.mangroves)",
     "title": "范围",
     "forest_area": "森林(1000公顷)",
     "other_wooded_land": "其它林地(1000公顷)",
     "primary_forest_percent": "原生林(占森林的百分比)",
     "protected_forest_percent": "保护区内的森林(占森林的百分比)",
     "management_plan_percent": "有管理计划的森林面积(占森林的百分比)",
-    "certified_area": "经认证的森林面积(1000公顷)"
+    "certified_area": "经认证的森林面积(1000公顷)",
+    "bamboo": "$t(specificForestCategories.bamboo)",
+    "mangroves": "$t(specificForestCategories.mangroves)"
   },
   "periodicChangeRate": {
     "title": "周期性变化率(年率)",
