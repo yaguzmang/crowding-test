@@ -1,77 +1,77 @@
 {
   "//": "Keys are in same format as the database fields",
+  "disturbances": {
+    "diseases": "$t(disturbances.diseases)",
+    "insects": "$t(disturbances.insects)",
+    "other": "$t(disturbances.other)",
+    "severe_weather_events": "$t(disturbances.severeWeatherEvents)",
+    "title": "Perturbations"
+  },
   "extent": {
-    "title": "Étendue",
+    "bamboo": "$t(specificForestCategories.bamboo)",
+    "certified_area": "Superficie forestière certifiée (1 000 ha)",
     "forest_area": "Forêt (1 000 ha)",
+    "management_plan_percent": "Superficie forestière avec plan de gestion (% de la forêt)",
+    "mangroves": "$t(specificForestCategories.mangroves)",
     "other_wooded_land": "Autres terres boisées (1 000 ha)",
     "primary_forest_percent": "Forêt primaire (% de la forêt)",
     "protected_forest_percent": "Forêt dans les aires protégées (% de la forêt)",
-    "management_plan_percent": "Superficie forestière avec plan de gestion (% de la forêt)",
-    "certified_area": "Superficie forestière certifiée (1 000 ha)",
-    "bamboo": "$t(specificForestCategories.bamboo)",
-    "mangroves": "$t(specificForestCategories.mangroves)"
-  },
-  "periodicChangeRate": {
-    "title": "Taux de changement périodique (taux annuels)",
-    "forest_area_annual_net_change": "Changement annuel net de la superficie de forêt (1 000 hectares)",
-    "forest_area_annual_net_change_rate": "Taux de changement annuel net de la superficie de forêt (%)",
-    "other_wooded_land_annual_net_change": "Changement annuel net de la superficie des ATB (1 000 hectares)",
-    "other_wooded_land_annual_net_change_rate": "Taux de changement annuel net de la superficie des ATB (%)",
-    "primary_forest_annual_net_change": "Changement annuel net de la superficie de forêt primaire (1000 hectares)",
-    "primary_forest_annual_net_change_rate": "Taux de changement annuel net de la superficie de forêt primaire  (%)",
-    "natural_forest_area_annual_net_change": "Changement annuel net de la superficie de forêt naturellement régénérée (1 000 hectares)",
-    "natural_forest_area_annual_net_change_rate": "Taux de changement annuel net de la superficie de forêt naturellement régénérée  (%)",
-    "planted_forest_annual_net_change": "Changement annuel net de la superficie de forêt plantée (1 000 hectares)",
-    "planted_forest_annual_net_change_rate": "Taux de changement annuel net de la superficie de forêt plantée  (%)"
+    "title": "Étendue"
   },
   "forestGrowingStockBiomassCarbon": {
-    "title": "Matériel sur pied, biomasse et carbone des FORÊTS",
-    "forest": "Matériel sur pied (m3/ha)",
-    "forest_above_ground": "Biomasse aérienne (t/ha)",
-    "forest_below_ground": "Biomasse souterraine (t/ha)",
-    "forest_deadwood": "Bois mort (t/ha)",
+    "above_ground_biomass_growing_stock_ratio": "Rapport (biomasse aérienne) / (Matériel sur pied) (t/m3)",
+    "carbon_biomass_above_ground_ratio": "Rapport (Carbone/ Biomasse) pour la biomasse aérienne",
+    "carbon_biomass_below_ground_ratio": "Rapport (Carbone/ Biomasse) pour la biomasse souterraine",
+    "carbon_biomass_deadwood_ratio": "Rapport (Bois mort) / (Biomasse vivante)",
     "carbon_forest_above_ground": "C dans la biomasse aérienne (t/ha)",
     "carbon_forest_below_ground": "C dans la biomasse aérienne (t/ha)",
     "carbon_forest_deadwood": "C dans le bois mort (t/ha)",
     "carbon_forest_litter": "C dans la litière (t/ha)",
     "carbon_forest_soil": "C dans le sol (t/ha)",
-    "above_ground_biomass_growing_stock_ratio": "Rapport (biomasse aérienne) / (Matériel sur pied) (t/m3)",
+    "dead_living_mass_ratio": "Rapport (Carbone/ Biomasse) pour le bois mort",
+    "forest": "Matériel sur pied (m3/ha)",
+    "forest_above_ground": "Biomasse aérienne (t/ha)",
+    "forest_below_ground": "Biomasse souterraine (t/ha)",
+    "forest_deadwood": "Bois mort (t/ha)",
     "root_shoot_ratio": "Rapport (Biomasse souterraine) / (Biomasse aérienne)",
-    "carbon_biomass_deadwood_ratio": "Rapport (Bois mort) / (Biomasse vivante)",
-    "carbon_biomass_above_ground_ratio": "Rapport (Carbone/ Biomasse) pour la biomasse aérienne",
-    "carbon_biomass_below_ground_ratio": "Rapport (Carbone/ Biomasse) pour la biomasse souterraine",
-    "dead_living_mass_ratio": "Rapport (Carbone/ Biomasse) pour le bois mort"
+    "title": "Matériel sur pied, biomasse et carbone des FORÊTS"
   },
-  "primaryDesignatedManagementObjective": {
-    "title": "Objectif de gestion principal ",
-    "production": "$t(designatedManagementObjective.production)",
-    "protection_of_soil_and_water": "$t(designatedManagementObjective.soilWaterProtection)",
-    "conservation_of_biodiversity": "$t(designatedManagementObjective.biodiversityConservation)",
-    "social_services": "$t(designatedManagementObjective.socialServices)",
-    "multiple_use": "$t(designatedManagementObjective.multipleUse)",
-    "other": "$t(designatedManagementObjective.other)",
-    "no_unknown": "$t(designatedManagementObjective.unknown)"
-  },
-  "totalAreaDesignatedManagementObjective": "Superficie totale de forêt avec un objectif de gestion fixé",
   "forestOwnership": {
-    "title": "Droits de propriété",
+    "other_or_unknown": "$t(forestOwnership.otherOrUnknown)",
     "private_ownership": "$t(forestOwnership.privateOwnership)",
     "public_ownership": "$t(forestOwnership.publicOwnership)",
-    "other_or_unknown": "$t(forestOwnership.otherOrUnknown)"
+    "title": "Droits de propriété"
   },
   "holderOfManagementRights": {
-    "title": "Droits de gestion des forêts publiques",
-    "public_administration": "$t(holderOfManagementRights.publicAdministration)",
-    "individuals": "$t(holderOfManagementRights.individuals)",
-    "private_businesses": "$t(holderOfManagementRights.privateBusinesses)",
     "communities": "$t(holderOfManagementRights.communities)",
-    "other": "$t(holderOfManagementRights.other)"
+    "individuals": "$t(holderOfManagementRights.individuals)",
+    "other": "$t(holderOfManagementRights.other)",
+    "private_businesses": "$t(holderOfManagementRights.privateBusinesses)",
+    "public_administration": "$t(holderOfManagementRights.publicAdministration)",
+    "title": "Droits de gestion des forêts publiques"
   },
-  "disturbances": {
-    "title": "Perturbations",
-    "insects": "$t(disturbances.insects)",
-    "diseases": "$t(disturbances.diseases)",
-    "severe_weather_events": "$t(disturbances.severeWeatherEvents)",
-    "other": "$t(disturbances.other)"
-  }
+  "periodicChangeRate": {
+    "forest_area_annual_net_change": "Changement annuel net de la superficie de forêt (1 000 hectares)",
+    "forest_area_annual_net_change_rate": "Taux de changement annuel net de la superficie de forêt (%)",
+    "natural_forest_area_annual_net_change": "Changement annuel net de la superficie de forêt naturellement régénérée (1 000 hectares)",
+    "natural_forest_area_annual_net_change_rate": "Taux de changement annuel net de la superficie de forêt naturellement régénérée  (%)",
+    "other_wooded_land_annual_net_change": "Changement annuel net de la superficie des ATB (1 000 hectares)",
+    "other_wooded_land_annual_net_change_rate": "Taux de changement annuel net de la superficie des ATB (%)",
+    "planted_forest_annual_net_change": "Changement annuel net de la superficie de forêt plantée (1 000 hectares)",
+    "planted_forest_annual_net_change_rate": "Taux de changement annuel net de la superficie de forêt plantée  (%)",
+    "primary_forest_annual_net_change": "Changement annuel net de la superficie de forêt primaire (1000 hectares)",
+    "primary_forest_annual_net_change_rate": "Taux de changement annuel net de la superficie de forêt primaire  (%)",
+    "title": "Taux de changement périodique (taux annuels)"
+  },
+  "primaryDesignatedManagementObjective": {
+    "conservation_of_biodiversity": "$t(designatedManagementObjective.biodiversityConservation)",
+    "multiple_use": "$t(designatedManagementObjective.multipleUse)",
+    "no_unknown": "$t(designatedManagementObjective.unknown)",
+    "other": "$t(designatedManagementObjective.other)",
+    "production": "$t(designatedManagementObjective.production)",
+    "protection_of_soil_and_water": "$t(designatedManagementObjective.soilWaterProtection)",
+    "social_services": "$t(designatedManagementObjective.socialServices)",
+    "title": "Objectif de gestion principal "
+  },
+  "totalAreaDesignatedManagementObjective": "Superficie totale de forêt avec un objectif de gestion fixé"
 }

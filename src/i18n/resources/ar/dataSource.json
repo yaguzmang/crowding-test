@@ -1,16 +1,16 @@
 {
+  "comments": "التعليقات",
+  "fraVariable": "متغير (فرا)",
+  "nationalForestInventory": "الجرد الوطني للغابات (NFI)",
+  "other": "$t(common.otherSpecifyInComments)",
   "referenceToTataSource": "مرجع مصدر البيانات",
+  "registersAndStatistics": "السجلات والإحصاءات",
+  "remoteSensingBasedAssessmentWithGroundTruthing": "التقييم القائم على الاستشعار عن بعد مع التحقيق السطحي",
+  "remoteSensingBasedAssessmentWithoutGroundTruthing": "التقييم القائم على الاستشعار عن بعد دون التحقيق السطحي",
+  "statisticalRemoteSensingSurveyWithAccuracyAssessment": "المسح الإحصائي بالاستشعار عن بعد مع تقييم الدقة",
   "typeOfDataSource": "نوع مصدر البيانات",
   "typeOfDataSourceText": "$t(dataSource.typeOfDataSource)",
-  "fraVariable": "متغير (فرا)",
   "variable": "المتغير",
-  "yearForDataSource": "سنة مصدر البيانات",
-  "comments": "التعليقات",
-  "nationalForestInventory": "الجرد الوطني للغابات (NFI)",
-  "remoteSensingBasedAssessmentWithGroundTruthing": "التقييم القائم على الاستشعار عن بعد مع التحقيق السطحي",
-  "statisticalRemoteSensingSurveyWithAccuracyAssessment": "المسح الإحصائي بالاستشعار عن بعد مع تقييم الدقة",
-  "remoteSensingBasedAssessmentWithoutGroundTruthing": "التقييم القائم على الاستشعار عن بعد دون التحقيق السطحي",
   "vegetationMapping": "رسم خرائط الغطاء النباتي",
-  "registersAndStatistics": "السجلات والإحصاءات",
-  "other": "$t(common.otherSpecifyInComments)"
+  "yearForDataSource": "سنة مصدر البيانات"
 }
