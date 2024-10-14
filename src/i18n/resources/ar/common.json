@@ -6,6 +6,7 @@
   "approve": "الموافقة",
   "approved": "تمت الموافقة عليه",
   "areYouSureYouWantToDelete": "هل ترغب في حذف هذا الملف؟ عند حذف هذا الملف لا يمكن استرجاعة مره اخري.",
+  "areYouSureYouWantToDeleteAllTableData": "",
   "calculate": "احسب",
   "cancel": "إلغاء",
   "clearTable": "حذف بيانات الجدول",
@@ -22,11 +23,14 @@
   "done": "تم",
   "email": "البريد الإلكتروني",
   "empty": "فارغاً",
+  "expired": "",
   "file": "ملف",
   "filterCountries": "غربلة البلدان",
   "fraPlatform": "منصة تقييم الموارد الحرجية",
   "globalFRA": "تقييم الموارد الحرجية العالمية",
   "hide": "إخفاء",
+  "invitations": "",
+  "invited": "",
   "issues": "مشاكل",
   "label": "التسمية",
   "language": "اللغة",
@@ -37,6 +41,7 @@
   "loading": "جاري التحميل...",
   "login": "المنطقة المحجوزة",
   "name": "الاسم",
+  "noItemsFound": "",
   "or": "و",
   "other": "غير ذلك",
   "otherSpecifyInComments": "أخرى (حدد في التعليقات)",
@@ -62,11 +67,12 @@
   "success": "تمت بنجاح",
   "tier": "المستوى",
   "tiers": {
-    "notSelected": "",
     "high": "مرتفع",
+    "low": "منخفض",
     "medium": "متوسط",
-    "low": "منخفض"
+    "notSelected": ""
   },
+  "total": "",
   "totalPercentage": "النسبة المئوية الإجمالية",
   "trend": "اتجاه",
   "unknown": "ولا واحدة/مجهولة",
@@ -75,5 +81,6 @@
   "userGuide": "دليل المستخدم",
   "variable": "تقييم الموارد الحرجية متاح",
   "view": "مشاهدة",
-  "year": "العام"
+  "year": "العام",
+  "yes": ""
 }

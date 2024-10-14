@@ -1,4 +1,16 @@
 {
+  "2020": {},
+  "2025": {
+    "description": {
+      "dataSource": {
+        "referenceToTataSource": "",
+        "typeOfDataSource": "",
+        "variable": "",
+        "yearForDataSource": "",
+        "comments": ""
+      }
+    }
+  },
   "print": {
     "title": "Informe FRA {{cycleName}}",
     "titleTables": "Tablas de informe FRA {{cycleName}}",
@@ -7,14 +19,18 @@
     "disclaimerGenerated": "Este documento se generó automáticamente utilizando el informe que se puso a disposición como contribución a la Evaluación de los Recursos Forestales Mundiales {{cycleName}} de la FAO, y que se presentó a la FAO como documento oficial de gobierno. El contenido y las opiniones expresadas en este informe son responsabilidad de la entidad que presenta el informe a la FAO. La FAO no se hace responsable del uso que pueda hacerse de la información contenida en este informe.",
     "disclaimerGeneratedDeskStudy": "Este documento fue generado automáticamente a partir de un estudio de gabinete. La FAO no se hace responsable del uso que pueda hacerse de la información contenida en este informe."
   },
+  "labels": {
+    "short": ""
+  },
   "area100HaYear": "Área (1000 ha)",
+  "area100Ha": "Área (1000 ha)",
   "categoryHeader2020": "Categorías de FRA 2020",
   "categoryHeader2025": "Categorías de FRA 2025",
   "forestArea100HaYear": "Área forestal (1000 ha)",
-  "area100Ha": "Área (1000 ha)",
   "areaAffectedByFire": {
     "areaAffected": "Área afectada (1000 ha)",
-    "areaAffectedByFire2025": "$t(areaAffectedByFire.areaAffectedByFire)"
+    "areaAffectedByFire2025": "$t(areaAffectedByFire.areaAffectedByFire)",
+    "totalLandAreaAffectedByFire2025": ""
   },
   "biomassStock": {
     "aboveGround2025": "Biomasa aérea",
@@ -76,9 +92,11 @@
     "national": "Nacional",
     "subnational": "Subnacional",
     "biome": "Bioma",
-    "standLocal": "Parcela / Local"
+    "standLocal": "Parcela / Local",
+    "criteriaOfDegradedForest2025": ""
   },
   "designatedManagementObjective": {
+    "designatedManagementObjective2025": "",
     "noDesignation": "Sin designación",
     "unknown2025": "Desconocido"
   },
@@ -96,18 +114,22 @@
   },
   "forestAreaChange": {
     "forestExpansion2025": "Expansión forestal",
-    "forestAreaChange2025": "Expansión forestal, deforestación y cambio neto anual"
+    "forestAreaChange2025": "Expansión forestal, deforestación y cambio neto anual",
+    "forestAreaNetChange2025": ""
   },
   "forestAreaWithinProtectedAreas": {
     "forestAreaWithLongTermManagementPlan2025": "Área de bosque con planes de gestión a largo plazo",
     "forestAreaWithinProtectedAreas2025": "$t(forestAreaWithinProtectedAreas.forestAreaWithinProtectedAreas)"
   },
   "forestCharacteristics": {
+    "ofWhichOtherPlantedForest": "",
+    "ofWhichPlantationForest": "",
     "primaryForest": "...del cual es bosque primario",
     "plantationForestIntroducedArea2025": "...del cual de especies introducidas",
     "naturalForestArea2025": "Bosque con procesos de regeneración natural"
   },
   "forestOwnership": {
+    "ofWhichPrivateBusinesses2025": "",
     "ofWhichCommunities2025": "...de la cual pertenece a Pueblos Indígenas y comunidades locales",
     "other2025": "$t(common.otherSpecifyInComments)",
     "unknown2025": "Desconocido",
@@ -126,7 +148,10 @@
   },
   "growingStock": {
     "totalForest": "Total Bosque",
-    "naturallyRegeneratingForest2025": "Bosque con procesos de regeneración natural"
+    "naturallyRegeneratingForest2025": "Bosque con procesos de regeneración natural",
+    "plantationForest2025": "",
+    "plantedForest2025": "",
+    "otherPlantedForest2025": ""
   },
   "growingStockComposition": {
     "millionCubicMeter": "Millones de m³",
@@ -136,10 +161,15 @@
     "totalGrowingStock": "Existencias totales en formación",
     "totalIntroducedTreeSpecies": "Total de especies arbóreas introducidas",
     "totalNativeTreeSpecies": "Total de especies arbóreas nativas",
+    "updatedGrowingStockComposition": "",
     "nativeTreeSpecies2025": "Especies arbóreas nativas",
-    "introducedTreeSpecies2025": "Especies arbóreas introducidas"
+    "remainingNative2025": "",
+    "introducedTreeSpecies2025": "Especies arbóreas introducidas",
+    "remainingIntroduced2025": ""
   },
   "holderOfManagementRights": {
+    "holderOfManagementRights2025": "",
+    "privateBusinesses2025": "",
     "communities2025": "Pueblos Indígenas y comunidades locales",
     "other2025": "$t(common.otherSpecifyInComments)",
     "unknown2025": "Desconocido"
@@ -148,29 +178,50 @@
     "otherWoodedLand2025": "$t(growingStock.otherWoodedLand)"
   },
   "nonWoodForestProductsRemovals": {
-    "nonWoodForestProductsRemovals2025": "Extracción y valor de productos forestales no madereros en 2020"
+    "nonWoodForestProductsRemovals2025": "Extracción y valor de productos forestales no madereros en 2020",
+    "nameOfProduct2025": "",
+    "allOtherPlantProducts2025": "",
+    "allOtherAnimalProducts2025": "",
+    "currency2025": ""
   },
   "otherLandWithTreeCover": {
-    "otherLandWithTreeCover2025": "Otras tierras con cobertura arbórea"
+    "otherLandWithTreeCover2025": "Otras tierras con cobertura arbórea",
+    "agroforestry2025": "",
+    "other2025": ""
   },
   "primaryForestByClimaticDomain": {
     "primaryForestByClimaticDomain": "Bosque primario por región climática",
+    "primaryForestArea100Ha": "Área de bosque primario ($t(unit.haThousand))",
     "primaryForestBoreal": "...del cual bosque primario boreal",
     "primaryForestTemperate": "...del cual bosque primario templado",
     "primaryForestTropical": "...del cual bosque primario tropical",
     "primaryForestSubTropical": "...del cual bosque primario subtropical",
-    "totalPrimaryForest": "Área total de bosque primario",
-    "primaryForestArea100Ha": "Área de bosque primario ($t(unit.haThousand))"
+    "totalPrimaryForest": "Área total de bosque primario"
   },
   "specificForestCategories": {
     "specificForestCategories2025": "Categorías específicas de los bosques",
     "mangroves2025": "Manglares¹",
+    "rubberWood2025": "",
     "mangrovesDisclaimer": "¹Incluye tanto Bosque como Otras Tierras Boscosas "
+  },
+  "forestPolicy": {
+    "forestPolicy2025": "",
+    "policiesSFM2025": "",
+    "legislationsSFM2025": "",
+    "stakeholderParticipation2025": "",
+    "existenceOfTraceabilitySystem2025": ""
+  },
+  "areaOfPermanentForestEstate": {
+    "areaOfPermanentForestEstate2025": ""
   },
   "sustainableDevelopment": {
     "annualForestAreaChangeRate": "Tasa de cambio anual del área de bosque",
     "sdgIndicator1_2025": "Indicador ODS 15.1.1: Área de bosque en proporción a la superficie terrestre total",
     "forestAreaProportionLandArea": "Área de bosque en proporción a la superficie terrestre total",
+    "aboveGroundBiomassStockForests2025": "",
+    "proportionForestAreaLegallyEstablishedProtectedAreas2025": "",
+    "proportionForestAreaLongTermForestManagement2025": "",
+    "forestAreaVerifiedForestManagement2025": "",
     "dataProvidedBy": "Los datos para este subindicador ODS son proporcionados por FSC y PEFC (organizaciones de certificación forestal).",
     "Metadata-15-01-01": "Metadatos del Indicador ODS 15.1.1",
     "Metadata-15-02-01": "Metadatos del Indicador ODS 15.2.1"
@@ -202,14 +253,6 @@
     "footer2": "² Datos con una antigüedad superior a 5 años a partir del año de presentación del informe (anteriores a 2018 en el caso de los informes nacionales de FRA 2025)",
     "footer3": "³ Compatibles en términos de métodos, categorías y definiciones utilizados"
   },
-  "biomassStock_biomassStockStatus_Description": {
-    "header_0": "Criterios de nivel aplicables a los métodos de estimación de la biomasa",
-    "status": {
-      "high": "Factores de conversión y expansión de biomasa específicos al país o ecuaciones alométricas que se hayan aplicado.",
-      "medium": "Aplicación de ecuaciones alométricas genéricas o a nivel de bioma o una combinación de factores de conversión específicos al país o al bioma y factores de expansión por defecto de la biomasa publicados por el IPCC",
-      "low": "Aplicación de factores de conversión y expansión por defecto de la biomasa del IPCC (por ejemplo, el uso de la “calculadora de biomasa”), o estimaciones basadas en mapas de biomasa trazados mediante teledetección."
-    }
-  },
   "growingStock_growingStockStatus_Description": {
     "header_0": "Criterios de nivel aplicables a los métodos de estimación de las existencias en formación",
     "status": {
@@ -217,7 +260,20 @@
       "medium": "Fuentes de datos: Inventario forestal nacional antiguo², inventarios parciales sobre el terreno o escaneado láser aerotransportado (ALS) sin calibración de datos sobre el terreno.",
       "low": "Fuentes de datos: Otras fuentes de datos, como datos satelitales, registros, cuestionarios o evaluaciones de expertos."
     },
+    "status2025": {
+      "high": "",
+      "medium": "",
+      "low": ""
+    },
     "footer1": "¹ Datos con una antigüedad inferior a 10 años a partir del año de presentación del informe (2013 o más reciente en el caso de los informes nacionales de FRA 2025)",
     "footer2": "² Datos con una antigüedad superior a 10 años a partir del año de presentación del informe (anteriores a 2013 en el caso de los informes nacionales de FRA 2025)"
+  },
+  "biomassStock_biomassStockStatus_Description": {
+    "header_0": "Criterios de nivel aplicables a los métodos de estimación de la biomasa",
+    "status": {
+      "high": "Factores de conversión y expansión de biomasa específicos al país o ecuaciones alométricas que se hayan aplicado.",
+      "medium": "Aplicación de ecuaciones alométricas genéricas o a nivel de bioma o una combinación de factores de conversión específicos al país o al bioma y factores de expansión por defecto de la biomasa publicados por el IPCC",
+      "low": "Aplicación de factores de conversión y expansión por defecto de la biomasa del IPCC (por ejemplo, el uso de la “calculadora de biomasa”), o estimaciones basadas en mapas de biomasa trazados mediante teledetección."
+    }
   }
 }

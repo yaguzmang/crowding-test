@@ -1,4 +1,5 @@
 {
+  "//": "",
   "extent": {
     "title": "Площадь",
     "forest_area": "Леса (1000 га)",
@@ -6,7 +7,9 @@
     "primary_forest_percent": "Первичные леса (% лесов)",
     "protected_forest_percent": "Леса на охраняемых территориях (% лесов)",
     "management_plan_percent": "Площадь лесов с планом управления  (% лесов)",
-    "certified_area": "Площадь сертифицированных лесов (1000 га)"
+    "certified_area": "Площадь сертифицированных лесов (1000 га)",
+    "bamboo": "",
+    "mangroves": ""
   },
   "periodicChangeRate": {
     "title": "Периодические изменения (годовые темпы)",
@@ -40,16 +43,35 @@
     "dead_living_mass_ratio": "Соотношение (углерод/биомасса) для мертвой древесины"
   },
   "primaryDesignatedManagementObjective": {
-    "title": "Основная назначенная цель управления"
+    "title": "Основная назначенная цель управления",
+    "production": "$t(designatedManagementObjective.production)",
+    "protection_of_soil_and_water": "$t(designatedManagementObjective.soilWaterProtection)",
+    "conservation_of_biodiversity": "$t(designatedManagementObjective.biodiversityConservation)",
+    "social_services": "$t(designatedManagementObjective.socialServices)",
+    "multiple_use": "$t(designatedManagementObjective.multipleUse)",
+    "other": "",
+    "no_unknown": ""
   },
   "totalAreaDesignatedManagementObjective": "Общая площадь с назначенной целью управления",
   "forestOwnership": {
-    "title": "Права собственности"
+    "title": "Права собственности",
+    "private_ownership": "",
+    "public_ownership": "",
+    "other_or_unknown": ""
   },
   "holderOfManagementRights": {
-    "title": "Права управления государственными лесами"
+    "title": "Права управления государственными лесами",
+    "public_administration": "",
+    "individuals": "",
+    "private_businesses": "",
+    "communities": "",
+    "other": ""
   },
   "disturbances": {
-    "title": "Нарушения состояния лесов"
+    "title": "Нарушения состояния лесов",
+    "insects": "",
+    "diseases": "",
+    "severe_weather_events": "",
+    "other": ""
   }
 }

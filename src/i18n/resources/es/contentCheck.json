@@ -1,4 +1,5 @@
 {
+  "//": "",
   "extent": {
     "title": "Extensión",
     "forest_area": "Bosque (1000 ha)",
@@ -6,7 +7,9 @@
     "primary_forest_percent": "Bosque primario (% de bosque)",
     "protected_forest_percent": "Bosque dentro de áreas protegidas (% de bosques)",
     "management_plan_percent": "Área de bosque con planes de gestión (% de bosque)",
-    "certified_area": "Superficie forestal certificada (1000 ha)"
+    "certified_area": "Superficie forestal certificada (1000 ha)",
+    "bamboo": "",
+    "mangroves": ""
   },
   "periodicChangeRate": {
     "title": "Tasas de variación periódica (tasas anuales)",
@@ -40,16 +43,35 @@
     "dead_living_mass_ratio": "Ratio (carbono/biomasa) de la madera muerta"
   },
   "primaryDesignatedManagementObjective": {
-    "title": "Objetivo principal de gestión designado"
+    "title": "Objetivo principal de gestión designado",
+    "production": "$t(designatedManagementObjective.production)",
+    "protection_of_soil_and_water": "$t(designatedManagementObjective.soilWaterProtection)",
+    "conservation_of_biodiversity": "$t(designatedManagementObjective.biodiversityConservation)",
+    "social_services": "$t(designatedManagementObjective.socialServices)",
+    "multiple_use": "$t(designatedManagementObjective.multipleUse)",
+    "other": "",
+    "no_unknown": ""
   },
   "totalAreaDesignatedManagementObjective": "Área total con objetivo de gestión designado",
   "forestOwnership": {
-    "title": "Propiedad"
+    "title": "Propiedad",
+    "private_ownership": "",
+    "public_ownership": "",
+    "other_or_unknown": ""
   },
   "holderOfManagementRights": {
-    "title": "Derechos de gestión de bosques públicos"
+    "title": "Derechos de gestión de bosques públicos",
+    "public_administration": "",
+    "individuals": "",
+    "private_businesses": "",
+    "communities": "",
+    "other": ""
   },
   "disturbances": {
-    "title": "Perturbaciones"
+    "title": "Perturbaciones",
+    "insects": "",
+    "diseases": "",
+    "severe_weather_events": "",
+    "other": ""
   }
 }

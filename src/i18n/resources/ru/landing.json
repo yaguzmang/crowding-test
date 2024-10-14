@@ -77,12 +77,37 @@
     "links": "Ссылки",
     "repository": "Хранилище данных",
     "uploadFile": "Загрузить файл",
-    "confirmDelete": "Удалить {{file}}? Его невозможно будет восстановить.",
     "fileUploaded": "Файл успешно загружен",
+    "confirmDelete": "Удалить {{file}}? Его невозможно будет восстановить.",
     "fileDeleted": "Файл успешно удален",
     "fileOperationFailed": "Операция не может быть выполнена, так как файл используется в:\n{{sectionNames}}"
   },
   "dataExport": {
     "downloadData": "Загрузить данные"
+  },
+  "versioning": {
+    "status": {
+      "pending": "",
+      "running": "",
+      "completed": "",
+      "failed": ""
+    },
+    "form": {
+      "newVersion": "",
+      "versionNumber": "",
+      "date": "",
+      "cancel": "",
+      "error": ""
+    },
+    "table": {
+      "noVersions": "",
+      "databaseVersions": "",
+      "versionNumber": "",
+      "publishedAt": "",
+      "createdBy": "",
+      "status": "",
+      "delete": "",
+      "scheduledAt": ""
+    }
   }
 }

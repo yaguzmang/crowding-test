@@ -1,0 +1,104 @@
+{
+  "agreementLevelExplanation": "",
+  "burnedArea": "",
+  "burnedAreaWithUnit": "",
+  "chooseAgreementLevel": "",
+  "customAgreementArea": "",
+  "error": {
+    "extraEstimation": {
+      "failedToRetrieve": "",
+      "unexpectedDuringProcessing": ""
+    },
+    "map": {
+      "failedToLoad": ""
+    },
+    "mosaic": {
+      "noMosaicAvailableForConfiguration": ""
+    },
+    "statistics": {
+      "dataUnavailable": "",
+      "failedToFetch": "",
+      "foundNoData": ""
+    }
+  },
+  "estimateCustomAgreementArea": "",
+  "forestArea": "",
+  "geeAssetId": "",
+  "globalOpacity": "",
+  "landsat": "",
+  "map": "",
+  "maxCloudCoverage": "",
+  "metersReducerScale": "",
+  "recipes": {
+    "forest": {
+      "allGfc10": "",
+      "allGfc20": "",
+      "allGfc30": "",
+      "esriEsa": "",
+      "esriEsaGlobland2020Gfc10": ""
+    },
+    "recipes": ""
+  },
+  "reportedToFra2020": "",
+  "satellite": "",
+  "satelliteMosaic": "",
+  "sections": {
+    "burnedArea": {
+      "layerTitles": {
+        "modis": ""
+      },
+      "title": ""
+    },
+    "forest": {
+      "layerTitles": {
+        "agreement": "",
+        "copernicus2019": "",
+        "customFnf": "",
+        "esa2020": "",
+        "esaGlobCover2009": "",
+        "esri2020": "",
+        "globeLand2020": "",
+        "hansenGfc2020": "",
+        "hansenGfc2020WithPercent": "",
+        "jaxa2017": "",
+        "modis": "",
+        "tanDemX2019": ""
+      },
+      "title": ""
+    },
+    "protectedArea": {
+      "layerTitles": {
+        "customProtectedArea": "",
+        "filteredWdpa": "",
+        "wdpa": ""
+      },
+      "title": ""
+    }
+  },
+  "selectMinTreeCoverPercent": "",
+  "sentinel": "",
+  "showSatelliteMosaic": "",
+  "snowMasking": "",
+  "statistics": {
+    "burnedArea": {
+      "burnedAreaByYear": ""
+    },
+    "forestArea": {
+      "extentOfForestPerSource": "",
+      "extentOfForestTreeCover": "",
+      "forestAreaHa": "",
+      "forestAreaPercentOfLandArea": "",
+      "landArea": ""
+    },
+    "graphs": "",
+    "protectedArea": {
+      "allGfc10": "",
+      "allGfc20": "",
+      "allGfc30": ""
+    },
+    "title": ""
+  },
+  "treeCoverAgreementSelected": "",
+  "treeCoverProtectedAreas": "",
+  "treeCoverProtectedAreasWithUnit": ""
+}

@@ -1,4 +1,16 @@
 {
+  "2020": {},
+  "2025": {
+    "description": {
+      "dataSource": {
+        "referenceToTataSource": "",
+        "typeOfDataSource": "",
+        "variable": "",
+        "yearForDataSource": "",
+        "comments": ""
+      }
+    }
+  },
   "print": {
     "title": "Доклад ОЛР–{{cycleName}}",
     "titleTables": "Таблицы отчетности для ОЛР–{{cycleName}}",
@@ -7,23 +19,35 @@
     "disclaimerGenerated": "Настоящий документ был подготовлен автоматически с использованием доклада, представленного в качестве вклада в Глобальную оценку лесных ресурсов ФАО {{cycleName}} года, и представлен ФАО в качестве официального правительственного документа. Ответственность за содержание и мнения, выраженные в настоящем докладе, несет орган, представляющий доклад ФАО. ФАО не может нести ответственность за любое использование информации, содержащейся в настоящем документе.",
     "disclaimerGeneratedDeskStudy": "Этот документ был подготовлен автоматически на основе кабинетного исследования. ФАО не может нести ответственность за любое использование информации, содержащейся в настоящем документе."
   },
-  "area100HaYear": "Площадь (1000 га)",
-  "categoryHeader2020": "Категории ОЛР-2020",
-  "categoryHeader2025": "Категории ОЛР-2025",
-  "forestArea100HaYear": "Площадь лесов (1000 га)",
-  "area100Ha": "Площадь (1000 га)",
   "labels": {
     "short": "ОЛР"
   },
+  "area100HaYear": "Площадь (1000 га)",
+  "area100Ha": "Площадь (1000 га)",
+  "categoryHeader2020": "Категории ОЛР-2020",
+  "categoryHeader2025": "Категории ОЛР-2025",
+  "forestArea100HaYear": "Площадь лесов (1000 га)",
   "areaAffectedByFire": {
     "areaAffected": "Пройденная площадь (1000 га)",
-    "areaAffectedByFire2025": "Площади, пройденные пожарами"
+    "areaAffectedByFire2025": "Площади, пройденные пожарами",
+    "totalLandAreaAffectedByFire2025": ""
+  },
+  "biomassStock": {
+    "aboveGround2025": "",
+    "belowGround2025": "",
+    "deadWood2025": "",
+    "biomassStock2025": ""
   },
   "biomassStockAvg": {
     "forestBiomass": "Биомасса лесов (тонн/га)"
   },
   "biomassStockTotal": {
     "totalForestBiomass": "Общая биомасса лесов (млн тонн)"
+  },
+  "carbonStock": {
+    "carbonAboveGroundBiomass2025": "",
+    "carbonBelowGroundBiomass2025": "",
+    "carbonStock2025": ""
   },
   "carbonStockTotal": {
     "totalForestCarbon": "Общий углерод лесов (млн тонн)"
@@ -68,35 +92,49 @@
     "national": "Национальный",
     "subnational": "Субнациональный",
     "biome": "Биом",
-    "standLocal": "Древостой / Местный"
+    "standLocal": "Древостой / Местный",
+    "criteriaOfDegradedForest2025": ""
   },
   "designatedManagementObjective": {
+    "designatedManagementObjective2025": "",
     "noDesignation": "Нет назначения",
     "unknown2025": "Неизвестно"
   },
   "disturbances": {
     "forestDamage": "Повреждения лесов",
     "predominantCause": "Преобладающая причина",
-    "forestAreaAffected": "Затронутая площадь лесов (1000 га)"
+    "forestAreaAffected": "Затронутая площадь лесов (1000 га)",
+    "severeWeatherEvents2025": ""
   },
   "extentOfForest": {
     "remainingLandArea": "Остальные земельные площади",
+    "totalLandArea2025": "",
     "extentOfForest2025": "Площадь лесов и прочих лесистых земель",
     "otherWoodedLand": "Прочие лесистые земли"
+  },
+  "forestAreaChange": {
+    "forestExpansion2025": "",
+    "forestAreaChange2025": "",
+    "forestAreaNetChange2025": ""
   },
   "forestAreaWithinProtectedAreas": {
     "forestAreaWithLongTermManagementPlan2025": "Площадь лесов с долгосрочным планом управления",
     "forestAreaWithinProtectedAreas2025": "Площадь лесов на охраняемых территориях и лесов с долгосрочным планом управления"
   },
   "forestCharacteristics": {
+    "ofWhichOtherPlantedForest": "",
+    "ofWhichPlantationForest": "",
     "primaryForest": "…в том числе первичные леса",
-    "plantationForestIntroducedArea2025": "…в том числе интродуцированные породы"
+    "plantationForestIntroducedArea2025": "…в том числе интродуцированные породы",
+    "naturalForestArea2025": ""
   },
   "forestOwnership": {
+    "ofWhichPrivateBusinesses2025": "",
     "ofWhichCommunities2025": "…в том числе принадлежащие коренным народам и местным общинам",
     "other2025": "Прочее (укажите в комментариях)",
     "unknown2025": "Неизвестно",
-    "total2025": "Всего"
+    "total2025": "Всего",
+    "forestOwnership2025": ""
   },
   "forestRestoration": {
     "forestRestoration": "Восстановление лесов",
@@ -109,7 +147,11 @@
     "ifYes": "Если \"да\""
   },
   "growingStock": {
-    "totalForest": "Всего лесов"
+    "totalForest": "Всего лесов",
+    "naturallyRegeneratingForest2025": "",
+    "plantationForest2025": "",
+    "plantedForest2025": "",
+    "otherPlantedForest2025": ""
   },
   "growingStockComposition": {
     "millionCubicMeter": "Млн м³",
@@ -118,9 +160,16 @@
     "ranked": "#{{idx}} Ранжирование",
     "totalGrowingStock": "Общий запас древостоя",
     "totalIntroducedTreeSpecies": "Всего интродуцированных пород деревьев",
-    "totalNativeTreeSpecies": "Всего местных пород деревьев"
+    "totalNativeTreeSpecies": "Всего местных пород деревьев",
+    "updatedGrowingStockComposition": "",
+    "nativeTreeSpecies2025": "",
+    "remainingNative2025": "",
+    "introducedTreeSpecies2025": "",
+    "remainingIntroduced2025": ""
   },
   "holderOfManagementRights": {
+    "holderOfManagementRights2025": "",
+    "privateBusinesses2025": "",
     "communities2025": "Коренные народы и местные сообщества",
     "other2025": "Прочее (укажите в комментариях)",
     "unknown2025": "Неизвестно"
@@ -128,14 +177,21 @@
   "otherWoodedLand": {
     "otherWoodedLand2025": "Прочие лесистые земли"
   },
-  "otherLandWithTreeCover": {
-    "otherLandWithTreeCover2025": "Прочие земли с древесным покровом"
-  },
   "nonWoodForestProductsRemovals": {
-    "nonWoodForestProductsRemovals2025": "Вывозка и стоимость недревесной лесной продукции 2020"
+    "nonWoodForestProductsRemovals2025": "Вывозка и стоимость недревесной лесной продукции 2020",
+    "nameOfProduct2025": "",
+    "allOtherPlantProducts2025": "",
+    "allOtherAnimalProducts2025": "",
+    "currency2025": ""
+  },
+  "otherLandWithTreeCover": {
+    "otherLandWithTreeCover2025": "Прочие земли с древесным покровом",
+    "agroforestry2025": "",
+    "other2025": ""
   },
   "primaryForestByClimaticDomain": {
     "primaryForestByClimaticDomain": "Первичные леса в климатическом поясе",
+    "primaryForestArea100Ha": "",
     "primaryForestBoreal": "… в том числе бореальные первичные леса",
     "primaryForestTemperate": "… в том числе умеренные первичные леса",
     "primaryForestTropical": "… в том числе тропические первичные леса",
@@ -145,12 +201,27 @@
   "specificForestCategories": {
     "specificForestCategories2025": "Особые категории лесов",
     "mangroves2025": "Мангровые леса¹",
+    "rubberWood2025": "",
     "mangrovesDisclaimer": "¹Включает как леса, так и прочие лесопокрытые земли"
+  },
+  "forestPolicy": {
+    "forestPolicy2025": "",
+    "policiesSFM2025": "",
+    "legislationsSFM2025": "",
+    "stakeholderParticipation2025": "",
+    "existenceOfTraceabilitySystem2025": ""
+  },
+  "areaOfPermanentForestEstate": {
+    "areaOfPermanentForestEstate2025": ""
   },
   "sustainableDevelopment": {
     "annualForestAreaChangeRate": "Годовые темпы изменения площади лесов",
     "sdgIndicator1_2025": "Индикатор ЦУР 15.1.1 Площадь лесов в процентном отношении к общей площади суши",
     "forestAreaProportionLandArea": "Площадь лесов в процентном отношении к общей площади суши",
+    "aboveGroundBiomassStockForests2025": "",
+    "proportionForestAreaLegallyEstablishedProtectedAreas2025": "",
+    "proportionForestAreaLongTermForestManagement2025": "",
+    "forestAreaVerifiedForestManagement2025": "",
     "dataProvidedBy": "Данные по этому субиндикатору ЦУР представляются FSC и PEFC (организациями по сертификации лесов).",
     "Metadata-15-01-01": "Показатель ЦУР 15.1.1 Метаданные",
     "Metadata-15-02-01": "Показатель ЦУР 15.2.1 Метаданные"
@@ -158,9 +229,12 @@
   "navigation": {
     "sectionHeaders": {
       "employmentEducationAndNwfp2025": "Вывозка и стоимость недревесной лесной продукции 2020",
+      "forestGrowingStockBiomassAndCarbon2025": "",
+      "forestDesignationAndManagement2025": "",
+      "forestOwnershipAndManagementRights2025": "",
+      "forestDisturbances2025": "Нарушения состояния лесов",
       "forestExtentCharacteristicsAndChanges2025": "Площадь, характеристики и изменения лесов",
-      "forestPolicyAndLegislation2025": "Политика и законодательство в отношении лесов",
-      "forestDisturbances2025": "Нарушения состояния лесов"
+      "forestPolicyAndLegislation2025": "Политика и законодательство в отношении лесов"
     }
   },
   "extentOfForest_forestAreaStatusAndTrend_Description": {
@@ -185,7 +259,14 @@
       "high": "Источники данных: недавняя¹ национальная инвентаризация лесов или воздушное лазерное сканирование (ВЛС) с вероятностными наземными пробами",
       "medium": "Источники данных: старая² Старая² национальная инвентаризация лесов, частичные полевые инвентаризации, или ВСЛ без вероятностных наземных образцов.",
       "low": "Источники данных: другие источники данных, такие как спутниковые данные, реестры, вопросники или экспертные оценки."
-    }
+    },
+    "status2025": {
+      "high": "",
+      "medium": "",
+      "low": ""
+    },
+    "footer1": "",
+    "footer2": ""
   },
   "biomassStock_biomassStockStatus_Description": {
     "header_0": "Критерии уровня методов оценки биомассы ",
@@ -193,8 +274,6 @@
       "high": "Коэффициенты пересчета и расширения биомассы для конкретных стран или аллометрические уравнения",
       "medium": "Применение общих аллометрических уравнений на уровне биома или комбинации специфических коэффициентов пересчета для страны/биома и стандартных коэффициентов расширения биомассы МГЭИК",
       "low": "Стандартные коэффициенты пересчета и расширения биомассы МГЭИК (например, с использованием \"калькулятора биомассы\") или оценки, основанные на картах биомассы, составленных с помощью дистанционного зондирования."
-    },
-    "footer1": "¹ Данные не старше 10 лет с момента представления доклада (начиная с 2013 года для страновых докладов по ОЛР-2025)",
-    "footer2": "² Данные старше 10 лет с момента представления доклада (до 2013 года для страновых докладов по ОЛР-2025)"
+    }
   }
 }

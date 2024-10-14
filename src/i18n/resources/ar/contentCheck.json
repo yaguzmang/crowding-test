@@ -1,15 +1,15 @@
 {
   "//": "المفاتيح هي بنفس صيغة حقول قاعدة البيانات ",
   "extent": {
-    "bamboo": "$t(specificForestCategories.bamboo)",
-    "mangroves": "$t(specificForestCategories.mangroves)",
     "title": "مَدًى",
     "forest_area": "الغابة (١٠٠٠  هكتار)",
     "other_wooded_land": "أراضي حرجية أخرى (١٠٠٠  هكتار)",
     "primary_forest_percent": "غابة أولية (٪ من الغابات)",
     "protected_forest_percent": "الغابات في المناطق المحمية (٪ من الغابات)",
     "management_plan_percent": "مساحة الغابات مع خطط الإدارة (٪ من الغابات)",
-    "certified_area": "مساحة الغابات المعتمدة (١٠٠٠  هكتار)"
+    "certified_area": "مساحة الغابات المعتمدة (١٠٠٠  هكتار)",
+    "bamboo": "$t(specificForestCategories.bamboo)",
+    "mangroves": "$t(specificForestCategories.mangroves)"
   },
   "periodicChangeRate": {
     "title": "معدلات التغيير الدوري (المعدلات السنوية)",
