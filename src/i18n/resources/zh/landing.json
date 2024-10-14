@@ -4,10 +4,10 @@
     "about": "关于FRA",
     "contentCheck": "内容/检查",
     "externalData": "外部数据",
-    "landing": "链接和存储库",
     "messageBoard": "留言板",
     "overview": "概览",
     "recentActivity": "近期活动",
+    "repository": "Links & Repository",
     "userManagement": "合作管理",
     "versioning": "版本更新"
   },
@@ -77,8 +77,8 @@
     "links": "链接",
     "repository": "资源库",
     "uploadFile": "上传文件",
-    "confirmDelete": "删除 {{file}}? 此操作无法撤销。",
     "fileUploaded": "文件成功上传",
+    "confirmDelete": "删除 {{file}}? 此操作无法撤销。",
     "fileDeleted": "文件成功删除",
     "fileOperationFailed": "该操作无法进行，因为此文件已被用于:\n{{sectionNames}}"
   },
