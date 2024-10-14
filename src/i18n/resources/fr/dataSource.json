@@ -1,16 +1,16 @@
 {
+  "comments": "Commentaires",
+  "fraVariable": "Variable FRA ",
+  "nationalForestInventory": "Inventaire forestier national (IFN)",
+  "other": "$t(common.otherSpecifyInComments)",
   "referenceToTataSource": "Référence de la source de données",
+  "registersAndStatistics": "Registres et questionnaires",
+  "remoteSensingBasedAssessmentWithGroundTruthing": "Evaluation par télédétection avec vérification de terrain",
+  "remoteSensingBasedAssessmentWithoutGroundTruthing": "Evaluation par télédétection sans vérification sur le terrain",
+  "statisticalRemoteSensingSurveyWithAccuracyAssessment": "Enquête par télédétection d’un échantillon représentatif avec évaluation de la précision",
   "typeOfDataSource": "Type de source de données ",
   "typeOfDataSourceText": "$t(dataSource.typeOfDataSource)",
-  "fraVariable": "Variable FRA ",
   "variable": "Variable",
-  "yearForDataSource": "Année des données",
-  "comments": "Commentaires",
-  "nationalForestInventory": "Inventaire forestier national (IFN)",
-  "remoteSensingBasedAssessmentWithGroundTruthing": "Evaluation par télédétection avec vérification de terrain",
-  "statisticalRemoteSensingSurveyWithAccuracyAssessment": "Enquête par télédétection d’un échantillon représentatif avec évaluation de la précision",
-  "remoteSensingBasedAssessmentWithoutGroundTruthing": "Evaluation par télédétection sans vérification sur le terrain",
   "vegetationMapping": "Cartographie complète de la végétation",
-  "registersAndStatistics": "Registres et questionnaires",
-  "other": "$t(common.otherSpecifyInComments)"
+  "yearForDataSource": "Année des données"
 }
