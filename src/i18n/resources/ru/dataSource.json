@@ -1,6 +1,7 @@
 {
   "referenceToTataSource": "Ссылка на источник данных",
   "typeOfDataSource": "Вид источника данных",
+  "typeOfDataSourceText": "$t(dataSource.typeOfDataSource)",
   "fraVariable": "Переменная ОЛР",
   "variable": "Переменная",
   "yearForDataSource": "Год для источника данных",
@@ -10,5 +11,6 @@
   "statisticalRemoteSensingSurveyWithAccuracyAssessment": "Статистическое обследование с помощью дистанционного зондирования с оценкой точности",
   "remoteSensingBasedAssessmentWithoutGroundTruthing": "Оценка на основе дистанционного зондирования без наземной выверки",
   "vegetationMapping": "Картографирование растительности",
-  "registersAndStatistics": "Реестры и статистика"
+  "registersAndStatistics": "Реестры и статистика",
+  "other": "$t(common.otherSpecifyInComments)"
 }

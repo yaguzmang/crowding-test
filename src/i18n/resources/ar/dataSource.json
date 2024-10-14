@@ -1,6 +1,7 @@
 {
   "referenceToTataSource": "مرجع مصدر البيانات",
   "typeOfDataSource": "نوع مصدر البيانات",
+  "typeOfDataSourceText": "$t(dataSource.typeOfDataSource)",
   "fraVariable": "متغير (فرا)",
   "variable": "المتغير",
   "yearForDataSource": "سنة مصدر البيانات",
@@ -10,5 +11,6 @@
   "statisticalRemoteSensingSurveyWithAccuracyAssessment": "المسح الإحصائي بالاستشعار عن بعد مع تقييم الدقة",
   "remoteSensingBasedAssessmentWithoutGroundTruthing": "التقييم القائم على الاستشعار عن بعد دون التحقيق السطحي",
   "vegetationMapping": "رسم خرائط الغطاء النباتي",
-  "registersAndStatistics": "السجلات والإحصاءات"
+  "registersAndStatistics": "السجلات والإحصاءات",
+  "other": "$t(common.otherSpecifyInComments)"
 }

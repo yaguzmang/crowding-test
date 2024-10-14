@@ -77,12 +77,37 @@
     "links": "Enlaces",
     "repository": "Repositorio",
     "uploadFile": "Cargar un archivo",
-    "confirmDelete": "¿Borrar {{file}}? Esta acción no puede deshacerse.",
     "fileUploaded": "Archivo cargado correctamente",
+    "confirmDelete": "¿Borrar {{file}}? Esta acción no puede deshacerse.",
     "fileDeleted": "Archivo eliminado correctamente",
     "fileOperationFailed": "La operación no se puede realizar porque el archivo se utiliza en:\n{{sectionNames}}"
   },
   "dataExport": {
     "downloadData": "Descargar datos"
+  },
+  "versioning": {
+    "status": {
+      "pending": "Pending",
+      "running": "Running",
+      "completed": "Completed",
+      "failed": "Failed"
+    },
+    "form": {
+      "newVersion": "New version",
+      "versionNumber": "Version",
+      "date": "Date",
+      "cancel": "Cancel",
+      "error": "There are errors in the form. Please, fix them and submit it again."
+    },
+    "table": {
+      "noVersions": "No versions yet",
+      "databaseVersions": "Database Versions",
+      "versionNumber": "Version Number",
+      "publishedAt": "Scheduled Time",
+      "createdBy": "Created By",
+      "status": "Status",
+      "delete": "Delete",
+      "scheduledAt": "Scheduled at"
+    }
   }
 }
