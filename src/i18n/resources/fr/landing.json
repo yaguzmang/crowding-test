@@ -11,9 +11,6 @@
     "userManagement": "Gérer collaborateurs",
     "versioning": "Gestion des versions"
   },
-  "dataExport": {
-    "downloadData": "Télécharger les données"
-  },
   "overview": {
     "loadingMap": "Chargement carte…",
     "withFinancialSupportOf": "Avec le soutien financier de "
@@ -80,9 +77,37 @@
     "links": "Liens",
     "repository": "Référentiel",
     "uploadFile": "Mettre en ligne un fichier",
-    "confirmDelete": "Supprimer {{file}}? Cette action ne peut pas être annulée.",
     "fileUploaded": "Fichier téléchargé avec succès",
+    "confirmDelete": "Supprimer {{file}}? Cette action ne peut pas être annulée.",
     "fileDeleted": "Fichier supprimé avec succès",
     "fileOperationFailed": "L'opération ne peut pas être réalisée parce que le fichier est en cours d'utilisation dans:\n{{sectionNames}}"
+  },
+  "dataExport": {
+    "downloadData": "Télécharger les données"
+  },
+  "versioning": {
+    "status": {
+      "pending": "",
+      "running": "",
+      "completed": "",
+      "failed": ""
+    },
+    "form": {
+      "newVersion": "",
+      "versionNumber": "",
+      "date": "",
+      "cancel": "",
+      "error": ""
+    },
+    "table": {
+      "noVersions": "",
+      "databaseVersions": "",
+      "versionNumber": "",
+      "publishedAt": "",
+      "createdBy": "",
+      "status": "",
+      "delete": "",
+      "scheduledAt": ""
+    }
   }
 }
