@@ -1,5 +1,4 @@
 {
-  "activate": "Activate",
   "activated": "Activé",
   "chooseProfilePicture": "Choisir l'image",
   "city": "Ville",
@@ -7,9 +6,7 @@
   "contactPreferenceMethod": "Méthode de contact",
   "contributions": "Contributions",
   "countryIso": "Pays",
-  "deactivate": "Deactivate",
   "demoteToUser": "Êtes-vous sûr de vouloir supprimer les privilèges d'administrateur ?",
-  "disabled": "Disabled",
   "done": "Enregistrer",
   "email": "Email",
   "institution": "Institution",
