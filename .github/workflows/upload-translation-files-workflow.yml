@@ -1,0 +1,29 @@
+name: Upload Translations
+
+on:
+  push:
+    paths:
+      - "src/i18n/resources/ar/**/*.json"
+      - "src/i18n/resources/es/**/*.json"
+      - "src/i18n/resources/fr/**/*.json"
+      - "src/i18n/resources/ru/**/*.json"
+      - "src/i18n/resources/zh/**/*.json"
+    branches: [development]
+
+jobs:
+  crowdin-upload-translations:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Crowdin upload translations
+        uses: crowdin/github-action@v2
+        with:
+          upload_sources: false
+          upload_translations: true
+          download_translations: false
+        env:
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
