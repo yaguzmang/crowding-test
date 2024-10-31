@@ -15,10 +15,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # - name: Checkout
-      #   uses: actions/checkout@v4
-      #   with:
-      #     ref: development
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: development
 
       - name: Crowdin upload translations
         uses: crowdin/github-action@v2
