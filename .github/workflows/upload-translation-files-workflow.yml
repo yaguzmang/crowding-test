@@ -23,6 +23,7 @@ jobs:
       - name: Crowdin upload translations
         uses: crowdin/github-action@v2
         with:
+          config: './crowdin.yml'
           upload_sources: false
           upload_translations: true
           download_translations: false
