@@ -1,5 +1,6 @@
 {
   "change_one": "{{count}} изменение",
   "change_other": "{{count}} изменения",
-  "history": "История"
+  "history": "История",
+  "history_translation_test": "History translation test"
 }
