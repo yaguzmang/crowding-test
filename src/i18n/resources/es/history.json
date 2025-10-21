@@ -1,5 +1,6 @@
 {
   "change_one": "{{count}} cambio",
   "change_other": "{{count}} cambios",
-  "history": "Registro histórico de cambios"
+  "history": "Registro histórico de cambios",
+  "history_translation_test": "Test en history translation"
 }
