@@ -1,30 +1,24 @@
-name: Upload Translations
+name: Upload existing translations to Crowdin
 
 on:
   push:
-    paths:
-      - "src/i18n/resources/ar/**/*.json"
-      - "src/i18n/resources/es/**/*.json"
-      - "src/i18n/resources/fr/**/*.json"
-      - "src/i18n/resources/ru/**/*.json"
-      - "src/i18n/resources/zh/**/*.json"
+    paths: ["src/i18n/resources/**/*.json", "!src/i18n/resources/en/**"]
     branches: [development]
 
 jobs:
   crowdin-upload-translations:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Crowdin upload translations
+      - name: Crowdin upload translations (auto-approve)
         uses: crowdin/github-action@v2
         with:
           upload_sources: false
           upload_translations: true
-          download_translations: false
           auto_approve_imported: true
+          import_eq_suggestions: true
         env:
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
